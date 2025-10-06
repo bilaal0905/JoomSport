@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="JSCompetitorEntity" representedClassName="JSCompetitorEntity" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="competitorId" attributeType="String" syncable="YES"/>
+        <attribute name="extrasInfo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoURL" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="statisticInfo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="JSGameEntity" representedClassName="JSGameEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dateString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extrasInfo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="gameId" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mdayString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stages" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="status" attributeType="String" syncable="YES"/>
+        <attribute name="venue" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="away" maxCount="1" deletionRule="Cascade" destinationEntity="JSGameTeamEntity" inverseName="awayGame" inverseEntity="JSGameTeamEntity" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSGameEventEntity" inverseName="game" inverseEntity="JSGameEventEntity" syncable="YES"/>
+        <relationship name="home" maxCount="1" deletionRule="Cascade" destinationEntity="JSGameTeamEntity" inverseName="homeGame" inverseEntity="JSGameTeamEntity" syncable="YES"/>
+        <relationship name="season" maxCount="1" deletionRule="Deny" destinationEntity="JSSeasonEntity" inverseName="games" inverseEntity="JSSeasonEntity" syncable="YES"/>
+        <relationship name="statistics" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSGameStatisticEntity" inverseName="game" inverseEntity="JSGameStatisticEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSGameEventEntity" representedClassName="JSGameEventEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="iconURL" attributeType="String" syncable="YES"/>
+        <attribute name="isHome" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minute" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="playerName" attributeType="String" syncable="YES"/>
+        <relationship name="game" maxCount="1" deletionRule="Deny" destinationEntity="JSGameEntity" inverseName="events" inverseEntity="JSGameEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSGameStatisticEntity" representedClassName="JSGameStatisticEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="away" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="home" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="statisticId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="game" maxCount="1" deletionRule="Deny" destinationEntity="JSGameEntity" inverseName="statistics" inverseEntity="JSGameEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSGameTeamEntity" representedClassName="JSGameTeamEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="logoURL" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamId" attributeType="String" syncable="YES"/>
+        <relationship name="awayGame" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="JSGameEntity" inverseName="away" inverseEntity="JSGameEntity" syncable="YES"/>
+        <relationship name="homeGame" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="JSGameEntity" inverseName="home" inverseEntity="JSGameEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSSeasonEntity" representedClassName="JSSeasonEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="isSinglePlayer" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="seasonId" attributeType="String" syncable="YES"/>
+        <relationship name="games" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSGameEntity" inverseName="season" inverseEntity="JSGameEntity" syncable="YES"/>
+        <relationship name="standings" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="JSStandingsEntity" inverseName="season" inverseEntity="JSStandingsEntity" syncable="YES"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSTeamEntity" inverseName="season" inverseEntity="JSTeamEntity" syncable="YES"/>
+        <relationship name="tournament" maxCount="1" deletionRule="Deny" destinationEntity="JSTournamentEntity" inverseName="seasons" inverseEntity="JSTournamentEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSStandingsEntity" representedClassName="JSStandingsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="fields" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="fieldsKeys" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSStandingsGroupEntity" inverseName="standings" inverseEntity="JSStandingsGroupEntity" syncable="YES"/>
+        <relationship name="season" maxCount="1" deletionRule="Deny" destinationEntity="JSSeasonEntity" inverseName="standings" inverseEntity="JSSeasonEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSStandingsGroupEntity" representedClassName="JSStandingsGroupEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="records" toMany="YES" deletionRule="Cascade" destinationEntity="JSStandingsRecordEntity" inverseName="group" inverseEntity="JSStandingsRecordEntity" syncable="YES"/>
+        <relationship name="standings" maxCount="1" deletionRule="Deny" destinationEntity="JSStandingsEntity" inverseName="groups" inverseEntity="JSStandingsEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSStandingsRecordEntity" representedClassName="JSStandingsRecordEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="rank" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="teamId" attributeType="String" syncable="YES"/>
+        <attribute name="teamLogoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamName" attributeType="String" syncable="YES"/>
+        <attribute name="values" attributeType="Binary" syncable="YES"/>
+        <attribute name="valuesStrings" attributeType="Binary" syncable="YES"/>
+        <relationship name="group" maxCount="1" deletionRule="Deny" destinationEntity="JSStandingsGroupEntity" inverseName="records" inverseEntity="JSStandingsGroupEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSTeamEntity" representedClassName="JSTeamEntity" parentEntity="JSCompetitorEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JSTeamPlayerEntity" inverseName="team" inverseEntity="JSTeamPlayerEntity" syncable="YES"/>
+        <relationship name="season" maxCount="1" deletionRule="Deny" destinationEntity="JSSeasonEntity" inverseName="teams" inverseEntity="JSSeasonEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSTeamPlayerEntity" representedClassName="JSTeamPlayerEntity" parentEntity="JSCompetitorEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="team" maxCount="1" deletionRule="Deny" destinationEntity="JSTeamEntity" inverseName="players" inverseEntity="JSTeamEntity" syncable="YES"/>
+    </entity>
+    <entity name="JSTournamentEntity" representedClassName="JSTournamentEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="tournamentId" attributeType="String" syncable="YES"/>
+        <relationship name="seasons" toMany="YES" deletionRule="Cascade" destinationEntity="JSSeasonEntity" inverseName="tournament" inverseEntity="JSSeasonEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JSCompetitorEntity" positionX="-414" positionY="180" width="128" height="133"/>
+        <element name="JSGameEntity" positionX="-162" positionY="-318" width="128" height="255"/>
+        <element name="JSGameEventEntity" positionX="9" positionY="-426" width="128" height="120"/>
+        <element name="JSGameStatisticEntity" positionX="189" positionY="-228" width="128" height="120"/>
+        <element name="JSGameTeamEntity" positionX="45" positionY="-277" width="128" height="133"/>
+        <element name="JSSeasonEntity" positionX="-396" positionY="-135" width="128" height="148"/>
+        <element name="JSStandingsEntity" positionX="-171" positionY="-24" width="128" height="105"/>
+        <element name="JSStandingsGroupEntity" positionX="18" positionY="-18" width="128" height="90"/>
+        <element name="JSStandingsRecordEntity" positionX="205" positionY="-81" width="128" height="150"/>
+        <element name="JSTeamEntity" positionX="-416" positionY="54" width="128" height="73"/>
+        <element name="JSTeamPlayerEntity" positionX="-594" positionY="54" width="128" height="58"/>
+        <element name="JSTournamentEntity" positionX="-596" positionY="-126" width="128" height="90"/>
+    </elements>
+</model>

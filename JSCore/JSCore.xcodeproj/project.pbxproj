@@ -1,0 +1,1128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C57D0ED0F744F5FA770BDB8 /* JSNewsDetailsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D5A0A335B468997CAB2B /* JSNewsDetailsRequest.m */; };
+		2C57D17B42C0D5E5F47BBCE1 /* JSNewsDetailsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C57D546BDC2E026B6CD73DF /* JSNewsDetailsRequest.h */; };
+		2C57D5435575DC9C579B6B0A /* JSNews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C57DE7DC0E1926F7D7947A8 /* JSNews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C57D5FA65E95DCFD47BA4A0 /* JSNewsDetailsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C57D2A725EC2405DBD445DC /* JSNewsDetailsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C57D937598BF3936389EF79 /* JSNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D829D231B82446DB72FD /* JSNews.m */; };
+		2C57DDCE74162C12EE127862 /* JSNewsDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57DEA7F54DEC0979A4B696 /* JSNewsDetailsViewModel.m */; };
+		2C57DE78AC01506AE495F2AE /* JSNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D71B228015C8A7828CC3 /* JSNewsViewModel.m */; };
+		2C57DE9E2F21008F8A630CBA /* JSNewsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C57D328B4713354B351D56E /* JSNewsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E209E456265E8E248D8AF /* JSStandingsRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2552EC0BAB8FC07F1C21 /* JSStandingsRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E21398359C9B7AA3BFD62 /* JSSettingsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E26C46239E71E3D17A32D /* JSSettingsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E214E198F04ACA991CECA /* JSCalendarRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E24B52BC50607F16CD4AA /* JSCalendarRequest.h */; };
+		2F2E21C45E8F757C9300A0E5 /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E26382F3BFDF621FAC1C3 /* team.json */; };
+		2F2E21E839BB67EC97C68AFF /* calendar.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2E13ABAAD0286C12B03E /* calendar.json */; };
+		2F2E2201F343742C6432E3B5 /* JSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2B205EDE9702CED7A908 /* JSPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E222AD20EE500AD15C464 /* JSGameEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24BA9D62AD9B97D99C57 /* JSGameEvent.m */; };
+		2F2E222B6662FF969828E0B5 /* JSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2FB56B7B697F578F59AA /* JSAPIClient.m */; };
+		2F2E22334B035CAC76085AFF /* NSDate+JSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2E1C04835624E3F7B8FD /* NSDate+JSCore.h */; };
+		2F2E2260FC8E5F049DDAD39F /* JSTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2D2389EF67617EDF0D62 /* JSTeam.m */; };
+		2F2E22745D2DF9495B3FD6BA /* JSSeasonsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2F7CA52C03A780371BE9 /* JSSeasonsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E22976113D9BB12350136 /* JSSeasonedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E239EF74DCA0A60FDEE52 /* JSSeasonedRequest.m */; };
+		2F2E22ADEE1DC2CCEB4BB41A /* JSTeamRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2A4380199751FD53918B /* JSTeamRequest.h */; };
+		2F2E22E8AFA86ACA691709B2 /* team_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E26399CACC8B60ED660A3 /* team_updated.json */; };
+		2F2E230755F78666BDA9F1C6 /* JSGameResultsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E21DD25D921E9D40F44E4 /* JSGameResultsRequest.h */; };
+		2F2E2388FD165F870B9C60D5 /* seasons_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2BD73E1A08E2ADD0DBE9 /* seasons_updated.json */; };
+		2F2E23ACB03E03FF136D888C /* match_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E238239491998B407C98D /* match_updated.json */; };
+		2F2E23B2CD7DB53C1D74B16F /* JSTeamRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E23A19AD541D5ED8753F2 /* JSTeamRequest.m */; };
+		2F2E23E204D62451372D6E29 /* JSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22877165D5359CA47EAA /* JSPlayer.m */; };
+		2F2E240BDE07057C963197E3 /* JSCalendarRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2FE9A601FD732E1DA933 /* JSCalendarRequest.m */; };
+		2F2E242ABE96B46516A61BB8 /* seasons.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2AF847BE67D91A60EF2D /* seasons.json */; };
+		2F2E24763D468E41778DA312 /* JSStandingsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B9367877D042F622C2A /* JSStandingsGroup.m */; };
+		2F2E24C1B954B2006BE9943D /* JSStandingsGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2BF77369B1204062E434 /* JSStandingsGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E256074A19E919E98A8E4 /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E29A39862730720D915A1 /* standings.json */; };
+		2F2E2564F32214013B9D5B29 /* NSError+JSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2232B3CA327117FAFFDE /* NSError+JSCore.m */; };
+		2F2E258399867F822FB412B4 /* player_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2DC98CA5111C51E24916 /* player_updated.json */; };
+		2F2E2611A983D309641F0B6E /* JSStandingsRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25FE57125F6F17408390 /* JSStandingsRecord.m */; };
+		2F2E263CB395254656F4D9A0 /* JSGameResultsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E25DE1419508D797E5378 /* JSGameResultsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E264EBF7E2FC98D9C6B1F /* JSGameStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E27E83F37AC4DFD3E42AC /* JSGameStatistic.m */; };
+		2F2E26B09FC4B723871F1F91 /* JSTeamViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E29FEB266F648E1C0B8A6 /* JSTeamViewModel.m */; };
+		2F2E26C0A000B9A8932CD0A3 /* JSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E21F9FDF0517E0341E8AB /* JSRequest.h */; };
+		2F2E26DC26038BE10EB8C4C4 /* JSGameTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E217294B42DF422ABE771 /* JSGameTeam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E26E8DA92331CD8449F83 /* JSSeasonsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E228752BCC529F3747510 /* JSSeasonsRequest.m */; };
+		2F2E275F10C173CC8FCBE6D3 /* NSError+JSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E22C2008D691A60BC939B /* NSError+JSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E27C9D9779600137870BD /* match.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2D6AF265454BC6A3E9E2 /* match.json */; };
+		2F2E27CA17CA4B3D8CCCFE32 /* JSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2AC673D98D95C0697B24 /* JSGame.m */; };
+		2F2E27F9840308F3CB634CF4 /* NSDate+JSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B106557310FD750D301 /* NSDate+JSCore.m */; };
+		2F2E2811DF454BD2CA3C5BFE /* JSGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E23273A24E3105FB92E3C /* JSGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E282186571CC17DCF63F1 /* JSCalendarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21C0ECEBF04FAEA5F61D /* JSCalendarViewModel.m */; };
+		2F2E28617D253EC60CD44800 /* JSGameResultsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26C7E606915AE8B3758E /* JSGameResultsRequest.m */; };
+		2F2E28732846334667ED1BB8 /* JSSettingsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E27CB9DEEBC7A1267D0CA /* JSSettingsViewModelTests.m */; };
+		2F2E28F032B388C9F73D9DE6 /* JSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E275FDC6DD4DAA99179CB /* JSViewModel.m */; };
+		2F2E29141E6ADCFADCE94677 /* NSString+JSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E24A64D570EA5E2362337 /* NSString+JSCore.h */; };
+		2F2E291D8244273986FF6F07 /* JSTeamViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E24B1613E69F4EAFE1993 /* JSTeamViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2929416B2C6B3321E6D3 /* JSPlayerViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E29205196E63C313AD92F /* JSPlayerViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2951B7DD33E6D4EEFA05 /* JSSeason.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2D7CFAB8E67C5B1087E9 /* JSSeason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E299EC4A604C3A56C12D4 /* JSSeasonedRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E29DA8C286018B8EA4BD0 /* JSSeasonedRequest.h */; };
+		2F2E29A46C8B9CD162DE4B34 /* JSTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2920ED9D49BA30C3A3A5 /* JSTeam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E29ABE38520051F9AF8B0 /* JSSeasonsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E283A8866B1C78E4B58C9 /* JSSeasonsRequest.h */; };
+		2F2E29FC4752CB4BCEC3F923 /* JSTournament.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E222471CDF15AFA7B3397 /* JSTournament.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2A8822F45314994C5CD5 /* JSTournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2E19EC364F9F5A75FE5C /* JSTournament.m */; };
+		2F2E2AA0E6769281746C1223 /* JSTeamViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2E753C900265BE3009B1 /* JSTeamViewModelTests.m */; };
+		2F2E2ADAE0114CE9E2BDD0FE /* JSSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2096772F6A33333FFA7D /* JSSeason.m */; };
+		2F2E2B1300E6A70ADD24D6FB /* JSViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2D78F2921BC642ACA8C8 /* JSViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2BA79DE434180EFD1AB4 /* JSGameResultsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2770831C1C7FDACE172E /* JSGameResultsViewModel.m */; };
+		2F2E2BD16972FA7825E89BDD /* JSGameParticipant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2680B16BC463004B606E /* JSGameParticipant.h */; };
+		2F2E2BD4FDCA29D541902BC5 /* standings_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E28AF8B605373BCC3761F /* standings_updated.json */; };
+		2F2E2BE9C85A3E9672871E54 /* JSGameParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E29FE26385C1C6ABAB100 /* JSGameParticipant.m */; };
+		2F2E2C18846BE4E07A6D83FE /* JSStandingsViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2EF5B12D8B9EC6167F8B /* JSStandingsViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2C3E73724C05DDC335BF /* JSGameEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E21B1DC87AA8548EBFF0F /* JSGameEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2C63321F410A22C18C82 /* NSString+JSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2F0C5F4997575517A35F /* NSString+JSCore.m */; };
+		2F2E2C7362F374F63BBDB9EE /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E26CF254EBEFA4D2786D1 /* player.json */; };
+		2F2E2CE200C2B1CFF678D69C /* JSPlayerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E29AE910F886550DC120D /* JSPlayerRequest.m */; };
+		2F2E2D3A78E2172C2B5C5F12 /* JSPlayerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2178A5D1E12A29C3B477 /* JSPlayerViewModel.m */; };
+		2F2E2D6F6328B27AC5FBDDA1 /* JSCalendarViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2F2F522E2B899195B5F5 /* JSCalendarViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2D90F8EA318CD35CEA1A /* JSGameStatistic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E292B271D1CFBA100B2EB /* JSGameStatistic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2DF4DDEAB2F6621AA103 /* JSExtraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2D839D52D1BB4CD746CA /* JSExtraInfo.m */; };
+		2F2E2E310061BCE8A960B7FE /* JSSeasonedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2481FB9331DC808417BF /* JSSeasonedViewModel.m */; };
+		2F2E2E65EDE8D99FF364BCA5 /* JSPlayerViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E28F21A5E429EAD4AA0F3 /* JSPlayerViewModelTests.m */; };
+		2F2E2E81C0E9544F0CBEFD15 /* JSGameTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24403A8209B74783DC78 /* JSGameTeam.m */; };
+		2F2E2E89C37B8C717161FBDE /* JSExtraInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2186EB40284F436BCF75 /* JSExtraInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2E92E7F5048E3E2F22C0 /* JSPlayerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2668EF8F1E0F0B2A3C30 /* JSPlayerRequest.h */; };
+		2F2E2F0D76D4CFAE299FEB87 /* JSSeasonsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22BEBD18F6D6800D9722 /* JSSeasonsViewModel.m */; };
+		2F2E2F38E433132086043351 /* JSStandingsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2CE61AC7495CDB35BB10 /* JSStandingsViewModel.m */; };
+		2F2E2F3ECF737EA0648DEF3F /* JSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C0A2E9B1D9524E4BF35 /* JSRequest.m */; };
+		2F2E2F595DD6C27319C7CEE5 /* JSSettingsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2CE1DFE932C44A4921D3 /* JSSettingsViewModel.m */; };
+		2F2E2F59CA3D55D48A721B0E /* calendar_updated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E26B12E2E095635E6E745 /* calendar_updated.json */; };
+		2F2E2F6C65D61003709B3F12 /* JSAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E22FEE861A21273E39E35 /* JSAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2FF78A4F843ACA3E1BD6 /* JSSeasonedViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2E27932C14C6CB13E322 /* JSSeasonedViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83058B221E6495E10057E680 /* JSHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B211E6495E10057E680 /* JSHTTP.framework */; };
+		83058B2C1E64B3800057E680 /* JSCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B2B1E64B3800057E680 /* JSCoreData.framework */; };
+		83058B2D1E64B8FD0057E680 /* JSCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83058B271E64A1330057E680 /* JSCore.xcdatamodeld */; };
+		83058B371E64BD8D0057E680 /* JSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830FDE3E1E5333D300251420 /* JSCore.framework */; };
+		83058B4A1E64BF460057E680 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B491E64BF460057E680 /* OHHTTPStubs.framework */; };
+		83058B4E1E64C0370057E680 /* JSSeasonsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058B4D1E64C0370057E680 /* JSSeasonsViewModelTests.m */; };
+		830FDE4C1E53340200251420 /* JSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 830FDE4B1E5333FD00251420 /* JSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8362756C1E6B400E00AB4E6A /* JSStandingsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E20CDAC687C31AFBD20B8 /* JSStandingsRequest.m */; };
+		8362756D1E6B401800AB4E6A /* JSStandings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21CC5397CEF2A2272F31 /* JSStandings.m */; };
+		8362756E1E6B503500AB4E6A /* JSStandings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2D8E355E8FA3F43A91CC /* JSStandings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836275721E6BEB2C00AB4E6A /* JSStandingsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836275711E6BEB2C00AB4E6A /* JSStandingsViewModelTests.m */; };
+		839526C41E700E90001D4BD9 /* JSErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839526C31E700E90001D4BD9 /* JSErrorTests.m */; };
+		839526C81E732CA5001D4BD9 /* JSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839526C71E732CA5001D4BD9 /* JSStringTests.m */; };
+		839526CA1E7334D9001D4BD9 /* JSCalendarViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839526C91E7334D9001D4BD9 /* JSCalendarViewModelTests.m */; };
+		839526CC1E7349AC001D4BD9 /* JSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839526CB1E7349AC001D4BD9 /* JSDateTests.m */; };
+		83BD45051E77374E001C941F /* JSGameResultsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD45041E77374E001C941F /* JSGameResultsViewModelTests.m */; };
+		F30347042163578C00602461 /* JSNewsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F30347022163578C00602461 /* JSNewsRequest.h */; };
+		F30347052163578C00602461 /* JSNewsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30347032163578C00602461 /* JSNewsRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83058B381E64BD8D0057E680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830FDE351E5333D300251420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830FDE3D1E5333D300251420;
+			remoteInfo = JSCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C57D2A725EC2405DBD445DC /* JSNewsDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsDetailsViewModel.h; sourceTree = "<group>"; };
+		2C57D328B4713354B351D56E /* JSNewsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsViewModel.h; sourceTree = "<group>"; };
+		2C57D546BDC2E026B6CD73DF /* JSNewsDetailsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsDetailsRequest.h; sourceTree = "<group>"; };
+		2C57D5A0A335B468997CAB2B /* JSNewsDetailsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsDetailsRequest.m; sourceTree = "<group>"; };
+		2C57D71B228015C8A7828CC3 /* JSNewsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsViewModel.m; sourceTree = "<group>"; };
+		2C57D829D231B82446DB72FD /* JSNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNews.m; sourceTree = "<group>"; };
+		2C57DE7DC0E1926F7D7947A8 /* JSNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNews.h; sourceTree = "<group>"; };
+		2C57DEA7F54DEC0979A4B696 /* JSNewsDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsDetailsViewModel.m; sourceTree = "<group>"; };
+		2F2E2096772F6A33333FFA7D /* JSSeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeason.m; sourceTree = "<group>"; };
+		2F2E20CDAC687C31AFBD20B8 /* JSStandingsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsRequest.m; sourceTree = "<group>"; };
+		2F2E217294B42DF422ABE771 /* JSGameTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameTeam.h; sourceTree = "<group>"; };
+		2F2E2178A5D1E12A29C3B477 /* JSPlayerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerViewModel.m; sourceTree = "<group>"; };
+		2F2E2186EB40284F436BCF75 /* JSExtraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExtraInfo.h; sourceTree = "<group>"; };
+		2F2E21B1DC87AA8548EBFF0F /* JSGameEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameEvent.h; sourceTree = "<group>"; };
+		2F2E21C0ECEBF04FAEA5F61D /* JSCalendarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarViewModel.m; sourceTree = "<group>"; };
+		2F2E21CC5397CEF2A2272F31 /* JSStandings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandings.m; sourceTree = "<group>"; };
+		2F2E21DD25D921E9D40F44E4 /* JSGameResultsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameResultsRequest.h; sourceTree = "<group>"; };
+		2F2E21F9FDF0517E0341E8AB /* JSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRequest.h; sourceTree = "<group>"; };
+		2F2E222471CDF15AFA7B3397 /* JSTournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTournament.h; sourceTree = "<group>"; };
+		2F2E2232B3CA327117FAFFDE /* NSError+JSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+JSCore.m"; sourceTree = "<group>"; };
+		2F2E228752BCC529F3747510 /* JSSeasonsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonsRequest.m; sourceTree = "<group>"; };
+		2F2E22877165D5359CA47EAA /* JSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayer.m; sourceTree = "<group>"; };
+		2F2E22BEBD18F6D6800D9722 /* JSSeasonsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonsViewModel.m; sourceTree = "<group>"; };
+		2F2E22C2008D691A60BC939B /* NSError+JSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+JSCore.h"; sourceTree = "<group>"; };
+		2F2E22FEE861A21273E39E35 /* JSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAPIClient.h; sourceTree = "<group>"; };
+		2F2E23273A24E3105FB92E3C /* JSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGame.h; sourceTree = "<group>"; };
+		2F2E238239491998B407C98D /* match_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = match_updated.json; sourceTree = "<group>"; };
+		2F2E239EF74DCA0A60FDEE52 /* JSSeasonedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonedRequest.m; sourceTree = "<group>"; };
+		2F2E23A19AD541D5ED8753F2 /* JSTeamRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamRequest.m; sourceTree = "<group>"; };
+		2F2E24403A8209B74783DC78 /* JSGameTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameTeam.m; sourceTree = "<group>"; };
+		2F2E2481FB9331DC808417BF /* JSSeasonedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonedViewModel.m; sourceTree = "<group>"; };
+		2F2E24A64D570EA5E2362337 /* NSString+JSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSCore.h"; sourceTree = "<group>"; };
+		2F2E24B1613E69F4EAFE1993 /* JSTeamViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamViewModel.h; sourceTree = "<group>"; };
+		2F2E24B52BC50607F16CD4AA /* JSCalendarRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarRequest.h; sourceTree = "<group>"; };
+		2F2E24BA9D62AD9B97D99C57 /* JSGameEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameEvent.m; sourceTree = "<group>"; };
+		2F2E2552EC0BAB8FC07F1C21 /* JSStandingsRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsRecord.h; sourceTree = "<group>"; };
+		2F2E25DE1419508D797E5378 /* JSGameResultsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameResultsViewModel.h; sourceTree = "<group>"; };
+		2F2E25FE57125F6F17408390 /* JSStandingsRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsRecord.m; sourceTree = "<group>"; };
+		2F2E26382F3BFDF621FAC1C3 /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
+		2F2E26399CACC8B60ED660A3 /* team_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team_updated.json; sourceTree = "<group>"; };
+		2F2E2668EF8F1E0F0B2A3C30 /* JSPlayerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerRequest.h; sourceTree = "<group>"; };
+		2F2E2680B16BC463004B606E /* JSGameParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameParticipant.h; sourceTree = "<group>"; };
+		2F2E26B12E2E095635E6E745 /* calendar_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = calendar_updated.json; sourceTree = "<group>"; };
+		2F2E26C46239E71E3D17A32D /* JSSettingsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsViewModel.h; sourceTree = "<group>"; };
+		2F2E26C7E606915AE8B3758E /* JSGameResultsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameResultsRequest.m; sourceTree = "<group>"; };
+		2F2E26CF254EBEFA4D2786D1 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		2F2E275FDC6DD4DAA99179CB /* JSViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewModel.m; sourceTree = "<group>"; };
+		2F2E2770831C1C7FDACE172E /* JSGameResultsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameResultsViewModel.m; sourceTree = "<group>"; };
+		2F2E27CB9DEEBC7A1267D0CA /* JSSettingsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsViewModelTests.m; sourceTree = "<group>"; };
+		2F2E27E83F37AC4DFD3E42AC /* JSGameStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameStatistic.m; sourceTree = "<group>"; };
+		2F2E283A8866B1C78E4B58C9 /* JSSeasonsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonsRequest.h; sourceTree = "<group>"; };
+		2F2E28AF8B605373BCC3761F /* standings_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = standings_updated.json; sourceTree = "<group>"; };
+		2F2E28F21A5E429EAD4AA0F3 /* JSPlayerViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerViewModelTests.m; sourceTree = "<group>"; };
+		2F2E29205196E63C313AD92F /* JSPlayerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerViewModel.h; sourceTree = "<group>"; };
+		2F2E2920ED9D49BA30C3A3A5 /* JSTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeam.h; sourceTree = "<group>"; };
+		2F2E292B271D1CFBA100B2EB /* JSGameStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameStatistic.h; sourceTree = "<group>"; };
+		2F2E29A39862730720D915A1 /* standings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = standings.json; sourceTree = "<group>"; };
+		2F2E29AE910F886550DC120D /* JSPlayerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerRequest.m; sourceTree = "<group>"; };
+		2F2E29DA8C286018B8EA4BD0 /* JSSeasonedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonedRequest.h; sourceTree = "<group>"; };
+		2F2E29FE26385C1C6ABAB100 /* JSGameParticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameParticipant.m; sourceTree = "<group>"; };
+		2F2E29FEB266F648E1C0B8A6 /* JSTeamViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamViewModel.m; sourceTree = "<group>"; };
+		2F2E2A4380199751FD53918B /* JSTeamRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamRequest.h; sourceTree = "<group>"; };
+		2F2E2AC673D98D95C0697B24 /* JSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGame.m; sourceTree = "<group>"; };
+		2F2E2AF847BE67D91A60EF2D /* seasons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seasons.json; sourceTree = "<group>"; };
+		2F2E2B106557310FD750D301 /* NSDate+JSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JSCore.m"; sourceTree = "<group>"; };
+		2F2E2B205EDE9702CED7A908 /* JSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayer.h; sourceTree = "<group>"; };
+		2F2E2B9367877D042F622C2A /* JSStandingsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsGroup.m; sourceTree = "<group>"; };
+		2F2E2BD73E1A08E2ADD0DBE9 /* seasons_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seasons_updated.json; sourceTree = "<group>"; };
+		2F2E2BF77369B1204062E434 /* JSStandingsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsGroup.h; sourceTree = "<group>"; };
+		2F2E2C0A2E9B1D9524E4BF35 /* JSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRequest.m; sourceTree = "<group>"; };
+		2F2E2CD3641E07D5ECE7FB4D /* JSStandingsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsRequest.h; sourceTree = "<group>"; };
+		2F2E2CE1DFE932C44A4921D3 /* JSSettingsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsViewModel.m; sourceTree = "<group>"; };
+		2F2E2CE61AC7495CDB35BB10 /* JSStandingsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsViewModel.m; sourceTree = "<group>"; };
+		2F2E2D2389EF67617EDF0D62 /* JSTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeam.m; sourceTree = "<group>"; };
+		2F2E2D6AF265454BC6A3E9E2 /* match.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = match.json; sourceTree = "<group>"; };
+		2F2E2D78F2921BC642ACA8C8 /* JSViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewModel.h; sourceTree = "<group>"; };
+		2F2E2D7CFAB8E67C5B1087E9 /* JSSeason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeason.h; sourceTree = "<group>"; };
+		2F2E2D839D52D1BB4CD746CA /* JSExtraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExtraInfo.m; sourceTree = "<group>"; };
+		2F2E2D8E355E8FA3F43A91CC /* JSStandings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandings.h; sourceTree = "<group>"; };
+		2F2E2DC98CA5111C51E24916 /* player_updated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player_updated.json; sourceTree = "<group>"; };
+		2F2E2E13ABAAD0286C12B03E /* calendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = calendar.json; sourceTree = "<group>"; };
+		2F2E2E19EC364F9F5A75FE5C /* JSTournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTournament.m; sourceTree = "<group>"; };
+		2F2E2E1C04835624E3F7B8FD /* NSDate+JSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JSCore.h"; sourceTree = "<group>"; };
+		2F2E2E27932C14C6CB13E322 /* JSSeasonedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonedViewModel.h; sourceTree = "<group>"; };
+		2F2E2E753C900265BE3009B1 /* JSTeamViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamViewModelTests.m; sourceTree = "<group>"; };
+		2F2E2EF5B12D8B9EC6167F8B /* JSStandingsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsViewModel.h; sourceTree = "<group>"; };
+		2F2E2F0C5F4997575517A35F /* NSString+JSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSCore.m"; sourceTree = "<group>"; };
+		2F2E2F2F522E2B899195B5F5 /* JSCalendarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarViewModel.h; sourceTree = "<group>"; };
+		2F2E2F7CA52C03A780371BE9 /* JSSeasonsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonsViewModel.h; sourceTree = "<group>"; };
+		2F2E2FB56B7B697F578F59AA /* JSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAPIClient.m; sourceTree = "<group>"; };
+		2F2E2FE9A601FD732E1DA933 /* JSCalendarRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarRequest.m; sourceTree = "<group>"; };
+		83058B211E6495E10057E680 /* JSHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSHTTP.framework; path = "../Debug-iphonesimulator/JSHTTP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83058B281E64A1330057E680 /* JSCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSCore.xcdatamodel; sourceTree = "<group>"; };
+		83058B2B1E64B3800057E680 /* JSCoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSCoreData.framework; path = "../Debug-iphonesimulator/JSCoreData.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83058B321E64BD8D0057E680 /* JSCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83058B3E1E64BDB60057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83058B491E64BF460057E680 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = ../../Frameworks/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		83058B4D1E64C0370057E680 /* JSSeasonsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonsViewModelTests.m; sourceTree = "<group>"; };
+		830FDE3E1E5333D300251420 /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830FDE4A1E5333FD00251420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830FDE4B1E5333FD00251420 /* JSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCore.h; sourceTree = "<group>"; };
+		8321F02E2215EA1400DF886E /* JSCore2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSCore2.xcdatamodel; sourceTree = "<group>"; };
+		836275711E6BEB2C00AB4E6A /* JSStandingsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsViewModelTests.m; sourceTree = "<group>"; };
+		839526C31E700E90001D4BD9 /* JSErrorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSErrorTests.m; sourceTree = "<group>"; };
+		839526C71E732CA5001D4BD9 /* JSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStringTests.m; sourceTree = "<group>"; };
+		839526C91E7334D9001D4BD9 /* JSCalendarViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarViewModelTests.m; sourceTree = "<group>"; };
+		839526CB1E7349AC001D4BD9 /* JSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateTests.m; sourceTree = "<group>"; };
+		83BD45041E77374E001C941F /* JSGameResultsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameResultsViewModelTests.m; sourceTree = "<group>"; };
+		F30347022163578C00602461 /* JSNewsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsRequest.h; sourceTree = "<group>"; };
+		F30347032163578C00602461 /* JSNewsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83058B2F1E64BD8D0057E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83058B4A1E64BF460057E680 /* OHHTTPStubs.framework in Frameworks */,
+				83058B371E64BD8D0057E680 /* JSCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830FDE3A1E5333D300251420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83058B221E6495E10057E680 /* JSHTTP.framework in Frameworks */,
+				83058B2C1E64B3800057E680 /* JSCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C57D39F9805335892766C7C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2C57DB256CD031B24C28AE20 /* Entities */,
+				F30347022163578C00602461 /* JSNewsRequest.h */,
+				F30347032163578C00602461 /* JSNewsRequest.m */,
+				2C57D328B4713354B351D56E /* JSNewsViewModel.h */,
+				2C57D71B228015C8A7828CC3 /* JSNewsViewModel.m */,
+				2C57D546BDC2E026B6CD73DF /* JSNewsDetailsRequest.h */,
+				2C57D5A0A335B468997CAB2B /* JSNewsDetailsRequest.m */,
+				2C57D2A725EC2405DBD445DC /* JSNewsDetailsViewModel.h */,
+				2C57DEA7F54DEC0979A4B696 /* JSNewsDetailsViewModel.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2C57DB256CD031B24C28AE20 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2C57DE7DC0E1926F7D7947A8 /* JSNews.h */,
+				2C57D829D231B82446DB72FD /* JSNews.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E20E8394454C7D393F1A6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E21B1DC87AA8548EBFF0F /* JSGameEvent.h */,
+				2F2E24BA9D62AD9B97D99C57 /* JSGameEvent.m */,
+				2F2E27E83F37AC4DFD3E42AC /* JSGameStatistic.m */,
+				2F2E292B271D1CFBA100B2EB /* JSGameStatistic.h */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E2193673D898D17CB3B08 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E29DA8C286018B8EA4BD0 /* JSSeasonedRequest.h */,
+				2F2E239EF74DCA0A60FDEE52 /* JSSeasonedRequest.m */,
+				2F2E21F9FDF0517E0341E8AB /* JSRequest.h */,
+				2F2E2C0A2E9B1D9524E4BF35 /* JSRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2F2E224BA7F07E2848107F87 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E253159DC59A9389C31CC /* Seasons */,
+				2F2E24F192757CC66DBC7B71 /* Standings */,
+				2F2E2B2CFE8F428D51A7B013 /* Calendar */,
+				2F2E2DA70CA7F9F1C67EA3B2 /* Game Results */,
+				2F2E26B5845404915200CE40 /* Team */,
+				2F2E23B5E398CA829390F76C /* Player */,
+				2F2E2D7F3218DC17EE3B576E /* Settings */,
+				2C57D39F9805335892766C7C /* News */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		2F2E2389C25845B79D9C9C6C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2193673D898D17CB3B08 /* Request */,
+				2F2E2869E800016CB3B264F3 /* ViewModel */,
+				2F2E26FCAA326F615E82EF60 /* Entities */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2F2E23B5E398CA829390F76C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2668EF8F1E0F0B2A3C30 /* JSPlayerRequest.h */,
+				2F2E29AE910F886550DC120D /* JSPlayerRequest.m */,
+				2F2E29205196E63C313AD92F /* JSPlayerViewModel.h */,
+				2F2E2178A5D1E12A29C3B477 /* JSPlayerViewModel.m */,
+				2F2E2B205EDE9702CED7A908 /* JSPlayer.h */,
+				2F2E22877165D5359CA47EAA /* JSPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2F2E24F192757CC66DBC7B71 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2CD3641E07D5ECE7FB4D /* JSStandingsRequest.h */,
+				2F2E20CDAC687C31AFBD20B8 /* JSStandingsRequest.m */,
+				2F2E2EF5B12D8B9EC6167F8B /* JSStandingsViewModel.h */,
+				2F2E2CE61AC7495CDB35BB10 /* JSStandingsViewModel.m */,
+				2F2E2DCACD3E464542ADB831 /* Entities */,
+			);
+			path = Standings;
+			sourceTree = "<group>";
+		};
+		2F2E253159DC59A9389C31CC /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2F7CA52C03A780371BE9 /* JSSeasonsViewModel.h */,
+				2F2E22BEBD18F6D6800D9722 /* JSSeasonsViewModel.m */,
+				2F2E283A8866B1C78E4B58C9 /* JSSeasonsRequest.h */,
+				2F2E228752BCC529F3747510 /* JSSeasonsRequest.m */,
+				2F2E28E87A6E8435585B30F4 /* Entities */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		2F2E26B5845404915200CE40 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E24B1613E69F4EAFE1993 /* JSTeamViewModel.h */,
+				2F2E29FEB266F648E1C0B8A6 /* JSTeamViewModel.m */,
+				2F2E2A4380199751FD53918B /* JSTeamRequest.h */,
+				2F2E23A19AD541D5ED8753F2 /* JSTeamRequest.m */,
+				2F2E2920ED9D49BA30C3A3A5 /* JSTeam.h */,
+				2F2E2D2389EF67617EDF0D62 /* JSTeam.m */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		2F2E26FCAA326F615E82EF60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2186EB40284F436BCF75 /* JSExtraInfo.h */,
+				2F2E2D839D52D1BB4CD746CA /* JSExtraInfo.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E27644838838C7B258810 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E22C2008D691A60BC939B /* NSError+JSCore.h */,
+				2F2E2232B3CA327117FAFFDE /* NSError+JSCore.m */,
+				2F2E24A64D570EA5E2362337 /* NSString+JSCore.h */,
+				2F2E2F0C5F4997575517A35F /* NSString+JSCore.m */,
+				2F2E2E1C04835624E3F7B8FD /* NSDate+JSCore.h */,
+				2F2E2B106557310FD750D301 /* NSDate+JSCore.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F2E27A0074AB7E901A1D061 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E23273A24E3105FB92E3C /* JSGame.h */,
+				2F2E2AC673D98D95C0697B24 /* JSGame.m */,
+				2F2E217294B42DF422ABE771 /* JSGameTeam.h */,
+				2F2E24403A8209B74783DC78 /* JSGameTeam.m */,
+				2F2E2680B16BC463004B606E /* JSGameParticipant.h */,
+				2F2E29FE26385C1C6ABAB100 /* JSGameParticipant.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E2869E800016CB3B264F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2E27932C14C6CB13E322 /* JSSeasonedViewModel.h */,
+				2F2E2481FB9331DC808417BF /* JSSeasonedViewModel.m */,
+				2F2E2D78F2921BC642ACA8C8 /* JSViewModel.h */,
+				2F2E275FDC6DD4DAA99179CB /* JSViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F2E28E87A6E8435585B30F4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E222471CDF15AFA7B3397 /* JSTournament.h */,
+				2F2E2E19EC364F9F5A75FE5C /* JSTournament.m */,
+				2F2E2D7CFAB8E67C5B1087E9 /* JSSeason.h */,
+				2F2E2096772F6A33333FFA7D /* JSSeason.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E2B2CFE8F428D51A7B013 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E24B52BC50607F16CD4AA /* JSCalendarRequest.h */,
+				2F2E2FE9A601FD732E1DA933 /* JSCalendarRequest.m */,
+				2F2E2F2F522E2B899195B5F5 /* JSCalendarViewModel.h */,
+				2F2E21C0ECEBF04FAEA5F61D /* JSCalendarViewModel.m */,
+				2F2E27A0074AB7E901A1D061 /* Entities */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2F2E2BF0C3B402C3FB9F064D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2AF847BE67D91A60EF2D /* seasons.json */,
+				2F2E2BD73E1A08E2ADD0DBE9 /* seasons_updated.json */,
+				2F2E29A39862730720D915A1 /* standings.json */,
+				2F2E28AF8B605373BCC3761F /* standings_updated.json */,
+				2F2E2E13ABAAD0286C12B03E /* calendar.json */,
+				2F2E26B12E2E095635E6E745 /* calendar_updated.json */,
+				2F2E2D6AF265454BC6A3E9E2 /* match.json */,
+				2F2E238239491998B407C98D /* match_updated.json */,
+				2F2E26382F3BFDF621FAC1C3 /* team.json */,
+				2F2E26399CACC8B60ED660A3 /* team_updated.json */,
+				2F2E26CF254EBEFA4D2786D1 /* player.json */,
+				2F2E2DC98CA5111C51E24916 /* player_updated.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F2E2D7F3218DC17EE3B576E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E26C46239E71E3D17A32D /* JSSettingsViewModel.h */,
+				2F2E2CE1DFE932C44A4921D3 /* JSSettingsViewModel.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2F2E2DA70CA7F9F1C67EA3B2 /* Game Results */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E21DD25D921E9D40F44E4 /* JSGameResultsRequest.h */,
+				2F2E26C7E606915AE8B3758E /* JSGameResultsRequest.m */,
+				2F2E25DE1419508D797E5378 /* JSGameResultsViewModel.h */,
+				2F2E2770831C1C7FDACE172E /* JSGameResultsViewModel.m */,
+				2F2E20E8394454C7D393F1A6 /* Entities */,
+			);
+			path = "Game Results";
+			sourceTree = "<group>";
+		};
+		2F2E2DCACD3E464542ADB831 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2D8E355E8FA3F43A91CC /* JSStandings.h */,
+				2F2E21CC5397CEF2A2272F31 /* JSStandings.m */,
+				2F2E2BF77369B1204062E434 /* JSStandingsGroup.h */,
+				2F2E2B9367877D042F622C2A /* JSStandingsGroup.m */,
+				2F2E2552EC0BAB8FC07F1C21 /* JSStandingsRecord.h */,
+				2F2E25FE57125F6F17408390 /* JSStandingsRecord.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2F2E2E5A8A4DFE7EC216905C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83058B271E64A1330057E680 /* JSCore.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83058B201E6495E10057E680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83058B2B1E64B3800057E680 /* JSCoreData.framework */,
+				83058B211E6495E10057E680 /* JSHTTP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83058B331E64BD8D0057E680 /* JSCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				83058B4D1E64C0370057E680 /* JSSeasonsViewModelTests.m */,
+				836275711E6BEB2C00AB4E6A /* JSStandingsViewModelTests.m */,
+				839526C91E7334D9001D4BD9 /* JSCalendarViewModelTests.m */,
+				83BD45041E77374E001C941F /* JSGameResultsViewModelTests.m */,
+				2F2E2E753C900265BE3009B1 /* JSTeamViewModelTests.m */,
+				2F2E28F21A5E429EAD4AA0F3 /* JSPlayerViewModelTests.m */,
+				2F2E27CB9DEEBC7A1267D0CA /* JSSettingsViewModelTests.m */,
+				839526C31E700E90001D4BD9 /* JSErrorTests.m */,
+				839526C71E732CA5001D4BD9 /* JSStringTests.m */,
+				839526CB1E7349AC001D4BD9 /* JSDateTests.m */,
+				2F2E2BF0C3B402C3FB9F064D /* Resources */,
+				83058B3D1E64BDB60057E680 /* Supporting Files */,
+				83058B4C1E64BF7F0057E680 /* Frameworks */,
+			);
+			path = JSCoreTests;
+			sourceTree = "<group>";
+		};
+		83058B3D1E64BDB60057E680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83058B3E1E64BDB60057E680 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83058B4C1E64BF7F0057E680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83058B491E64BF460057E680 /* OHHTTPStubs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830FDE341E5333D300251420 = {
+			isa = PBXGroup;
+			children = (
+				830FDE401E5333D300251420 /* JSCore */,
+				83058B331E64BD8D0057E680 /* JSCoreTests */,
+				830FDE3F1E5333D300251420 /* Products */,
+				83058B201E6495E10057E680 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		830FDE3F1E5333D300251420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830FDE3E1E5333D300251420 /* JSCore.framework */,
+				83058B321E64BD8D0057E680 /* JSCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830FDE401E5333D300251420 /* JSCore */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E22FEE861A21273E39E35 /* JSAPIClient.h */,
+				2F2E2FB56B7B697F578F59AA /* JSAPIClient.m */,
+				2F2E2389C25845B79D9C9C6C /* Base */,
+				2F2E224BA7F07E2848107F87 /* Stories */,
+				2F2E2E5A8A4DFE7EC216905C /* Resources */,
+				2F2E27644838838C7B258810 /* Extensions */,
+				830FDE491E5333FD00251420 /* Supporting Files */,
+			);
+			path = JSCore;
+			sourceTree = "<group>";
+		};
+		830FDE491E5333FD00251420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830FDE4A1E5333FD00251420 /* Info.plist */,
+				830FDE4B1E5333FD00251420 /* JSCore.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		830FDE3B1E5333D300251420 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830FDE4C1E53340200251420 /* JSCore.h in Headers */,
+				2F2E2C18846BE4E07A6D83FE /* JSStandingsViewModel.h in Headers */,
+				2F2E2F6C65D61003709B3F12 /* JSAPIClient.h in Headers */,
+				8362756E1E6B503500AB4E6A /* JSStandings.h in Headers */,
+				2F2E22745D2DF9495B3FD6BA /* JSSeasonsViewModel.h in Headers */,
+				2F2E29ABE38520051F9AF8B0 /* JSSeasonsRequest.h in Headers */,
+				2F2E29FC4752CB4BCEC3F923 /* JSTournament.h in Headers */,
+				2F2E2951B7DD33E6D4EEFA05 /* JSSeason.h in Headers */,
+				2F2E24C1B954B2006BE9943D /* JSStandingsGroup.h in Headers */,
+				2F2E209E456265E8E248D8AF /* JSStandingsRecord.h in Headers */,
+				2F2E275F10C173CC8FCBE6D3 /* NSError+JSCore.h in Headers */,
+				2F2E214E198F04ACA991CECA /* JSCalendarRequest.h in Headers */,
+				2F2E29141E6ADCFADCE94677 /* NSString+JSCore.h in Headers */,
+				2F2E2D6F6328B27AC5FBDDA1 /* JSCalendarViewModel.h in Headers */,
+				2F2E2811DF454BD2CA3C5BFE /* JSGame.h in Headers */,
+				F30347042163578C00602461 /* JSNewsRequest.h in Headers */,
+				2F2E22334B035CAC76085AFF /* NSDate+JSCore.h in Headers */,
+				2F2E26DC26038BE10EB8C4C4 /* JSGameTeam.h in Headers */,
+				2F2E2BD16972FA7825E89BDD /* JSGameParticipant.h in Headers */,
+				2F2E230755F78666BDA9F1C6 /* JSGameResultsRequest.h in Headers */,
+				2F2E263CB395254656F4D9A0 /* JSGameResultsViewModel.h in Headers */,
+				2F2E2C3E73724C05DDC335BF /* JSGameEvent.h in Headers */,
+				2F2E2D90F8EA318CD35CEA1A /* JSGameStatistic.h in Headers */,
+				2F2E291D8244273986FF6F07 /* JSTeamViewModel.h in Headers */,
+				2F2E22ADEE1DC2CCEB4BB41A /* JSTeamRequest.h in Headers */,
+				2F2E299EC4A604C3A56C12D4 /* JSSeasonedRequest.h in Headers */,
+				2F2E26C0A000B9A8932CD0A3 /* JSRequest.h in Headers */,
+				2F2E2FF78A4F843ACA3E1BD6 /* JSSeasonedViewModel.h in Headers */,
+				2F2E2B1300E6A70ADD24D6FB /* JSViewModel.h in Headers */,
+				2F2E2E89C37B8C717161FBDE /* JSExtraInfo.h in Headers */,
+				2F2E2E92E7F5048E3E2F22C0 /* JSPlayerRequest.h in Headers */,
+				2F2E2929416B2C6B3321E6D3 /* JSPlayerViewModel.h in Headers */,
+				2F2E2201F343742C6432E3B5 /* JSPlayer.h in Headers */,
+				2F2E29A46C8B9CD162DE4B34 /* JSTeam.h in Headers */,
+				2F2E21398359C9B7AA3BFD62 /* JSSettingsViewModel.h in Headers */,
+				2C57D5435575DC9C579B6B0A /* JSNews.h in Headers */,
+				2C57DE9E2F21008F8A630CBA /* JSNewsViewModel.h in Headers */,
+				2C57D17B42C0D5E5F47BBCE1 /* JSNewsDetailsRequest.h in Headers */,
+				2C57D5FA65E95DCFD47BA4A0 /* JSNewsDetailsViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83058B311E64BD8D0057E680 /* JSCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83058B3A1E64BD8D0057E680 /* Build configuration list for PBXNativeTarget "JSCoreTests" */;
+			buildPhases = (
+				83058B2E1E64BD8D0057E680 /* Sources */,
+				83058B2F1E64BD8D0057E680 /* Frameworks */,
+				83058B301E64BD8D0057E680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83058B391E64BD8D0057E680 /* PBXTargetDependency */,
+			);
+			name = JSCoreTests;
+			productName = JSCoreTests;
+			productReference = 83058B321E64BD8D0057E680 /* JSCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830FDE3D1E5333D300251420 /* JSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830FDE461E5333D300251420 /* Build configuration list for PBXNativeTarget "JSCore" */;
+			buildPhases = (
+				830FDE391E5333D300251420 /* Sources */,
+				830FDE3A1E5333D300251420 /* Frameworks */,
+				830FDE3B1E5333D300251420 /* Headers */,
+				830FDE3C1E5333D300251420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCore;
+			productName = JSCore;
+			productReference = 830FDE3E1E5333D300251420 /* JSCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830FDE351E5333D300251420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = BearDev;
+				TargetAttributes = {
+					83058B311E64BD8D0057E680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					830FDE3D1E5333D300251420 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 830FDE381E5333D300251420 /* Build configuration list for PBXProject "JSCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830FDE341E5333D300251420;
+			productRefGroup = 830FDE3F1E5333D300251420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830FDE3D1E5333D300251420 /* JSCore */,
+				83058B311E64BD8D0057E680 /* JSCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83058B301E64BD8D0057E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E242ABE96B46516A61BB8 /* seasons.json in Resources */,
+				2F2E2388FD165F870B9C60D5 /* seasons_updated.json in Resources */,
+				2F2E256074A19E919E98A8E4 /* standings.json in Resources */,
+				2F2E2BD4FDCA29D541902BC5 /* standings_updated.json in Resources */,
+				2F2E21E839BB67EC97C68AFF /* calendar.json in Resources */,
+				2F2E2F59CA3D55D48A721B0E /* calendar_updated.json in Resources */,
+				2F2E27C9D9779600137870BD /* match.json in Resources */,
+				2F2E23ACB03E03FF136D888C /* match_updated.json in Resources */,
+				2F2E21C45E8F757C9300A0E5 /* team.json in Resources */,
+				2F2E22E8AFA86ACA691709B2 /* team_updated.json in Resources */,
+				2F2E2C7362F374F63BBDB9EE /* player.json in Resources */,
+				2F2E258399867F822FB412B4 /* player_updated.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830FDE3C1E5333D300251420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83058B2E1E64BD8D0057E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83058B4E1E64C0370057E680 /* JSSeasonsViewModelTests.m in Sources */,
+				83BD45051E77374E001C941F /* JSGameResultsViewModelTests.m in Sources */,
+				839526C81E732CA5001D4BD9 /* JSStringTests.m in Sources */,
+				839526CC1E7349AC001D4BD9 /* JSDateTests.m in Sources */,
+				839526CA1E7334D9001D4BD9 /* JSCalendarViewModelTests.m in Sources */,
+				836275721E6BEB2C00AB4E6A /* JSStandingsViewModelTests.m in Sources */,
+				839526C41E700E90001D4BD9 /* JSErrorTests.m in Sources */,
+				2F2E2AA0E6769281746C1223 /* JSTeamViewModelTests.m in Sources */,
+				2F2E2E65EDE8D99FF364BCA5 /* JSPlayerViewModelTests.m in Sources */,
+				2F2E28732846334667ED1BB8 /* JSSettingsViewModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830FDE391E5333D300251420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8362756C1E6B400E00AB4E6A /* JSStandingsRequest.m in Sources */,
+				F30347052163578C00602461 /* JSNewsRequest.m in Sources */,
+				83058B2D1E64B8FD0057E680 /* JSCore.xcdatamodeld in Sources */,
+				8362756D1E6B401800AB4E6A /* JSStandings.m in Sources */,
+				2F2E222B6662FF969828E0B5 /* JSAPIClient.m in Sources */,
+				2F2E26E8DA92331CD8449F83 /* JSSeasonsRequest.m in Sources */,
+				2F2E2F0D76D4CFAE299FEB87 /* JSSeasonsViewModel.m in Sources */,
+				2F2E2F38E433132086043351 /* JSStandingsViewModel.m in Sources */,
+				2F2E2A8822F45314994C5CD5 /* JSTournament.m in Sources */,
+				2F2E2ADAE0114CE9E2BDD0FE /* JSSeason.m in Sources */,
+				2F2E24763D468E41778DA312 /* JSStandingsGroup.m in Sources */,
+				2F2E2611A983D309641F0B6E /* JSStandingsRecord.m in Sources */,
+				2F2E2564F32214013B9D5B29 /* NSError+JSCore.m in Sources */,
+				2F2E240BDE07057C963197E3 /* JSCalendarRequest.m in Sources */,
+				2F2E2C63321F410A22C18C82 /* NSString+JSCore.m in Sources */,
+				2F2E282186571CC17DCF63F1 /* JSCalendarViewModel.m in Sources */,
+				2F2E27CA17CA4B3D8CCCFE32 /* JSGame.m in Sources */,
+				2F2E27F9840308F3CB634CF4 /* NSDate+JSCore.m in Sources */,
+				2F2E2E81C0E9544F0CBEFD15 /* JSGameTeam.m in Sources */,
+				2F2E2BE9C85A3E9672871E54 /* JSGameParticipant.m in Sources */,
+				2F2E28617D253EC60CD44800 /* JSGameResultsRequest.m in Sources */,
+				2F2E2BA79DE434180EFD1AB4 /* JSGameResultsViewModel.m in Sources */,
+				2F2E222AD20EE500AD15C464 /* JSGameEvent.m in Sources */,
+				2F2E264EBF7E2FC98D9C6B1F /* JSGameStatistic.m in Sources */,
+				2F2E26B09FC4B723871F1F91 /* JSTeamViewModel.m in Sources */,
+				2F2E23B2CD7DB53C1D74B16F /* JSTeamRequest.m in Sources */,
+				2F2E22976113D9BB12350136 /* JSSeasonedRequest.m in Sources */,
+				2F2E2F3ECF737EA0648DEF3F /* JSRequest.m in Sources */,
+				2F2E2E310061BCE8A960B7FE /* JSSeasonedViewModel.m in Sources */,
+				2F2E28F032B388C9F73D9DE6 /* JSViewModel.m in Sources */,
+				2F2E2DF4DDEAB2F6621AA103 /* JSExtraInfo.m in Sources */,
+				2F2E2CE200C2B1CFF678D69C /* JSPlayerRequest.m in Sources */,
+				2F2E2D3A78E2172C2B5C5F12 /* JSPlayerViewModel.m in Sources */,
+				2F2E23E204D62451372D6E29 /* JSPlayer.m in Sources */,
+				2F2E2260FC8E5F049DDAD39F /* JSTeam.m in Sources */,
+				2F2E2F595DD6C27319C7CEE5 /* JSSettingsViewModel.m in Sources */,
+				2C57D937598BF3936389EF79 /* JSNews.m in Sources */,
+				2C57DE78AC01506AE495F2AE /* JSNewsViewModel.m in Sources */,
+				2C57D0ED0F744F5FA770BDB8 /* JSNewsDetailsRequest.m in Sources */,
+				2C57DDCE74162C12EE127862 /* JSNewsDetailsViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83058B391E64BD8D0057E680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830FDE3D1E5333D300251420 /* JSCore */;
+			targetProxy = 83058B381E64BD8D0057E680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83058B3B1E64BD8D0057E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "JSCoreTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jscoretests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"-Wno-undeclared-selector",
+				);
+			};
+			name = Debug;
+		};
+		83058B3C1E64BD8D0057E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "JSCoreTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jscoretests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"-Wno-undeclared-selector",
+				);
+			};
+			name = Release;
+		};
+		830FDE441E5333D300251420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Debug;
+		};
+		830FDE451E5333D300251420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Release;
+		};
+		830FDE471E5333D300251420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSCore/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jscore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Debug;
+		};
+		830FDE481E5333D300251420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSCore/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jscore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83058B3A1E64BD8D0057E680 /* Build configuration list for PBXNativeTarget "JSCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83058B3B1E64BD8D0057E680 /* Debug */,
+				83058B3C1E64BD8D0057E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830FDE381E5333D300251420 /* Build configuration list for PBXProject "JSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830FDE441E5333D300251420 /* Debug */,
+				830FDE451E5333D300251420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830FDE461E5333D300251420 /* Build configuration list for PBXNativeTarget "JSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830FDE471E5333D300251420 /* Debug */,
+				830FDE481E5333D300251420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83058B271E64A1330057E680 /* JSCore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8321F02E2215EA1400DF886E /* JSCore2.xcdatamodel */,
+				83058B281E64A1330057E680 /* JSCore.xcdatamodel */,
+			);
+			currentVersion = 8321F02E2215EA1400DF886E /* JSCore2.xcdatamodel */;
+			path = JSCore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 830FDE351E5333D300251420 /* Project object */;
+}

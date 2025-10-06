@@ -1,0 +1,31 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/index.php?task=seasonlist&jsformat=json",
+  "datetime": "2017-02-26 07:51:39",
+  "season": {
+    "1": {
+      "season_name": "2011",
+      "tourn_name": "Dubai Duty Free Tennis Championships",
+      "tourn_id": "1"
+    },
+    "2": {
+      "season_name": "2010-2011",
+      "tourn_name": "Premier League",
+      "tourn_id": "2"
+    },
+    "3": {
+      "season_name": "2010-2011 Regular Season",
+      "tourn_name": "NHL",
+      "tourn_id": "5"
+    },
+    "4": {
+      "season_name": "2009-2010",
+      "tourn_name": "Premier League",
+      "tourn_id": "2"
+    },
+    "14": {
+      "season_name": "00000eeeee",
+      "tourn_name": "00000test2",
+      "tourn_id": "9"
+    }
+  }
+}

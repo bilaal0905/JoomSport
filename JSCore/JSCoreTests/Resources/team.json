@@ -1,0 +1,239 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/team/2/4?jsformat=json",
+  "datetime": "2017-03-21 15:41:11",
+  "seasonid": 2,
+  "teamid": "4",
+  "tname": "Chelsea",
+  "defimage": "0",
+  "tdescription": "<p> </p>\r\n<p>Chelsea have regained the Premier League crown after finishing second to Manchester United in the last three seasons. Former manager Jose Mourinho, bankrolled by owner Roman Abramovich's millions, brought the first title to Stamford Bridge for 50 years when the Blues lifted the trophy in 2005. Chelsea became only the second team to win back-to-back Premier League titles when they clinched it a year later. Mourinho left the club by mutual consent in September 2007.</p>\r\n<p> </p>\r\n<p>Although Chelsea reached the FA Cup final in 1994, they hardly set the world alight in their early Premier League days. Ruud Gullit became manager in 1996 and steered the Blues to an FA Cup triumph in 1997, while his successor Gianluca Vialli guided the team to victory in the League Cup and European Cup Winners' Cup in 1998.</p>\r\n<p> </p>\r\n<p>Shortly after, he led the team to the UEFA Super Cup after a 1-0 win over Real Madrid. The FA Cup followed in 2000. Vialli was replaced by Claudio Ranieri in 2000 and he led Chelsea to another FA Cup final appearance in 2002.</p>\r\n<p> </p>\r\n<p>Russian billionaire Roman Abramovich bought the Blues for £140m. After a trophyless season, he appointed Mourinho as new Chelsea manager and there was instant success. In 2005, Chelsea won the Barclays Premiership and League Cup, along with a Champions League semi-final appearance.</p>\r\n<p> </p>\r\n<p> </p>",
+  "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1436536967508.png",
+  "teamextras": [
+    {
+      "extraname": "City",
+      "extravalue": "London"
+    }
+  ],
+  "tfields": {
+    "emblem": {
+      "value": ""
+    },
+    "playername": {
+      "value": "Name"
+    },
+    "playedmatches": "Played matches",
+    "eventid_2": {
+      "value": "Double Faults",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow-red_card.png"
+    },
+    "eventid_5": {
+      "value": "2nd Serve Points Won",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Tennis_Court_Racket.png"
+    },
+    "eventid_7": {
+      "value": "Goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/shb.jpg"
+    },
+    "eventid_8": {
+      "value": "Assist",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/hockey-icon.png"
+    },
+    "eventid_10": {
+      "value": "Own goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/own-goal.png"
+    },
+    "eventid_11": {
+      "value": "goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Ball.png"
+    },
+    "eventid_12": {
+      "value": "assist",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Shoes.png"
+    },
+    "eventid_17": {
+      "value": "Yellow card",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow_card1.png"
+    },
+    "eventid_18": {
+      "value": "test",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/HorsebackRiding_Cap.png"
+    }
+  },
+  "players": {
+    "1173": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13663783092597.jpg",
+        "playername": "Didier Drogba",
+        "playedmatches": 5,
+        "eventid_2": 1,
+        "eventid_5": 0,
+        "eventid_7": 1,
+        "eventid_8": 0,
+        "eventid_10": 1,
+        "eventid_11": 0,
+        "eventid_12": 1,
+        "eventid_17": 0,
+        "eventid_18": 1
+      }
+    },
+    "1174": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13039906432035.jpg",
+        "playername": "John Terry",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 1,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1175": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1303990840268.jpg",
+        "playername": "Frank Lampard",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 1,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1177": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13039910851488.jpg",
+        "playername": "Florent Malouda",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 0,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1178": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13039911631650.jpg",
+        "playername": "Salomon Kalou",
+        "playedmatches": 4,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 0,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1202": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1304781136698.jpg",
+        "playername": "Ashley Cole",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 4,
+        "eventid_12": 2,
+        "eventid_17": 1,
+        "eventid_18": 0
+      }
+    },
+    "1203": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1304781253523.jpg",
+        "playername": "Marinho David Luiz",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 1,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1204": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1304781551484.jpg",
+        "playername": "Branislav Ivanovic",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 1,
+        "eventid_12": 1,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1205": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13047816361591.jpg",
+        "playername": "Alex  ",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 1,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 1
+      }
+    },
+    "1206": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1304781761685.jpg",
+        "playername": "Ramires  ",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 0,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    },
+    "1207": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1304781864446.jpg",
+        "playername": "Michael Essien",
+        "playedmatches": 5,
+        "eventid_2": 0,
+        "eventid_5": 0,
+        "eventid_7": 0,
+        "eventid_8": 0,
+        "eventid_10": 0,
+        "eventid_11": 0,
+        "eventid_12": 0,
+        "eventid_17": 0,
+        "eventid_18": 0
+      }
+    }
+  }
+}

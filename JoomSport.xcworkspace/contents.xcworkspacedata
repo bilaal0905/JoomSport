@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:iOSApp/iOSApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSCore/JSCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSCoreData/JSCoreData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSHTTP/JSHTTP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSUIKit/JSUIKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSUtils/JSUtils.xcodeproj">
+   </FileRef>
+</Workspace>

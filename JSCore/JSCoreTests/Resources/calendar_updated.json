@@ -1,0 +1,43 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/calendar/2?jsformat=json",
+  "datetime": "2017-03-08 16:28:15",
+  "seasonid": 2,
+  "matches": {
+    "5268": {
+      "mstatus": "2",
+      "mdate": "09-25-2000 12:00 AM",
+      "mlocation": null,
+      "mdayname": "day1",
+      "home": {
+        "score": "0",
+        "teamid": "3",
+        "teamname": "Manchester City",
+        "teamlogo": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl14652271622098.png"
+      },
+      "away": {
+        "score": "0",
+        "teamid": "4",
+        "teamname": "Chelsea",
+        "teamlogo": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1436536967508.png"
+      }
+    },
+    "5269": {
+      "mstatus": "1",
+      "mdate": "10-03-2010 12:00 AM",
+      "mlocation": "<a href=\"/kodiak-top-menu/component/joomsport/venue/2?Itemid=0\">Stamford Bridge</a>",
+      "mdayname": "day1",
+      "home": {
+        "score": "2",
+        "teamid": "4",
+        "teamname": "Chelsea",
+        "teamlogo": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1436536967508.png"
+      },
+      "away": {
+        "score": "0",
+        "teamid": "2",
+        "teamname": "Arsenal",
+        "teamlogo": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl14365368841927.png"
+      }
+    }
+  }
+}

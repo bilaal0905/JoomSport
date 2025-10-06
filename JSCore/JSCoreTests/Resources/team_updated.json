@@ -1,0 +1,83 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/team/2/4?jsformat=json",
+  "datetime": "2017-03-21 15:41:11",
+  "seasonid": 2,
+  "teamid": "4",
+  "tname": "Chelsea",
+  "defimage": "0",
+  "tdescription": null,
+  "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1436536967508.png",
+  "teamextras": [
+    {
+      "extraname": "City",
+      "extravalue": "Roma"
+    },
+    {
+      "extraname": "Country",
+      "extravalue": "Italy"
+    }
+  ],
+  "tfields": {
+    "emblem": {
+      "value": ""
+    },
+    "playername": {
+      "value": "Name"
+    },
+    "playedmatches": "Played matches",
+    "eventid_2": {
+      "value": "Double Faults",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow-red_card.png"
+    },
+    "eventid_5": {
+      "value": "2nd Serve Points Won",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Tennis_Court_Racket.png"
+    },
+    "eventid_7": {
+      "value": "Goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/shb.jpg"
+    },
+    "eventid_8": {
+      "value": "Assist",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/hockey-icon.png"
+    },
+    "eventid_10": {
+      "value": "Own goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/own-goal.png"
+    },
+    "eventid_11": {
+      "value": "goal",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Ball.png"
+    },
+    "eventid_12": {
+      "value": "assist",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Shoes.png"
+    },
+    "eventid_17": {
+      "value": "Yellow card",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow_card1.png"
+    },
+    "eventid_18": {
+      "value": "test",
+      "image": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/HorsebackRiding_Cap.png"
+    }
+  },
+  "players": {
+    "1173": {
+      "partcolumn": {
+        "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl13663783092597.jpg",
+        "playername": "Didier Drogba 2",
+        "playedmatches": 5,
+        "eventid_2": 1,
+        "eventid_5": 0,
+        "eventid_7": 1,
+        "eventid_8": 0,
+        "eventid_10": 1,
+        "eventid_11": 0,
+        "eventid_12": 1,
+        "eventid_17": 0,
+        "eventid_18": 1
+      }
+    }
+  }
+}

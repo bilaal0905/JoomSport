@@ -1,0 +1,1251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C57D0D3873C8E6B7694D873 /* JSNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D408418408995C5EC399 /* JSNewsCell.m */; };
+		2C57DA842D4E4D0F92BE05BE /* JSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57DF4119B8D7F89EA8BE7A /* JSNewsViewController.m */; };
+		2C57DB285B17C77F03DE7D23 /* JSNewsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D281B2EBA99A4DF766DA /* JSNewsDetailsViewController.m */; };
+		2C57DB47974994B02B242277 /* JSNewsDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D19307143335F37C491E /* JSNewsDetailsView.m */; };
+		2C57DEBF4E3511393A2F9C25 /* JSNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D5C243B4493DC2953FD4 /* JSNewsTableViewController.m */; };
+		2F2E20063EDD5027D317C018 /* JSModelsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2746EA7F84A0441BE81D /* JSModelsStore.m */; };
+		2F2E200CFCADEF5DD3B12B69 /* JSStandingsTeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2646BB36A7A41CC6101E /* JSStandingsTeamCell.m */; };
+		2F2E200D9BA8E485B0657A63 /* JSSettingsTeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2028CCF8DED818AD3C9D /* JSSettingsTeamCell.m */; };
+		2F2E203B42C7BDF8AC30DABC /* JSTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B8AE3DF56B0B3578B8E /* JSTeamViewController.m */; };
+		2F2E205794205E637E5DB2F7 /* JSStandingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2A429D298F504BF9E450 /* JSStandingsTableViewController.m */; };
+		2F2E207C728F966432B77C7E /* JSSeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22ACB052372406F5B31B /* JSSeasonsViewController.m */; };
+		2F2E20DA2E17C3C4FED68261 /* JSStandingsSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E246A29C3B66251DFC018 /* JSStandingsSortViewController.m */; };
+		2F2E2143D795657B11C92FD1 /* JSPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22EB7236637D36945723 /* JSPlayerViewController.m */; };
+		2F2E216E5FDED648BB9629BD /* JSSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E28F6693BE342600F3BB0 /* JSSettingsCell.m */; };
+		2F2E226417B45B3D610A0A23 /* JSTitledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25D148139353F29BB791 /* JSTitledViewController.m */; };
+		2F2E2278B3DF7A7A1D01B3BF /* JSExtraInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21D7F9ECE7AB30AEA50C /* JSExtraInfoCell.m */; };
+		2F2E22895DAA250DBFE46E15 /* JSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21EB0867EE199383B2E3 /* JSCalendarCell.m */; };
+		2F2E22A9DB121186003E0E7F /* JSScoresTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E201E5535AA319450D40E /* JSScoresTitlesView.m */; };
+		2F2E22B486A8A2C23E115672 /* JSAPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2646D0F663D87CD00723 /* JSAPNManager.m */; };
+		2F2E22D856558CE6DBA99D17 /* JSSeasonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E205DF04608B7A68DDA53 /* JSSeasonCell.m */; };
+		2F2E2317CC24BDEA4A3323A0 /* JSSettingsTeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25D6456AA9B8F8682627 /* JSSettingsTeamsTableViewController.m */; };
+		2F2E23362EE6CE84933FA2DE /* JSTeamStatisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26C38665158DB847BB07 /* JSTeamStatisticViewController.m */; };
+		2F2E23D7D2E734860F8F8BDC /* JSBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2BCBF29CE777BA8F94B0 /* JSBackButton.m */; };
+		2F2E2407F6963436F50A3D25 /* JSSettingsArrowedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E23D4667F5739ADFDE052 /* JSSettingsArrowedCell.m */; };
+		2F2E24206175C3BBA69A8BDC /* JSStandingsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2FCD16A00E1CF429CA62 /* JSStandingsCellLayout.m */; };
+		2F2E2476602D762BAD94D24D /* JSSettingsTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2BC289F2D494BBEDBE0E /* JSSettingsTeamsViewController.m */; };
+		2F2E247671F9A759F6C498F3 /* JSStandingsScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E207E59A0507D5B70937B /* JSStandingsScoreCell.m */; };
+		2F2E247CA0C1878B06F85BDE /* JSSettingsSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2621EBD54AE8659B709F /* JSSettingsSectionFooter.m */; };
+		2F2E25ACE8888FD5DE343FB5 /* JSTeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2835FAF7F507EE30912D /* JSTeamsTableViewController.m */; };
+		2F2E25B00F6021558AEE5908 /* JSStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25AB4E51E352D2BE3360 /* JSStandingsViewController.m */; };
+		2F2E26010BDAFF606BD6334B /* JSTeamInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25254E6FB8C1638B35A0 /* JSTeamInfoViewController.m */; };
+		2F2E26291561DA9D64E0B49E /* JSGameResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B4D893A5E86E0285119 /* JSGameResultsViewController.m */; };
+		2F2E269DEEF49527DC2C11A3 /* JSLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24889C5173AC78EC0E29 /* JSLogoView.m */; };
+		2F2E26B519A9148FF08C236E /* SFText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E2E5B68852D2D853A6373 /* SFText-Semibold.otf */; };
+		2F2E26FA8FD2F7D36479B6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E267B67CCEA86B26F48EE /* Assets.xcassets */; };
+		2F2E274548945F0367A30DC1 /* JSRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2535205F3B858C0BDEDC /* JSRoundedButton.m */; };
+		2F2E27E6BEB60E62A7D2BE50 /* JSGameResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E29184407AB39C935D3DD /* JSGameResultsView.m */; };
+		2F2E27FD051F2BF03D86397F /* JSDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E29BBF210E47C3556FDFE /* JSDetailsViewController.m */; };
+		2F2E281D6034D5400F3BC6E8 /* JSSettingsSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E20A171BDBC431AEFFBE5 /* JSSettingsSectionHeader.m */; };
+		2F2E28FD0AFB1CED8C1E02FB /* JSSeasonedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2FA521911982A13BC75A /* JSSeasonedViewController.m */; };
+		2F2E2903D045F0F1AB92B28E /* JSScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2DBA7DAF194BDE4DE3DA /* JSScoreView.m */; };
+		2F2E2988AC8B04EC2D7701BB /* JSGameStatisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22197794D6F358C45403 /* JSGameStatisticCell.m */; };
+		2F2E2995EB9A4884C0478453 /* JSDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E222E6B4F1A9BC4E8A8D4 /* JSDetailsView.m */; };
+		2F2E29DCAA48C4A23F9B0ADB /* JSTeamPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24721EB1634EB7C70E0B /* JSTeamPlayersViewController.m */; };
+		2F2E2A52007B41B700CE0368 /* JSGameStatisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2F7D7B14C35FC8E17323 /* JSGameStatisticViewController.m */; };
+		2F2E2A633769106AE7EB8F45 /* DebugDesign.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E27BF00B59F892B6F84E1 /* DebugDesign.xcassets */; };
+		2F2E2AB77B0BC76A1FAC494D /* JSGameEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E28E1C1F541FAB2D66BDB /* JSGameEventsViewController.m */; };
+		2F2E2AC20ABB7D35A2C233C4 /* JSGameStagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E20DD0A4364B104DC4065 /* JSGameStagesView.m */; };
+		2F2E2AC4AA4EF82DB930985C /* JSTextCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2137C8D245BF8FBEC1E9 /* JSTextCellLayout.m */; };
+		2F2E2AC6831D87DB69B5E76B /* JSGameEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2EA8FEECAC55EC2310F3 /* JSGameEventCell.m */; };
+		2F2E2AE18229B6D8C56A8EEA /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B94E45EBA65BB16C664 /* UIColor+JS.m */; };
+		2F2E2B7544227DF2FD9582F6 /* JSCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21DD9233819A67C899C0 /* JSCalendarTableViewController.m */; };
+		2F2E2B8164DBDE6121AFAEE1 /* JSSeasonedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E230F0D72B6E723351CAD /* JSSeasonedView.m */; };
+		2F2E2BCD11EC2052921ED1C5 /* JSTeamStandingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2631811BF06C0DE99CE2 /* JSTeamStandingsCell.m */; };
+		2F2E2BF6299CEAD03E6E6130 /* JSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24211469681FB5CFA53C /* JSRouter.m */; };
+		2F2E2C6DBA769A321B346C94 /* JSFirstLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C92419284A216D1A978 /* JSFirstLaunchView.m */; };
+		2F2E2C71138F6FFE2D5F7D5E /* JSFirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25615A8B814372DFC1A1 /* JSFirstLaunchViewController.m */; };
+		2F2E2CA857CA121B5A2E7B30 /* JSDetailsBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2161A0B53F17C026FC5E /* JSDetailsBackground.m */; };
+		2F2E2CCC9BDCF15CE4BE2AC5 /* JSPlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2BB6483DA0DE21223222 /* JSPlayerInfoViewController.m */; };
+		2F2E2CCD0371BDDE35CECC8E /* JSBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2AAF945584351CD3C740 /* JSBackgroundView.m */; };
+		2F2E2CDF24721E888E849D55 /* JSTitledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2269BE8FE3AFA9247722 /* JSTitledView.m */; };
+		2F2E2D55306D8641FFAB0EFC /* JSGameInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B732A6A9D0A49372DBA /* JSGameInfoViewController.m */; };
+		2F2E2D598D6C24EC9E1ED2E1 /* JSTeamPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2031664F35DB9A265749 /* JSTeamPlayerCell.m */; };
+		2F2E2DA0A015F4E06DF3A86A /* JSPlayerStatisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E28F38369C5F961691CEB /* JSPlayerStatisticCell.m */; };
+		2F2E2DAB5D2AC4BA1E8D0BAF /* JSTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E24DC4D7F5244BD778AC2 /* JSTextCell.m */; };
+		2F2E2E239360F337DAC5AAAB /* JSSettingsSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2EFE1550E3951491AF53 /* JSSettingsSwitchCell.m */; };
+		2F2E2E2B401092422FDCEDAA /* JSSubtitledLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2F9DF1886D400E58C2B2 /* JSSubtitledLogoView.m */; };
+		2F2E2E3DE00C90D6004DB012 /* JSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2CD28914A0056F95BA3F /* JSCalendarViewController.m */; };
+		2F2E2E5538092D5AE1E4256B /* JSCalendarParticipantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E266796494C963E84833B /* JSCalendarParticipantsViewController.m */; };
+		2F2E2E9806892EB344C6D7E2 /* JSGroupSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E21F84429736BB0F69E95 /* JSGroupSectionHeaderView.m */; };
+		2F2E2F34079767BE2A8E4E4E /* JSPlayerStatisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26B4BE385C87936DFA68 /* JSPlayerStatisticViewController.m */; };
+		2F2E2F353DBDE1E77D2545F6 /* UIView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C3A644503E60A650D02 /* UIView+JS.m */; };
+		2F2E2FBF4BBD606CB26CC1C0 /* JSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22F0A97CD76F070CE3A9 /* JSSettingsViewController.m */; };
+		830739C21E78782000D8A7D8 /* SFText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 830739C11E78782000D8A7D8 /* SFText-Bold.otf */; };
+		832BE0F91E7472C6001C1CE2 /* SFText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 832BE0F81E7472C6001C1CE2 /* SFText-Regular.otf */; };
+		8362757E1E6C939E00AB4E6A /* JSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8362757D1E6C939E00AB4E6A /* JSCore.framework */; };
+		8362757F1E6C939E00AB4E6A /* JSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8362757D1E6C939E00AB4E6A /* JSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		836275811E6C939E00AB4E6A /* JSCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836275801E6C939E00AB4E6A /* JSCoreData.framework */; };
+		836275821E6C939E00AB4E6A /* JSCoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275801E6C939E00AB4E6A /* JSCoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		836275841E6C939E00AB4E6A /* JSHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836275831E6C939E00AB4E6A /* JSHTTP.framework */; };
+		836275851E6C939E00AB4E6A /* JSHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275831E6C939E00AB4E6A /* JSHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		836275871E6C939E00AB4E6A /* JSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836275861E6C939E00AB4E6A /* JSUIKit.framework */; };
+		836275881E6C939E00AB4E6A /* JSUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275861E6C939E00AB4E6A /* JSUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		838426B41E4CE299003B0560 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838426B31E4CE299003B0560 /* JSAppDelegate.m */; };
+		838426CD1E4CE355003B0560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838426C91E4CE355003B0560 /* LaunchScreen.storyboard */; };
+		838426CE1E4CE355003B0560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838426CA1E4CE355003B0560 /* main.m */; };
+		839526C61E71F2F8001D4BD9 /* SFDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 839526C51E71F2F8001D4BD9 /* SFDisplay-Black.otf */; };
+		83C085FF1E59AEBD00079B87 /* SFText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83C085FE1E59AEBD00079B87 /* SFText-Heavy.otf */; };
+		83C086011E59D5CC00079B87 /* SFText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83C086001E59D5CC00079B87 /* SFText-Medium.otf */; };
+		83D9673121AAEDA6000C1E0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D9672F21AAEDA6000C1E0B /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8362758C1E6C939E00AB4E6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				836275881E6C939E00AB4E6A /* JSUIKit.framework in Embed Frameworks */,
+				836275821E6C939E00AB4E6A /* JSCoreData.framework in Embed Frameworks */,
+				8362757F1E6C939E00AB4E6A /* JSCore.framework in Embed Frameworks */,
+				836275851E6C939E00AB4E6A /* JSHTTP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C57D0FDC69F215943E35ACC /* JSNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsCell.h; sourceTree = "<group>"; };
+		2C57D19307143335F37C491E /* JSNewsDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsDetailsView.m; sourceTree = "<group>"; };
+		2C57D1F1A177158D86F80239 /* JSNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsTableViewController.h; sourceTree = "<group>"; };
+		2C57D281B2EBA99A4DF766DA /* JSNewsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsDetailsViewController.m; sourceTree = "<group>"; };
+		2C57D408418408995C5EC399 /* JSNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsCell.m; sourceTree = "<group>"; };
+		2C57D5C2419F1D83259AA7FA /* JSNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsViewController.h; sourceTree = "<group>"; };
+		2C57D5C243B4493DC2953FD4 /* JSNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsTableViewController.m; sourceTree = "<group>"; };
+		2C57D82BB98AE54465E35351 /* JSNewsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsDetailsViewController.h; sourceTree = "<group>"; };
+		2C57DC5D52B4228FA51C1BA0 /* JSNewsDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNewsDetailsView.h; sourceTree = "<group>"; };
+		2C57DF4119B8D7F89EA8BE7A /* JSNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNewsViewController.m; sourceTree = "<group>"; };
+		2F2E201108308A4DB600D6E6 /* JSScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScoreView.h; sourceTree = "<group>"; };
+		2F2E20113776F37871C6B7C4 /* JSTeamInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamInfoViewController.h; sourceTree = "<group>"; };
+		2F2E201E5535AA319450D40E /* JSScoresTitlesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScoresTitlesView.m; sourceTree = "<group>"; };
+		2F2E2028CCF8DED818AD3C9D /* JSSettingsTeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsTeamCell.m; sourceTree = "<group>"; };
+		2F2E2031664F35DB9A265749 /* JSTeamPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamPlayerCell.m; sourceTree = "<group>"; };
+		2F2E2037BC3B86217DAA0C12 /* JSDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDetailsViewController.h; sourceTree = "<group>"; };
+		2F2E205DF04608B7A68DDA53 /* JSSeasonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonCell.m; sourceTree = "<group>"; };
+		2F2E207E59A0507D5B70937B /* JSStandingsScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsScoreCell.m; sourceTree = "<group>"; };
+		2F2E20A171BDBC431AEFFBE5 /* JSSettingsSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsSectionHeader.m; sourceTree = "<group>"; };
+		2F2E20A8FD9CC74F47C057FF /* JSScoresTitlesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScoresTitlesView.h; sourceTree = "<group>"; };
+		2F2E20DD0A4364B104DC4065 /* JSGameStagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameStagesView.m; sourceTree = "<group>"; };
+		2F2E2127A2202C7CF1E801DA /* JSTeamPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamPlayerCell.h; sourceTree = "<group>"; };
+		2F2E2137C8D245BF8FBEC1E9 /* JSTextCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTextCellLayout.m; sourceTree = "<group>"; };
+		2F2E2161A0B53F17C026FC5E /* JSDetailsBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDetailsBackground.m; sourceTree = "<group>"; };
+		2F2E21661BC9442EA6DC250F /* JSModelsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSModelsStore.h; sourceTree = "<group>"; };
+		2F2E2174AA0C99F20CDCA92C /* JSAPNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAPNManager.h; sourceTree = "<group>"; };
+		2F2E217A2CFE51F996632E8D /* JSGameStatisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameStatisticViewController.h; sourceTree = "<group>"; };
+		2F2E219733704E85B9A16633 /* JSLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLogoView.h; sourceTree = "<group>"; };
+		2F2E21A124CE2AB0B6C35B02 /* JSSeasonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonCell.h; sourceTree = "<group>"; };
+		2F2E21D22AB931A3614F7452 /* JSPlayerStatisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerStatisticCell.h; sourceTree = "<group>"; };
+		2F2E21D7F9ECE7AB30AEA50C /* JSExtraInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExtraInfoCell.m; sourceTree = "<group>"; };
+		2F2E21DD9233819A67C899C0 /* JSCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarTableViewController.m; sourceTree = "<group>"; };
+		2F2E21E706652DC293478870 /* JSGameResultsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameResultsView.h; sourceTree = "<group>"; };
+		2F2E21EB0867EE199383B2E3 /* JSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarCell.m; sourceTree = "<group>"; };
+		2F2E21F84429736BB0F69E95 /* JSGroupSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGroupSectionHeaderView.m; sourceTree = "<group>"; };
+		2F2E22197794D6F358C45403 /* JSGameStatisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameStatisticCell.m; sourceTree = "<group>"; };
+		2F2E222E6B4F1A9BC4E8A8D4 /* JSDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDetailsView.m; sourceTree = "<group>"; };
+		2F2E225812DC1C26A28F1F6A /* JSRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRoundedButton.h; sourceTree = "<group>"; };
+		2F2E2269BE8FE3AFA9247722 /* JSTitledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTitledView.m; sourceTree = "<group>"; };
+		2F2E2283E230ECB9F15D8358 /* JSGameEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameEventCell.h; sourceTree = "<group>"; };
+		2F2E22AC46EE20AA8097DA45 /* JSBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBackgroundView.h; sourceTree = "<group>"; };
+		2F2E22ACB052372406F5B31B /* JSSeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonsViewController.m; sourceTree = "<group>"; };
+		2F2E22C86BE0F011D8BC6472 /* JSBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBackButton.h; sourceTree = "<group>"; };
+		2F2E22EB7236637D36945723 /* JSPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerViewController.m; sourceTree = "<group>"; };
+		2F2E22F0A97CD76F070CE3A9 /* JSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsViewController.m; sourceTree = "<group>"; };
+		2F2E230F0D72B6E723351CAD /* JSSeasonedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonedView.m; sourceTree = "<group>"; };
+		2F2E231D14390D8DAB4F78BE /* JSStandingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsCell.h; sourceTree = "<group>"; };
+		2F2E2396BBED53F261B97072 /* JSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerViewController.h; sourceTree = "<group>"; };
+		2F2E23A1309337E9EF7DD928 /* JSSettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsCell.h; sourceTree = "<group>"; };
+		2F2E23D4667F5739ADFDE052 /* JSSettingsArrowedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsArrowedCell.m; sourceTree = "<group>"; };
+		2F2E23D92FB871668316090B /* JSDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDetailsView.h; sourceTree = "<group>"; };
+		2F2E23E20A5DFED0C7A0DCAC /* JSTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamViewController.h; sourceTree = "<group>"; };
+		2F2E24211469681FB5CFA53C /* JSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRouter.m; sourceTree = "<group>"; };
+		2F2E2463181EA9D5E5F8EFBE /* JSSeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonsViewController.h; sourceTree = "<group>"; };
+		2F2E246A29C3B66251DFC018 /* JSStandingsSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsSortViewController.m; sourceTree = "<group>"; };
+		2F2E24721EB1634EB7C70E0B /* JSTeamPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamPlayersViewController.m; sourceTree = "<group>"; };
+		2F2E24889C5173AC78EC0E29 /* JSLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLogoView.m; sourceTree = "<group>"; };
+		2F2E24C6D7E0AAF03906D4FE /* JSCalendarParticipantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarParticipantsViewController.h; sourceTree = "<group>"; };
+		2F2E24DC4D7F5244BD778AC2 /* JSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTextCell.m; sourceTree = "<group>"; };
+		2F2E25003C1E33F50EE9CA1D /* JSTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTextCell.h; sourceTree = "<group>"; };
+		2F2E2500A149177C377ECA81 /* JSSubtitledLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSubtitledLogoView.h; sourceTree = "<group>"; };
+		2F2E251B58C024ABB963DDB1 /* JSTextCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTextCellLayout.h; sourceTree = "<group>"; };
+		2F2E25254E6FB8C1638B35A0 /* JSTeamInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamInfoViewController.m; sourceTree = "<group>"; };
+		2F2E2535205F3B858C0BDEDC /* JSRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRoundedButton.m; sourceTree = "<group>"; };
+		2F2E2555E983373564B8BCA6 /* JSPlayerStatisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerStatisticViewController.h; sourceTree = "<group>"; };
+		2F2E25615A8B814372DFC1A1 /* JSFirstLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFirstLaunchViewController.m; sourceTree = "<group>"; };
+		2F2E25AB4E51E352D2BE3360 /* JSStandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsViewController.m; sourceTree = "<group>"; };
+		2F2E25BA3183468CC3F59458 /* JSSettingsSectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsSectionFooter.h; sourceTree = "<group>"; };
+		2F2E25CF1E9D0FE41024FDEF /* JSStandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsViewController.h; sourceTree = "<group>"; };
+		2F2E25D148139353F29BB791 /* JSTitledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTitledViewController.m; sourceTree = "<group>"; };
+		2F2E25D6456AA9B8F8682627 /* JSSettingsTeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsTeamsTableViewController.m; sourceTree = "<group>"; };
+		2F2E2621EBD54AE8659B709F /* JSSettingsSectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsSectionFooter.m; sourceTree = "<group>"; };
+		2F2E2631811BF06C0DE99CE2 /* JSTeamStandingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamStandingsCell.m; sourceTree = "<group>"; };
+		2F2E263EDE10D6EA89346B4B /* JSTeamStandingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamStandingsCell.h; sourceTree = "<group>"; };
+		2F2E2646BB36A7A41CC6101E /* JSStandingsTeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsTeamCell.m; sourceTree = "<group>"; };
+		2F2E2646D0F663D87CD00723 /* JSAPNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAPNManager.m; sourceTree = "<group>"; };
+		2F2E266796494C963E84833B /* JSCalendarParticipantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarParticipantsViewController.m; sourceTree = "<group>"; };
+		2F2E267B67CCEA86B26F48EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F2E26B45EF502AFE3B9212E /* JSSettingsSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsSectionHeader.h; sourceTree = "<group>"; };
+		2F2E26B4BE385C87936DFA68 /* JSPlayerStatisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerStatisticViewController.m; sourceTree = "<group>"; };
+		2F2E26C38665158DB847BB07 /* JSTeamStatisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamStatisticViewController.m; sourceTree = "<group>"; };
+		2F2E271CB0514A750F70DDF0 /* JSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsViewController.h; sourceTree = "<group>"; };
+		2F2E2746EA7F84A0441BE81D /* JSModelsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSModelsStore.m; sourceTree = "<group>"; };
+		2F2E274A6F6D1DA96257E7CD /* JSTeamPlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamPlayersViewController.h; sourceTree = "<group>"; };
+		2F2E277FF143A7905F815546 /* JSGameResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameResultsViewController.h; sourceTree = "<group>"; };
+		2F2E2780C520ED228CB249B3 /* JSFirstLaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFirstLaunchView.h; sourceTree = "<group>"; };
+		2F2E278B6A80805846D15C18 /* JSTitledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTitledViewController.h; sourceTree = "<group>"; };
+		2F2E27BF00B59F892B6F84E1 /* DebugDesign.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DebugDesign.xcassets; sourceTree = "<group>"; };
+		2F2E28124EB66F59FF1FD060 /* JSSettingsTeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsTeamsTableViewController.h; sourceTree = "<group>"; };
+		2F2E2835FAF7F507EE30912D /* JSTeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamsTableViewController.m; sourceTree = "<group>"; };
+		2F2E2884DDB32839527C62D2 /* JSTeamStatisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamStatisticViewController.h; sourceTree = "<group>"; };
+		2F2E28E1C1F541FAB2D66BDB /* JSGameEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameEventsViewController.m; sourceTree = "<group>"; };
+		2F2E28F25F325C0141C4BC4D /* JSSeasonedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonedViewController.h; sourceTree = "<group>"; };
+		2F2E28F38369C5F961691CEB /* JSPlayerStatisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerStatisticCell.m; sourceTree = "<group>"; };
+		2F2E28F6693BE342600F3BB0 /* JSSettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsCell.m; sourceTree = "<group>"; };
+		2F2E2904FACCEA12E610095F /* JSSeasonedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSeasonedView.h; sourceTree = "<group>"; };
+		2F2E29184407AB39C935D3DD /* JSGameResultsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameResultsView.m; sourceTree = "<group>"; };
+		2F2E29556F8F7FF882EEE24D /* JSGameStagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameStagesView.h; sourceTree = "<group>"; };
+		2F2E296D178FE8F744AE3E54 /* JSSettingsTeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsTeamCell.h; sourceTree = "<group>"; };
+		2F2E29A66E96EA9334E73580 /* JSStandingsTeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsTeamCell.h; sourceTree = "<group>"; };
+		2F2E29BBF210E47C3556FDFE /* JSDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDetailsViewController.m; sourceTree = "<group>"; };
+		2F2E2A16589BA5307DCEDCBA /* JSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarCell.h; sourceTree = "<group>"; };
+		2F2E2A429D298F504BF9E450 /* JSStandingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsTableViewController.m; sourceTree = "<group>"; };
+		2F2E2A7FEC630A29449396EC /* JSGameInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameInfoViewController.h; sourceTree = "<group>"; };
+		2F2E2A8B414A39C566EB067A /* JSDetailsBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDetailsBackground.h; sourceTree = "<group>"; };
+		2F2E2AAF945584351CD3C740 /* JSBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBackgroundView.m; sourceTree = "<group>"; };
+		2F2E2AEF27DF5039E31F4367 /* UIView+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JS.h"; sourceTree = "<group>"; };
+		2F2E2AF3A546C169B019FD97 /* JSSettingsTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsTeamsViewController.h; sourceTree = "<group>"; };
+		2F2E2B0F86CC530625FD7975 /* JSGameStatisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameStatisticCell.h; sourceTree = "<group>"; };
+		2F2E2B1FD1FD6239F4C203AF /* JSSettingsArrowedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsArrowedCell.h; sourceTree = "<group>"; };
+		2F2E2B4D893A5E86E0285119 /* JSGameResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameResultsViewController.m; sourceTree = "<group>"; };
+		2F2E2B69CD8CF6EFAE17AF6D /* JSTitledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTitledView.h; sourceTree = "<group>"; };
+		2F2E2B732A6A9D0A49372DBA /* JSGameInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameInfoViewController.m; sourceTree = "<group>"; };
+		2F2E2B8AE3DF56B0B3578B8E /* JSTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTeamViewController.m; sourceTree = "<group>"; };
+		2F2E2B94E45EBA65BB16C664 /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
+		2F2E2BB6483DA0DE21223222 /* JSPlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayerInfoViewController.m; sourceTree = "<group>"; };
+		2F2E2BC289F2D494BBEDBE0E /* JSSettingsTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsTeamsViewController.m; sourceTree = "<group>"; };
+		2F2E2BCBF29CE777BA8F94B0 /* JSBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBackButton.m; sourceTree = "<group>"; };
+		2F2E2BF90355754DDDFA3CA1 /* JSCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarTableViewController.h; sourceTree = "<group>"; };
+		2F2E2C1A8462DE1AD9D219A4 /* JSStandingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsTableViewController.h; sourceTree = "<group>"; };
+		2F2E2C3A644503E60A650D02 /* UIView+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JS.m"; sourceTree = "<group>"; };
+		2F2E2C3D3FBB2FFD71C3A9B0 /* JSStandingsScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsScoreCell.h; sourceTree = "<group>"; };
+		2F2E2C92419284A216D1A978 /* JSFirstLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFirstLaunchView.m; sourceTree = "<group>"; };
+		2F2E2CC393C7AFA2A631C7E0 /* JSExtraInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExtraInfoCell.h; sourceTree = "<group>"; };
+		2F2E2CD28914A0056F95BA3F /* JSCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCalendarViewController.m; sourceTree = "<group>"; };
+		2F2E2D182F4C5D5817B6D04F /* JSPlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayerInfoViewController.h; sourceTree = "<group>"; };
+		2F2E2D62A21E8E5FF18FCF2D /* JSSettingsSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSettingsSwitchCell.h; sourceTree = "<group>"; };
+		2F2E2D95B66FF2E037BF7FD1 /* JSCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCalendarViewController.h; sourceTree = "<group>"; };
+		2F2E2DBA7DAF194BDE4DE3DA /* JSScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScoreView.m; sourceTree = "<group>"; };
+		2F2E2E02F1D33309B496B080 /* JSStandingsSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsSortViewController.h; sourceTree = "<group>"; };
+		2F2E2E29D0C4FB0CB8855CCB /* JSStandingsCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandingsCellLayout.h; sourceTree = "<group>"; };
+		2F2E2E5B68852D2D853A6373 /* SFText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file.otf; path = "SFText-Semibold.otf"; sourceTree = "<group>"; };
+		2F2E2E766F240FBBBFBA1135 /* JSFirstLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFirstLaunchViewController.h; sourceTree = "<group>"; };
+		2F2E2E7F7F7C21243CE115F8 /* JSGroupSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGroupSectionHeaderView.h; sourceTree = "<group>"; };
+		2F2E2EA8FEECAC55EC2310F3 /* JSGameEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameEventCell.m; sourceTree = "<group>"; };
+		2F2E2EFE1550E3951491AF53 /* JSSettingsSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSettingsSwitchCell.m; sourceTree = "<group>"; };
+		2F2E2F7D7B14C35FC8E17323 /* JSGameStatisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGameStatisticViewController.m; sourceTree = "<group>"; };
+		2F2E2F921790F355D802C747 /* JSGameEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGameEventsViewController.h; sourceTree = "<group>"; };
+		2F2E2F9DF1886D400E58C2B2 /* JSSubtitledLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSubtitledLogoView.m; sourceTree = "<group>"; };
+		2F2E2FA521911982A13BC75A /* JSSeasonedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonedViewController.m; sourceTree = "<group>"; };
+		2F2E2FB96FEB335E2A3DAF0D /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
+		2F2E2FCD16A00E1CF429CA62 /* JSStandingsCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandingsCellLayout.m; sourceTree = "<group>"; };
+		2F2E2FD09772FD107ECBFC83 /* JSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRouter.h; sourceTree = "<group>"; };
+		2F2E2FE5DA878FAA3FAAAE4E /* JSTeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTeamsTableViewController.h; sourceTree = "<group>"; };
+		830739C11E78782000D8A7D8 /* SFText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Bold.otf"; sourceTree = "<group>"; };
+		8327B4AB1E9FE68400B75594 /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSApp.entitlements; sourceTree = "<group>"; };
+		832BE0F81E7472C6001C1CE2 /* SFText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Regular.otf"; sourceTree = "<group>"; };
+		8362757D1E6C939E00AB4E6A /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836275801E6C939E00AB4E6A /* JSCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836275831E6C939E00AB4E6A /* JSHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836275861E6C939E00AB4E6A /* JSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		838426AC1E4CE299003B0560 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838426B21E4CE299003B0560 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		838426B31E4CE299003B0560 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		838426C81E4CE355003B0560 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838426C91E4CE355003B0560 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838426CA1E4CE355003B0560 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839526C51E71F2F8001D4BD9 /* SFDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Black.otf"; sourceTree = "<group>"; };
+		83C085FE1E59AEBD00079B87 /* SFText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Heavy.otf"; sourceTree = "<group>"; };
+		83C086001E59D5CC00079B87 /* SFText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Medium.otf"; sourceTree = "<group>"; };
+		83C57F8D21AC6B91001E0C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83D9673021AAEDA6000C1E0B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838426A91E4CE299003B0560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836275871E6C939E00AB4E6A /* JSUIKit.framework in Frameworks */,
+				836275811E6C939E00AB4E6A /* JSCoreData.framework in Frameworks */,
+				836275841E6C939E00AB4E6A /* JSHTTP.framework in Frameworks */,
+				8362757E1E6C939E00AB4E6A /* JSCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C57D84CEF08C35E82D135D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D0FDC69F215943E35ACC /* JSNewsCell.h */,
+				2C57D408418408995C5EC399 /* JSNewsCell.m */,
+				2C57DC5D52B4228FA51C1BA0 /* JSNewsDetailsView.h */,
+				2C57D19307143335F37C491E /* JSNewsDetailsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C57D88F7ADAF81E398D0FC0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D84CEF08C35E82D135D6 /* Views */,
+				2C57D9CF2EA10D4E00890EFA /* Controllers */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2C57D9CF2EA10D4E00890EFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D1F1A177158D86F80239 /* JSNewsTableViewController.h */,
+				2C57D5C243B4493DC2953FD4 /* JSNewsTableViewController.m */,
+				2C57D5C2419F1D83259AA7FA /* JSNewsViewController.h */,
+				2C57DF4119B8D7F89EA8BE7A /* JSNewsViewController.m */,
+				2C57D82BB98AE54465E35351 /* JSNewsDetailsViewController.h */,
+				2C57D281B2EBA99A4DF766DA /* JSNewsDetailsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E2015359EADAD4215730E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E271CB0514A750F70DDF0 /* JSSettingsViewController.h */,
+				2F2E22F0A97CD76F070CE3A9 /* JSSettingsViewController.m */,
+				2F2E2AF3A546C169B019FD97 /* JSSettingsTeamsViewController.h */,
+				2F2E2BC289F2D494BBEDBE0E /* JSSettingsTeamsViewController.m */,
+				2F2E28124EB66F59FF1FD060 /* JSSettingsTeamsTableViewController.h */,
+				2F2E25D6456AA9B8F8682627 /* JSSettingsTeamsTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E202FBBFBE01F3FC9D353 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E25CF1E9D0FE41024FDEF /* JSStandingsViewController.h */,
+				2F2E25AB4E51E352D2BE3360 /* JSStandingsViewController.m */,
+				2F2E2C1A8462DE1AD9D219A4 /* JSStandingsTableViewController.h */,
+				2F2E2A429D298F504BF9E450 /* JSStandingsTableViewController.m */,
+				2F2E2E02F1D33309B496B080 /* JSStandingsSortViewController.h */,
+				2F2E246A29C3B66251DFC018 /* JSStandingsSortViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E213706C79ABB53E5E3A7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2E29D0C4FB0CB8855CCB /* JSStandingsCellLayout.h */,
+				2F2E2FCD16A00E1CF429CA62 /* JSStandingsCellLayout.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		2F2E21907E013B3791DF3CB6 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E26A3CD3B1A164E1275DF /* Standings */,
+				2F2E2FB5C82EFC6516AA2C31 /* Seasons */,
+				2F2E265869D682BC138EC317 /* Calendar */,
+				2F2E2E8413F887463DA3C0A8 /* Team */,
+				2F2E21B57D4FDC0A433941C8 /* Settings */,
+				2F2E25D2FE788358C6729A32 /* Game Results */,
+				2F2E2E8F3AC9F51A136080CE /* Player */,
+				2F2E24FD835F969863469FEB /* First Launch */,
+				2F2E2F3A57F3239146D2A675 /* Push Notifications */,
+				2C57D88F7ADAF81E398D0FC0 /* News */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		2F2E21B57D4FDC0A433941C8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2A63479590342FA49F06 /* Views */,
+				2F2E2015359EADAD4215730E /* Controllers */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2F2E22224561D0407C4BA451 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2D95B66FF2E037BF7FD1 /* JSCalendarViewController.h */,
+				2F2E2CD28914A0056F95BA3F /* JSCalendarViewController.m */,
+				2F2E2BF90355754DDDFA3CA1 /* JSCalendarTableViewController.h */,
+				2F2E21DD9233819A67C899C0 /* JSCalendarTableViewController.m */,
+				2F2E24C6D7E0AAF03906D4FE /* JSCalendarParticipantsViewController.h */,
+				2F2E266796494C963E84833B /* JSCalendarParticipantsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E225C9DD3FE2FF3C77C9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2F250AE1203C0B4646AC /* Cells */,
+				2F2E20A8FD9CC74F47C057FF /* JSScoresTitlesView.h */,
+				2F2E201E5535AA319450D40E /* JSScoresTitlesView.m */,
+				2F2E2E7F7F7C21243CE115F8 /* JSGroupSectionHeaderView.h */,
+				2F2E21F84429736BB0F69E95 /* JSGroupSectionHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E22A8A4CAACF71BB39D9F /* Child Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2555E983373564B8BCA6 /* JSPlayerStatisticViewController.h */,
+				2F2E26B4BE385C87936DFA68 /* JSPlayerStatisticViewController.m */,
+				2F2E2D182F4C5D5817B6D04F /* JSPlayerInfoViewController.h */,
+				2F2E2BB6483DA0DE21223222 /* JSPlayerInfoViewController.m */,
+			);
+			path = "Child Controllers";
+			sourceTree = "<group>";
+		};
+		2F2E2334060A78A4F99D6719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E20DD0A4364B104DC4065 /* JSGameStagesView.m */,
+				2F2E29556F8F7FF882EEE24D /* JSGameStagesView.h */,
+				2F2E2664BB37D8046C50DFBC /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E243802EA998F6863C9D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E27BF00B59F892B6F84E1 /* DebugDesign.xcassets */,
+				2F2E267B67CCEA86B26F48EE /* Assets.xcassets */,
+				2F2E2CDFAB369EF1EADA9700 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F2E24FD835F969863469FEB /* First Launch */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2780C520ED228CB249B3 /* JSFirstLaunchView.h */,
+				2F2E2C92419284A216D1A978 /* JSFirstLaunchView.m */,
+				2F2E2E766F240FBBBFBA1135 /* JSFirstLaunchViewController.h */,
+				2F2E25615A8B814372DFC1A1 /* JSFirstLaunchViewController.m */,
+			);
+			path = "First Launch";
+			sourceTree = "<group>";
+		};
+		2F2E25D2FE788358C6729A32 /* Game Results */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2D386BBCC230AEC4E6DE /* Controllers */,
+				2F2E2334060A78A4F99D6719 /* Views */,
+			);
+			path = "Game Results";
+			sourceTree = "<group>";
+		};
+		2F2E265869D682BC138EC317 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E22224561D0407C4BA451 /* Controllers */,
+				2F2E2751ACF2CC73C24BE0C1 /* Views */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2F2E2664BB37D8046C50DFBC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2EA8FEECAC55EC2310F3 /* JSGameEventCell.m */,
+				2F2E2283E230ECB9F15D8358 /* JSGameEventCell.h */,
+				2F2E22197794D6F358C45403 /* JSGameStatisticCell.m */,
+				2F2E2B0F86CC530625FD7975 /* JSGameStatisticCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F2E26A3CD3B1A164E1275DF /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E225C9DD3FE2FF3C77C9B /* Views */,
+				2F2E213706C79ABB53E5E3A7 /* Logic */,
+				2F2E202FBBFBE01F3FC9D353 /* Controllers */,
+			);
+			path = Standings;
+			sourceTree = "<group>";
+		};
+		2F2E26C6F2E6F13A23024E26 /* Child Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E20113776F37871C6B7C4 /* JSTeamInfoViewController.h */,
+				2F2E25254E6FB8C1638B35A0 /* JSTeamInfoViewController.m */,
+				2F2E274A6F6D1DA96257E7CD /* JSTeamPlayersViewController.h */,
+				2F2E24721EB1634EB7C70E0B /* JSTeamPlayersViewController.m */,
+				2F2E2884DDB32839527C62D2 /* JSTeamStatisticViewController.h */,
+				2F2E26C38665158DB847BB07 /* JSTeamStatisticViewController.m */,
+			);
+			path = "Child Controllers";
+			sourceTree = "<group>";
+		};
+		2F2E2751ACF2CC73C24BE0C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2A16589BA5307DCEDCBA /* JSCalendarCell.h */,
+				2F2E21EB0867EE199383B2E3 /* JSCalendarCell.m */,
+				2F2E2500A149177C377ECA81 /* JSSubtitledLogoView.h */,
+				2F2E2F9DF1886D400E58C2B2 /* JSSubtitledLogoView.m */,
+				2F2E201108308A4DB600D6E6 /* JSScoreView.h */,
+				2F2E2DBA7DAF194BDE4DE3DA /* JSScoreView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E27B72F7DF909E6DE4B0E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2CC393C7AFA2A631C7E0 /* JSExtraInfoCell.h */,
+				2F2E21D7F9ECE7AB30AEA50C /* JSExtraInfoCell.m */,
+				2F2E21A124CE2AB0B6C35B02 /* JSSeasonCell.h */,
+				2F2E205DF04608B7A68DDA53 /* JSSeasonCell.m */,
+				2F2E2C73A299537DCAC5D7E6 /* Text Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F2E284918EEEB6BE4E6DF4F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E243802EA998F6863C9D1 /* Resources */,
+				2F2E2FD46C38EF6D1500EA8E /* Extensions */,
+				2F2E2B51E0E1A93340BEFBD8 /* Views */,
+				2F2E2B14C7F456C58A3F10E1 /* Controls */,
+				2F2E28FB11E9EFF575A24757 /* Logic */,
+				2F2E2F2E797F5D7D04897652 /* Controllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2F2E284F6A1551F465DC28F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E22A8A4CAACF71BB39D9F /* Child Controllers */,
+				2F2E2396BBED53F261B97072 /* JSPlayerViewController.h */,
+				2F2E22EB7236637D36945723 /* JSPlayerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E287035C796C3FDEF31EA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2037BC3B86217DAA0C12 /* JSDetailsViewController.h */,
+				2F2E29BBF210E47C3556FDFE /* JSDetailsViewController.m */,
+				2F2E23D92FB871668316090B /* JSDetailsView.h */,
+				2F2E222E6B4F1A9BC4E8A8D4 /* JSDetailsView.m */,
+				2F2E2161A0B53F17C026FC5E /* JSDetailsBackground.m */,
+				2F2E2A8B414A39C566EB067A /* JSDetailsBackground.h */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2F2E28FB11E9EFF575A24757 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E21661BC9442EA6DC250F /* JSModelsStore.h */,
+				2F2E2746EA7F84A0441BE81D /* JSModelsStore.m */,
+				2F2E2FD09772FD107ECBFC83 /* JSRouter.h */,
+				2F2E24211469681FB5CFA53C /* JSRouter.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		2F2E2A63479590342FA49F06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E26B45EF502AFE3B9212E /* JSSettingsSectionHeader.h */,
+				2F2E20A171BDBC431AEFFBE5 /* JSSettingsSectionHeader.m */,
+				2F2E25BA3183468CC3F59458 /* JSSettingsSectionFooter.h */,
+				2F2E2621EBD54AE8659B709F /* JSSettingsSectionFooter.m */,
+				2F2E2E2B40FD6619CCEADBA8 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E2B14C7F456C58A3F10E1 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E225812DC1C26A28F1F6A /* JSRoundedButton.h */,
+				2F2E2535205F3B858C0BDEDC /* JSRoundedButton.m */,
+				2F2E2BCBF29CE777BA8F94B0 /* JSBackButton.m */,
+				2F2E22C86BE0F011D8BC6472 /* JSBackButton.h */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		2F2E2B51E0E1A93340BEFBD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E22AC46EE20AA8097DA45 /* JSBackgroundView.h */,
+				2F2E2AAF945584351CD3C740 /* JSBackgroundView.m */,
+				2F2E219733704E85B9A16633 /* JSLogoView.h */,
+				2F2E24889C5173AC78EC0E29 /* JSLogoView.m */,
+				2F2E27B72F7DF909E6DE4B0E /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E2BEC499BB6E30C9A7D63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E21D22AB931A3614F7452 /* JSPlayerStatisticCell.h */,
+				2F2E28F38369C5F961691CEB /* JSPlayerStatisticCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E2C46DDE1E48A20391F31 /* Titled */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2B69CD8CF6EFAE17AF6D /* JSTitledView.h */,
+				2F2E2269BE8FE3AFA9247722 /* JSTitledView.m */,
+				2F2E278B6A80805846D15C18 /* JSTitledViewController.h */,
+				2F2E25D148139353F29BB791 /* JSTitledViewController.m */,
+			);
+			path = Titled;
+			sourceTree = "<group>";
+		};
+		2F2E2C686C3A8B8CB01E433E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E23E20A5DFED0C7A0DCAC /* JSTeamViewController.h */,
+				2F2E2B8AE3DF56B0B3578B8E /* JSTeamViewController.m */,
+				2F2E2FE5DA878FAA3FAAAE4E /* JSTeamsTableViewController.h */,
+				2F2E2835FAF7F507EE30912D /* JSTeamsTableViewController.m */,
+				2F2E26C6F2E6F13A23024E26 /* Child Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E2C68EB8500CB957796D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2127A2202C7CF1E801DA /* JSTeamPlayerCell.h */,
+				2F2E2031664F35DB9A265749 /* JSTeamPlayerCell.m */,
+				2F2E263EDE10D6EA89346B4B /* JSTeamStandingsCell.h */,
+				2F2E2631811BF06C0DE99CE2 /* JSTeamStandingsCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E2C73A299537DCAC5D7E6 /* Text Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E25003C1E33F50EE9CA1D /* JSTextCell.h */,
+				2F2E24DC4D7F5244BD778AC2 /* JSTextCell.m */,
+				2F2E251B58C024ABB963DDB1 /* JSTextCellLayout.h */,
+				2F2E2137C8D245BF8FBEC1E9 /* JSTextCellLayout.m */,
+			);
+			path = "Text Cell";
+			sourceTree = "<group>";
+		};
+		2F2E2CDFAB369EF1EADA9700 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				839526C51E71F2F8001D4BD9 /* SFDisplay-Black.otf */,
+				830739C11E78782000D8A7D8 /* SFText-Bold.otf */,
+				832BE0F81E7472C6001C1CE2 /* SFText-Regular.otf */,
+				83C086001E59D5CC00079B87 /* SFText-Medium.otf */,
+				83C085FE1E59AEBD00079B87 /* SFText-Heavy.otf */,
+				2F2E2E5B68852D2D853A6373 /* SFText-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2F2E2D20DBE23CBDE2A2B8BA /* Child Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2F921790F355D802C747 /* JSGameEventsViewController.h */,
+				2F2E28E1C1F541FAB2D66BDB /* JSGameEventsViewController.m */,
+				2F2E217A2CFE51F996632E8D /* JSGameStatisticViewController.h */,
+				2F2E2F7D7B14C35FC8E17323 /* JSGameStatisticViewController.m */,
+				2F2E2A7FEC630A29449396EC /* JSGameInfoViewController.h */,
+				2F2E2B732A6A9D0A49372DBA /* JSGameInfoViewController.m */,
+			);
+			path = "Child Controllers";
+			sourceTree = "<group>";
+		};
+		2F2E2D386BBCC230AEC4E6DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E21E706652DC293478870 /* JSGameResultsView.h */,
+				2F2E29184407AB39C935D3DD /* JSGameResultsView.m */,
+				2F2E277FF143A7905F815546 /* JSGameResultsViewController.h */,
+				2F2E2B4D893A5E86E0285119 /* JSGameResultsViewController.m */,
+				2F2E2D20DBE23CBDE2A2B8BA /* Child Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E2E2B40FD6619CCEADBA8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E23A1309337E9EF7DD928 /* JSSettingsCell.h */,
+				2F2E28F6693BE342600F3BB0 /* JSSettingsCell.m */,
+				2F2E2B1FD1FD6239F4C203AF /* JSSettingsArrowedCell.h */,
+				2F2E23D4667F5739ADFDE052 /* JSSettingsArrowedCell.m */,
+				2F2E2D62A21E8E5FF18FCF2D /* JSSettingsSwitchCell.h */,
+				2F2E2EFE1550E3951491AF53 /* JSSettingsSwitchCell.m */,
+				2F2E296D178FE8F744AE3E54 /* JSSettingsTeamCell.h */,
+				2F2E2028CCF8DED818AD3C9D /* JSSettingsTeamCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F2E2E8413F887463DA3C0A8 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2C686C3A8B8CB01E433E /* Controllers */,
+				2F2E2C68EB8500CB957796D5 /* Views */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		2F2E2E8F3AC9F51A136080CE /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2BEC499BB6E30C9A7D63 /* Views */,
+				2F2E284F6A1551F465DC28F7 /* Controllers */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2F2E2F250AE1203C0B4646AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E231D14390D8DAB4F78BE /* JSStandingsCell.h */,
+				2F2E2C3D3FBB2FFD71C3A9B0 /* JSStandingsScoreCell.h */,
+				2F2E207E59A0507D5B70937B /* JSStandingsScoreCell.m */,
+				2F2E29A66E96EA9334E73580 /* JSStandingsTeamCell.h */,
+				2F2E2646BB36A7A41CC6101E /* JSStandingsTeamCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F2E2F2E797F5D7D04897652 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E287035C796C3FDEF31EA /* Details */,
+				2F2E2C46DDE1E48A20391F31 /* Titled */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E2F3A57F3239146D2A675 /* Push Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2174AA0C99F20CDCA92C /* JSAPNManager.h */,
+				2F2E2646D0F663D87CD00723 /* JSAPNManager.m */,
+			);
+			path = "Push Notifications";
+			sourceTree = "<group>";
+		};
+		2F2E2FB5C82EFC6516AA2C31 /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2463181EA9D5E5F8EFBE /* JSSeasonsViewController.h */,
+				2F2E22ACB052372406F5B31B /* JSSeasonsViewController.m */,
+				2F2E28F25F325C0141C4BC4D /* JSSeasonedViewController.h */,
+				2F2E2FA521911982A13BC75A /* JSSeasonedViewController.m */,
+				2F2E2904FACCEA12E610095F /* JSSeasonedView.h */,
+				2F2E230F0D72B6E723351CAD /* JSSeasonedView.m */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		2F2E2FD46C38EF6D1500EA8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2FB96FEB335E2A3DAF0D /* UIColor+JS.h */,
+				2F2E2B94E45EBA65BB16C664 /* UIColor+JS.m */,
+				2F2E2AEF27DF5039E31F4367 /* UIView+JS.h */,
+				2F2E2C3A644503E60A650D02 /* UIView+JS.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		830FDE661E583AAD00251420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836275861E6C939E00AB4E6A /* JSUIKit.framework */,
+				836275831E6C939E00AB4E6A /* JSHTTP.framework */,
+				836275801E6C939E00AB4E6A /* JSCoreData.framework */,
+				8362757D1E6C939E00AB4E6A /* JSCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		838426A31E4CE299003B0560 = {
+			isa = PBXGroup;
+			children = (
+				838426AE1E4CE299003B0560 /* iOSApp */,
+				838426AD1E4CE299003B0560 /* Products */,
+				830FDE661E583AAD00251420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		838426AD1E4CE299003B0560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838426AC1E4CE299003B0560 /* iOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838426AE1E4CE299003B0560 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				8327B4AB1E9FE68400B75594 /* iOSApp.entitlements */,
+				838426B21E4CE299003B0560 /* JSAppDelegate.h */,
+				838426B31E4CE299003B0560 /* JSAppDelegate.m */,
+				2F2E21907E013B3791DF3CB6 /* Stories */,
+				2F2E284918EEEB6BE4E6DF4F /* Base */,
+				838426C61E4CE355003B0560 /* Supporting Files */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		838426C61E4CE355003B0560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838426C81E4CE355003B0560 /* Info.plist */,
+				83D9672F21AAEDA6000C1E0B /* Localizable.strings */,
+				838426C91E4CE355003B0560 /* LaunchScreen.storyboard */,
+				838426CA1E4CE355003B0560 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838426AB1E4CE299003B0560 /* iOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838426C31E4CE299003B0560 /* Build configuration list for PBXNativeTarget "iOSApp" */;
+			buildPhases = (
+				838426A81E4CE299003B0560 /* Sources */,
+				838426A91E4CE299003B0560 /* Frameworks */,
+				838426AA1E4CE299003B0560 /* Resources */,
+				8362758C1E6C939E00AB4E6A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSApp;
+			productName = iOSApp;
+			productReference = 838426AC1E4CE299003B0560 /* iOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838426A41E4CE299003B0560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = BearDev;
+				TargetAttributes = {
+					838426AB1E4CE299003B0560 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 838426A71E4CE299003B0560 /* Build configuration list for PBXProject "iOSApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = 838426A31E4CE299003B0560;
+			productRefGroup = 838426AD1E4CE299003B0560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838426AB1E4CE299003B0560 /* iOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838426AA1E4CE299003B0560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830739C21E78782000D8A7D8 /* SFText-Bold.otf in Resources */,
+				83C086011E59D5CC00079B87 /* SFText-Medium.otf in Resources */,
+				83D9673121AAEDA6000C1E0B /* Localizable.strings in Resources */,
+				838426CD1E4CE355003B0560 /* LaunchScreen.storyboard in Resources */,
+				83C085FF1E59AEBD00079B87 /* SFText-Heavy.otf in Resources */,
+				2F2E26B519A9148FF08C236E /* SFText-Semibold.otf in Resources */,
+				839526C61E71F2F8001D4BD9 /* SFDisplay-Black.otf in Resources */,
+				2F2E2A633769106AE7EB8F45 /* DebugDesign.xcassets in Resources */,
+				832BE0F91E7472C6001C1CE2 /* SFText-Regular.otf in Resources */,
+				2F2E26FA8FD2F7D36479B6B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838426A81E4CE299003B0560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838426CE1E4CE355003B0560 /* main.m in Sources */,
+				838426B41E4CE299003B0560 /* JSAppDelegate.m in Sources */,
+				2F2E24206175C3BBA69A8BDC /* JSStandingsCellLayout.m in Sources */,
+				2F2E200CFCADEF5DD3B12B69 /* JSStandingsTeamCell.m in Sources */,
+				2F2E247671F9A759F6C498F3 /* JSStandingsScoreCell.m in Sources */,
+				2F2E25B00F6021558AEE5908 /* JSStandingsViewController.m in Sources */,
+				2F2E22A9DB121186003E0E7F /* JSScoresTitlesView.m in Sources */,
+				2F2E2AE18229B6D8C56A8EEA /* UIColor+JS.m in Sources */,
+				2F2E2CCD0371BDDE35CECC8E /* JSBackgroundView.m in Sources */,
+				2F2E274548945F0367A30DC1 /* JSRoundedButton.m in Sources */,
+				2F2E2F353DBDE1E77D2545F6 /* UIView+JS.m in Sources */,
+				2F2E207C728F966432B77C7E /* JSSeasonsViewController.m in Sources */,
+				2F2E2B8164DBDE6121AFAEE1 /* JSSeasonedView.m in Sources */,
+				2F2E28FD0AFB1CED8C1E02FB /* JSSeasonedViewController.m in Sources */,
+				2F2E205794205E637E5DB2F7 /* JSStandingsTableViewController.m in Sources */,
+				2F2E2E9806892EB344C6D7E2 /* JSGroupSectionHeaderView.m in Sources */,
+				2F2E2E3DE00C90D6004DB012 /* JSCalendarViewController.m in Sources */,
+				2F2E2B7544227DF2FD9582F6 /* JSCalendarTableViewController.m in Sources */,
+				2F2E269DEEF49527DC2C11A3 /* JSLogoView.m in Sources */,
+				2F2E22895DAA250DBFE46E15 /* JSCalendarCell.m in Sources */,
+				2F2E2E2B401092422FDCEDAA /* JSSubtitledLogoView.m in Sources */,
+				2F2E2903D045F0F1AB92B28E /* JSScoreView.m in Sources */,
+				2F2E20DA2E17C3C4FED68261 /* JSStandingsSortViewController.m in Sources */,
+				2F2E2E5538092D5AE1E4256B /* JSCalendarParticipantsViewController.m in Sources */,
+				2F2E20063EDD5027D317C018 /* JSModelsStore.m in Sources */,
+				2F2E2BF6299CEAD03E6E6130 /* JSRouter.m in Sources */,
+				2F2E23D7D2E734860F8F8BDC /* JSBackButton.m in Sources */,
+				2F2E26291561DA9D64E0B49E /* JSGameResultsViewController.m in Sources */,
+				2F2E27E6BEB60E62A7D2BE50 /* JSGameResultsView.m in Sources */,
+				2F2E2AC20ABB7D35A2C233C4 /* JSGameStagesView.m in Sources */,
+				2F2E2AB77B0BC76A1FAC494D /* JSGameEventsViewController.m in Sources */,
+				2F2E2A52007B41B700CE0368 /* JSGameStatisticViewController.m in Sources */,
+				2F2E2D55306D8641FFAB0EFC /* JSGameInfoViewController.m in Sources */,
+				2F2E2AC6831D87DB69B5E76B /* JSGameEventCell.m in Sources */,
+				2F2E2988AC8B04EC2D7701BB /* JSGameStatisticCell.m in Sources */,
+				2F2E2278B3DF7A7A1D01B3BF /* JSExtraInfoCell.m in Sources */,
+				2F2E2DAB5D2AC4BA1E8D0BAF /* JSTextCell.m in Sources */,
+				2F2E2AC4AA4EF82DB930985C /* JSTextCellLayout.m in Sources */,
+				2F2E22D856558CE6DBA99D17 /* JSSeasonCell.m in Sources */,
+				2F2E203B42C7BDF8AC30DABC /* JSTeamViewController.m in Sources */,
+				2F2E26010BDAFF606BD6334B /* JSTeamInfoViewController.m in Sources */,
+				2F2E29DCAA48C4A23F9B0ADB /* JSTeamPlayersViewController.m in Sources */,
+				2F2E23362EE6CE84933FA2DE /* JSTeamStatisticViewController.m in Sources */,
+				2F2E2D598D6C24EC9E1ED2E1 /* JSTeamPlayerCell.m in Sources */,
+				2F2E25ACE8888FD5DE343FB5 /* JSTeamsTableViewController.m in Sources */,
+				2F2E2BCD11EC2052921ED1C5 /* JSTeamStandingsCell.m in Sources */,
+				2F2E2DA0A015F4E06DF3A86A /* JSPlayerStatisticCell.m in Sources */,
+				2F2E2F34079767BE2A8E4E4E /* JSPlayerStatisticViewController.m in Sources */,
+				2F2E2CCC9BDCF15CE4BE2AC5 /* JSPlayerInfoViewController.m in Sources */,
+				2F2E2143D795657B11C92FD1 /* JSPlayerViewController.m in Sources */,
+				2F2E2995EB9A4884C0478453 /* JSDetailsView.m in Sources */,
+				2F2E2CA857CA121B5A2E7B30 /* JSDetailsBackground.m in Sources */,
+				2F2E27FD051F2BF03D86397F /* JSDetailsViewController.m in Sources */,
+				2F2E2CDF24721E888E849D55 /* JSTitledView.m in Sources */,
+				2F2E226417B45B3D610A0A23 /* JSTitledViewController.m in Sources */,
+				2F2E2FBF4BBD606CB26CC1C0 /* JSSettingsViewController.m in Sources */,
+				2F2E281D6034D5400F3BC6E8 /* JSSettingsSectionHeader.m in Sources */,
+				2F2E247CA0C1878B06F85BDE /* JSSettingsSectionFooter.m in Sources */,
+				2F2E216E5FDED648BB9629BD /* JSSettingsCell.m in Sources */,
+				2F2E2407F6963436F50A3D25 /* JSSettingsArrowedCell.m in Sources */,
+				2F2E2E239360F337DAC5AAAB /* JSSettingsSwitchCell.m in Sources */,
+				2F2E2476602D762BAD94D24D /* JSSettingsTeamsViewController.m in Sources */,
+				2F2E200D9BA8E485B0657A63 /* JSSettingsTeamCell.m in Sources */,
+				2F2E2317CC24BDEA4A3323A0 /* JSSettingsTeamsTableViewController.m in Sources */,
+				2F2E2C6DBA769A321B346C94 /* JSFirstLaunchView.m in Sources */,
+				2F2E2C71138F6FFE2D5F7D5E /* JSFirstLaunchViewController.m in Sources */,
+				2F2E22B486A8A2C23E115672 /* JSAPNManager.m in Sources */,
+				2C57D0D3873C8E6B7694D873 /* JSNewsCell.m in Sources */,
+				2C57DA842D4E4D0F92BE05BE /* JSNewsViewController.m in Sources */,
+				2C57DEBF4E3511393A2F9C25 /* JSNewsTableViewController.m in Sources */,
+				2C57DB285B17C77F03DE7D23 /* JSNewsDetailsViewController.m in Sources */,
+				2C57DB47974994B02B242277 /* JSNewsDetailsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83D9672F21AAEDA6000C1E0B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D9673021AAEDA6000C1E0B /* de */,
+				83C57F8D21AC6B91001E0C70 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838426C11E4CE299003B0560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+					"-fmodules",
+				);
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Debug;
+		};
+		838426C21E4CE299003B0560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = DebugDesign.xcassets;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+					"-fmodules",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-auto-import",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Release;
+		};
+		838426C41E4CE299003B0560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 4M2Z5245RK;
+				FABRIC_KEY = "";
+				FABRIC_SECRET = 9703cd8b1edcff631eb6d0961f479203e50d60a4cf8e6e818cccf4fe78897aac;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSApp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.5.1;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+					"-fmodules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connexcards.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUIKit/JSUIKit/** $(SRCROOT)/JSUtils/JSUtils/Macroses $(SRCROOT)/JSUtils/JSUtils/Extensions/** $(SRCROOT)/JSUtils/JSUtils/**";
+			};
+			name = Debug;
+		};
+		838426C51E4CE299003B0560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 4M2Z5245RK;
+				FABRIC_KEY = 1b27ce6e873e86a6da50cd4b3b89272b3b9cfabf;
+				FABRIC_SECRET = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSApp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.5.1;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+					"-fmodules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connexcards.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUIKit/JSUIKit/** $(SRCROOT)/JSUtils/JSUtils/Macroses $(SRCROOT)/JSUtils/JSUtils/Extensions/** $(SRCROOT)/JSUtils/JSUtils/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838426A71E4CE299003B0560 /* Build configuration list for PBXProject "iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838426C11E4CE299003B0560 /* Debug */,
+				838426C21E4CE299003B0560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838426C31E4CE299003B0560 /* Build configuration list for PBXNativeTarget "iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838426C41E4CE299003B0560 /* Debug */,
+				838426C51E4CE299003B0560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838426A41E4CE299003B0560 /* Project object */;
+}

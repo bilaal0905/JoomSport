@@ -1,0 +1,30 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/player/2/1173?jsformat=json",
+  "datetime": "2017-04-01 22:13:23",
+  "seasonid": 2,
+  "playerid": "1173",
+  "pname": "Didier Drogba",
+  "pnick": "",
+  "pdescription": "Good player",
+  "pcountry": "Côte D'Ivoire",
+  "defimg": "http://ya.ru",
+  "playerextras": [
+    {
+      "extraname": "Birth",
+      "extratype": "text",
+      "extravalue": "11/03/1998"
+    }
+  ],
+  "playerstats": {
+    "playedmatches": {
+      "name": "Played matches",
+      "value": 5,
+      "img": ""
+    },
+    "eventid_2": {
+      "name": "Double Faults",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow-red_card.png"
+    }
+  }
+}

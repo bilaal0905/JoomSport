@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2E202B6BA2B6621C531C38 /* JSSegmentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E22A91843B65B0C84B59C /* JSSegmentedController.m */; };
+		2F2E2056663B5D446D2D98D1 /* JSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E23313B51A348CDD5F291 /* JSUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E20A9B777B8116985985E /* JSProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2ACDB2B1F28C128B7CB2 /* JSProgressBar.m */; };
+		2F2E20E4FEA9F82EF1CDAFF9 /* JSRoundedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E242A3EFAB3B39FF9D49A /* JSRoundedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E210EF1BD42B8BC271A65 /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2783339E9C3221532763 /* JSButton.m */; };
+		2F2E218F33CAEA01430DCD6F /* JSBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2AC0BC42D08B55FDF9B2 /* JSBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E21BB4BB36774059F650D /* JSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E244531709221859392C2 /* JSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E21CDCB913BDF90C96644 /* JSSegmentedBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E225059A91EA18976D495 /* JSSegmentedBarItem.h */; };
+		2F2E22471D0B15B09F55AA5A /* JSDetailedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2C1E97C12E4FA1563A66 /* JSDetailedTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2283BB767BC7900DF964 /* JSButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2E16DDA52F9E1662E3C6 /* JSButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E235A9EE2AB5B5F6CAD4A /* UIViewController+JSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2AD85405E4F5C7FFA686 /* UIViewController+JSUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2389B5327775C447B22C /* JSSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2646E0408DE8BFCFB13C /* JSSegmentedBar.m */; };
+		2F2E23AD16F368FA7DA5EF50 /* JSAlphedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E211F0D8A34DCAAE1C99E /* JSAlphedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E23B90D094CC37509A39B /* UIImage+JSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E28BE0F77EC8B4DC63705 /* UIImage+JSUIKit.m */; };
+		2F2E23DB995BA44F17B196C9 /* JSPxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E20E74A7B75DB236F0792 /* JSPxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E24564A8D7D5C3A54455F /* JSSegmentedBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C9931C2C63FC209026B /* JSSegmentedBarItem.m */; };
+		2F2E2497C8E4C909FFCD3E8E /* JSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2EB0CF27228E600D2BBD /* JSNavigationController.m */; };
+		2F2E24D2C6E0F4EED0D2A029 /* JSDetailedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2137711B8F7D88C4510C /* JSDetailedTableView.m */; };
+		2F2E259AE955E06E823FA560 /* JSProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E22D1979F36CB7CE51B80 /* JSProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E25C2E949DB371B56F9D3 /* UIImage+JSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2A78B0A91B87806A8793 /* UIImage+JSUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E25F4181898E4A570D7D4 /* UIViewController+JSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2110DEF938FFBC6B75BA /* UIViewController+JSUIKit.m */; };
+		2F2E26BB4786BF8DBCB6DE0B /* JSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E215C16A2F2A4FA265462 /* JSTabBarController.m */; };
+		2F2E26CB505CEC28B3B067EE /* JSAlphedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2CAE022938956FAC849B /* JSAlphedScrollView.m */; };
+		2F2E27955E61DA11A83443DD /* JSDetailedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E23C9066803746E6392D9 /* JSDetailedTableViewController.m */; };
+		2F2E27A0C5449527E87FF88D /* JSToastErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2969F0611699CBF3E320 /* JSToastErrorView.h */; };
+		2F2E27CA40CB213702B544A0 /* JSPxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E25842F307666417144BD /* JSPxView.m */; };
+		2F2E27ECDB325571D6532AE6 /* JSBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26B4041ED4F0778482E4 /* JSBarButtonItem.m */; };
+		2F2E2835A760A15EF1FB0187 /* JSAlphedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2A5394355BC073AE7BBC /* JSAlphedView.m */; };
+		2F2E2839101FA71B8FA79B63 /* JSToastErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E238F6A520B0CD135F053 /* JSToastErrorView.m */; };
+		2F2E2935D72188CB91A5179D /* JSDetailedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2293051B7AE5053C6B13 /* JSDetailedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2950B2EFA53BDE701B7C /* JSTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2C70EC211208FB7EEADD /* JSTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E29649F1B448D5C3A69A2 /* UIColor+JSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2684776184C7160B300B /* UIColor+JSUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2A00F895F706E80BFBF9 /* JSSegmentedController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E27140F07C27895762F13 /* JSSegmentedController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2AE37B4FE28C4AAEB723 /* UIColor+JSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2036632CD12CC2EC475E /* UIColor+JSUIKit.m */; };
+		2F2E2B224047CCF2AA64357C /* JSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2B91487CDF44AB296AF5 /* JSTableViewController.m */; };
+		2F2E2BC22CDC7C047ACC62D2 /* JSSegmentedBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2B5D723AC2A2556DEAE4 /* JSSegmentedBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2BEA61072BFA3666FDF9 /* JSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2BFE86B7F8FD05BE9F56 /* JSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2CAE027D6CE0E9312D34 /* JSAlphedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2EB6A76D9D092BA189DF /* JSAlphedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2D80934B5157D9FA5881 /* JSTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E282802FF8163BF8C4CD1 /* JSTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2EFE96278CEBCF423F20 /* JSRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26D74E80D9803A49282D /* JSRoundedView.m */; };
+		2F2E2F0359E533BAD8A0D6CE /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E231D3A8D8D28D16DD3B2 /* JSViewController.m */; };
+		83AA196623759A3F00FFF54E /* JSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA196423759A3F00FFF54E /* JSWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83AA196723759A3F00FFF54E /* JSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA196523759A3F00FFF54E /* JSWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2E2036632CD12CC2EC475E /* UIColor+JSUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSUIKit.m"; sourceTree = "<group>"; };
+		2F2E20E74A7B75DB236F0792 /* JSPxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPxView.h; sourceTree = "<group>"; };
+		2F2E2110DEF938FFBC6B75BA /* UIViewController+JSUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JSUIKit.m"; sourceTree = "<group>"; };
+		2F2E211F0D8A34DCAAE1C99E /* JSAlphedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAlphedScrollView.h; sourceTree = "<group>"; };
+		2F2E2137711B8F7D88C4510C /* JSDetailedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDetailedTableView.m; sourceTree = "<group>"; };
+		2F2E215C16A2F2A4FA265462 /* JSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTabBarController.m; sourceTree = "<group>"; };
+		2F2E225059A91EA18976D495 /* JSSegmentedBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSegmentedBarItem.h; sourceTree = "<group>"; };
+		2F2E2293051B7AE5053C6B13 /* JSDetailedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDetailedTableViewController.h; sourceTree = "<group>"; };
+		2F2E22A91843B65B0C84B59C /* JSSegmentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSegmentedController.m; sourceTree = "<group>"; };
+		2F2E22D1979F36CB7CE51B80 /* JSProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSProgressBar.h; sourceTree = "<group>"; };
+		2F2E231D3A8D8D28D16DD3B2 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		2F2E23313B51A348CDD5F291 /* JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUIKit.h; sourceTree = "<group>"; };
+		2F2E238F6A520B0CD135F053 /* JSToastErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSToastErrorView.m; sourceTree = "<group>"; };
+		2F2E23C9066803746E6392D9 /* JSDetailedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDetailedTableViewController.m; sourceTree = "<group>"; };
+		2F2E242A3EFAB3B39FF9D49A /* JSRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRoundedView.h; sourceTree = "<group>"; };
+		2F2E244531709221859392C2 /* JSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNavigationController.h; sourceTree = "<group>"; };
+		2F2E25842F307666417144BD /* JSPxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPxView.m; sourceTree = "<group>"; };
+		2F2E2646E0408DE8BFCFB13C /* JSSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSegmentedBar.m; sourceTree = "<group>"; };
+		2F2E2684776184C7160B300B /* UIColor+JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSUIKit.h"; sourceTree = "<group>"; };
+		2F2E26B4041ED4F0778482E4 /* JSBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBarButtonItem.m; sourceTree = "<group>"; };
+		2F2E26D74E80D9803A49282D /* JSRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRoundedView.m; sourceTree = "<group>"; };
+		2F2E27140F07C27895762F13 /* JSSegmentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSegmentedController.h; sourceTree = "<group>"; };
+		2F2E2783339E9C3221532763 /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
+		2F2E282802FF8163BF8C4CD1 /* JSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTableViewController.h; sourceTree = "<group>"; };
+		2F2E28BE0F77EC8B4DC63705 /* UIImage+JSUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSUIKit.m"; sourceTree = "<group>"; };
+		2F2E2969F0611699CBF3E320 /* JSToastErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSToastErrorView.h; sourceTree = "<group>"; };
+		2F2E2A5394355BC073AE7BBC /* JSAlphedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAlphedView.m; sourceTree = "<group>"; };
+		2F2E2A78B0A91B87806A8793 /* UIImage+JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSUIKit.h"; sourceTree = "<group>"; };
+		2F2E2AC0BC42D08B55FDF9B2 /* JSBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBarButtonItem.h; sourceTree = "<group>"; };
+		2F2E2ACDB2B1F28C128B7CB2 /* JSProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSProgressBar.m; sourceTree = "<group>"; };
+		2F2E2AD85405E4F5C7FFA686 /* UIViewController+JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JSUIKit.h"; sourceTree = "<group>"; };
+		2F2E2B5D723AC2A2556DEAE4 /* JSSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSegmentedBar.h; sourceTree = "<group>"; };
+		2F2E2B91487CDF44AB296AF5 /* JSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTableViewController.m; sourceTree = "<group>"; };
+		2F2E2BFE86B7F8FD05BE9F56 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		2F2E2C1E97C12E4FA1563A66 /* JSDetailedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDetailedTableView.h; sourceTree = "<group>"; };
+		2F2E2C70EC211208FB7EEADD /* JSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTabBarController.h; sourceTree = "<group>"; };
+		2F2E2C9931C2C63FC209026B /* JSSegmentedBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSegmentedBarItem.m; sourceTree = "<group>"; };
+		2F2E2CAE022938956FAC849B /* JSAlphedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAlphedScrollView.m; sourceTree = "<group>"; };
+		2F2E2E16DDA52F9E1662E3C6 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
+		2F2E2EB0CF27228E600D2BBD /* JSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNavigationController.m; sourceTree = "<group>"; };
+		2F2E2EB6A76D9D092BA189DF /* JSAlphedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAlphedView.h; sourceTree = "<group>"; };
+		838426FC1E4CE935003B0560 /* JSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		838427081E4CE97F003B0560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AA196423759A3F00FFF54E /* JSWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSWindow.h; sourceTree = "<group>"; };
+		83AA196523759A3F00FFF54E /* JSWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838426F81E4CE935003B0560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2E2084418B4B7020B5A93D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2A78B0A91B87806A8793 /* UIImage+JSUIKit.h */,
+				2F2E28BE0F77EC8B4DC63705 /* UIImage+JSUIKit.m */,
+				2F2E2AD85405E4F5C7FFA686 /* UIViewController+JSUIKit.h */,
+				2F2E2110DEF938FFBC6B75BA /* UIViewController+JSUIKit.m */,
+				2F2E2684776184C7160B300B /* UIColor+JSUIKit.h */,
+				2F2E2036632CD12CC2EC475E /* UIColor+JSUIKit.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F2E20C07BA99CA9E5EB2FC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E20E74A7B75DB236F0792 /* JSPxView.h */,
+				2F2E25842F307666417144BD /* JSPxView.m */,
+				2F2E2EB6A76D9D092BA189DF /* JSAlphedView.h */,
+				2F2E2A5394355BC073AE7BBC /* JSAlphedView.m */,
+				2F2E211F0D8A34DCAAE1C99E /* JSAlphedScrollView.h */,
+				2F2E2CAE022938956FAC849B /* JSAlphedScrollView.m */,
+				2F2E2969F0611699CBF3E320 /* JSToastErrorView.h */,
+				2F2E238F6A520B0CD135F053 /* JSToastErrorView.m */,
+				2F2E242A3EFAB3B39FF9D49A /* JSRoundedView.h */,
+				2F2E26D74E80D9803A49282D /* JSRoundedView.m */,
+				2F2E22D1979F36CB7CE51B80 /* JSProgressBar.h */,
+				2F2E2ACDB2B1F28C128B7CB2 /* JSProgressBar.m */,
+				83AA196423759A3F00FFF54E /* JSWindow.h */,
+				83AA196523759A3F00FFF54E /* JSWindow.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2E2296D1FAE4DF54D23898 /* Detailed Table */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2293051B7AE5053C6B13 /* JSDetailedTableViewController.h */,
+				2F2E23C9066803746E6392D9 /* JSDetailedTableViewController.m */,
+				2F2E2C1E97C12E4FA1563A66 /* JSDetailedTableView.h */,
+				2F2E2137711B8F7D88C4510C /* JSDetailedTableView.m */,
+			);
+			path = "Detailed Table";
+			sourceTree = "<group>";
+		};
+		2F2E25088EF56C10811FA9B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2BFE86B7F8FD05BE9F56 /* JSViewController.h */,
+				2F2E231D3A8D8D28D16DD3B2 /* JSViewController.m */,
+				2F2E2C70EC211208FB7EEADD /* JSTabBarController.h */,
+				2F2E215C16A2F2A4FA265462 /* JSTabBarController.m */,
+				2F2E282802FF8163BF8C4CD1 /* JSTableViewController.h */,
+				2F2E2B91487CDF44AB296AF5 /* JSTableViewController.m */,
+				2F2E244531709221859392C2 /* JSNavigationController.h */,
+				2F2E2EB0CF27228E600D2BBD /* JSNavigationController.m */,
+				2F2E2296D1FAE4DF54D23898 /* Detailed Table */,
+				2F2E2EF09F5C69E2EFBD0F21 /* Segmented Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2E28505D5EBFB55F2750EB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2E16DDA52F9E1662E3C6 /* JSButton.h */,
+				2F2E2783339E9C3221532763 /* JSButton.m */,
+				2F2E2AC0BC42D08B55FDF9B2 /* JSBarButtonItem.h */,
+				2F2E26B4041ED4F0778482E4 /* JSBarButtonItem.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		2F2E2EF09F5C69E2EFBD0F21 /* Segmented Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E27140F07C27895762F13 /* JSSegmentedController.h */,
+				2F2E22A91843B65B0C84B59C /* JSSegmentedController.m */,
+				2F2E2FD9CE6513595DECF00C /* Segmented Bar */,
+			);
+			path = "Segmented Controller";
+			sourceTree = "<group>";
+		};
+		2F2E2FD9CE6513595DECF00C /* Segmented Bar */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E2B5D723AC2A2556DEAE4 /* JSSegmentedBar.h */,
+				2F2E2646E0408DE8BFCFB13C /* JSSegmentedBar.m */,
+				2F2E225059A91EA18976D495 /* JSSegmentedBarItem.h */,
+				2F2E2C9931C2C63FC209026B /* JSSegmentedBarItem.m */,
+			);
+			path = "Segmented Bar";
+			sourceTree = "<group>";
+		};
+		830FDE631E583A7C00251420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		838426F21E4CE935003B0560 = {
+			isa = PBXGroup;
+			children = (
+				838426FE1E4CE935003B0560 /* JSUIKit */,
+				838426FD1E4CE935003B0560 /* Products */,
+				830FDE631E583A7C00251420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		838426FD1E4CE935003B0560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838426FC1E4CE935003B0560 /* JSUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838426FE1E4CE935003B0560 /* JSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E20C07BA99CA9E5EB2FC3 /* Views */,
+				2F2E25088EF56C10811FA9B8 /* Controllers */,
+				2F2E28505D5EBFB55F2750EB /* Controls */,
+				2F2E2084418B4B7020B5A93D /* Extensions */,
+				838427071E4CE97F003B0560 /* Supporting Files */,
+			);
+			path = JSUIKit;
+			sourceTree = "<group>";
+		};
+		838427071E4CE97F003B0560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838427081E4CE97F003B0560 /* Info.plist */,
+				2F2E23313B51A348CDD5F291 /* JSUIKit.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		838426F91E4CE935003B0560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E2056663B5D446D2D98D1 /* JSUIKit.h in Headers */,
+				2F2E2BEA61072BFA3666FDF9 /* JSViewController.h in Headers */,
+				2F2E2935D72188CB91A5179D /* JSDetailedTableViewController.h in Headers */,
+				2F2E22471D0B15B09F55AA5A /* JSDetailedTableView.h in Headers */,
+				2F2E23DB995BA44F17B196C9 /* JSPxView.h in Headers */,
+				2F2E2283BB767BC7900DF964 /* JSButton.h in Headers */,
+				2F2E2CAE027D6CE0E9312D34 /* JSAlphedView.h in Headers */,
+				2F2E23AD16F368FA7DA5EF50 /* JSAlphedScrollView.h in Headers */,
+				83AA196623759A3F00FFF54E /* JSWindow.h in Headers */,
+				2F2E218F33CAEA01430DCD6F /* JSBarButtonItem.h in Headers */,
+				2F2E25C2E949DB371B56F9D3 /* UIImage+JSUIKit.h in Headers */,
+				2F2E235A9EE2AB5B5F6CAD4A /* UIViewController+JSUIKit.h in Headers */,
+				2F2E27A0C5449527E87FF88D /* JSToastErrorView.h in Headers */,
+				2F2E29649F1B448D5C3A69A2 /* UIColor+JSUIKit.h in Headers */,
+				2F2E2950B2EFA53BDE701B7C /* JSTabBarController.h in Headers */,
+				2F2E2A00F895F706E80BFBF9 /* JSSegmentedController.h in Headers */,
+				2F2E2BC22CDC7C047ACC62D2 /* JSSegmentedBar.h in Headers */,
+				2F2E21CDCB913BDF90C96644 /* JSSegmentedBarItem.h in Headers */,
+				2F2E20E4FEA9F82EF1CDAFF9 /* JSRoundedView.h in Headers */,
+				2F2E2D80934B5157D9FA5881 /* JSTableViewController.h in Headers */,
+				2F2E259AE955E06E823FA560 /* JSProgressBar.h in Headers */,
+				2F2E21BB4BB36774059F650D /* JSNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		838426FB1E4CE935003B0560 /* JSUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838427041E4CE935003B0560 /* Build configuration list for PBXNativeTarget "JSUIKit" */;
+			buildPhases = (
+				838426F71E4CE935003B0560 /* Sources */,
+				838426F81E4CE935003B0560 /* Frameworks */,
+				838426F91E4CE935003B0560 /* Headers */,
+				838426FA1E4CE935003B0560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSUIKit;
+			productName = JSUIKit;
+			productReference = 838426FC1E4CE935003B0560 /* JSUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838426F31E4CE935003B0560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = BearDev;
+				TargetAttributes = {
+					838426FB1E4CE935003B0560 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 838426F61E4CE935003B0560 /* Build configuration list for PBXProject "JSUIKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838426F21E4CE935003B0560;
+			productRefGroup = 838426FD1E4CE935003B0560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838426FB1E4CE935003B0560 /* JSUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838426FA1E4CE935003B0560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838426F71E4CE935003B0560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E27955E61DA11A83443DD /* JSDetailedTableViewController.m in Sources */,
+				2F2E24D2C6E0F4EED0D2A029 /* JSDetailedTableView.m in Sources */,
+				83AA196723759A3F00FFF54E /* JSWindow.m in Sources */,
+				2F2E2F0359E533BAD8A0D6CE /* JSViewController.m in Sources */,
+				2F2E27CA40CB213702B544A0 /* JSPxView.m in Sources */,
+				2F2E210EF1BD42B8BC271A65 /* JSButton.m in Sources */,
+				2F2E2835A760A15EF1FB0187 /* JSAlphedView.m in Sources */,
+				2F2E26CB505CEC28B3B067EE /* JSAlphedScrollView.m in Sources */,
+				2F2E27ECDB325571D6532AE6 /* JSBarButtonItem.m in Sources */,
+				2F2E23B90D094CC37509A39B /* UIImage+JSUIKit.m in Sources */,
+				2F2E25F4181898E4A570D7D4 /* UIViewController+JSUIKit.m in Sources */,
+				2F2E2839101FA71B8FA79B63 /* JSToastErrorView.m in Sources */,
+				2F2E2AE37B4FE28C4AAEB723 /* UIColor+JSUIKit.m in Sources */,
+				2F2E26BB4786BF8DBCB6DE0B /* JSTabBarController.m in Sources */,
+				2F2E202B6BA2B6621C531C38 /* JSSegmentedController.m in Sources */,
+				2F2E2389B5327775C447B22C /* JSSegmentedBar.m in Sources */,
+				2F2E24564A8D7D5C3A54455F /* JSSegmentedBarItem.m in Sources */,
+				2F2E2EFE96278CEBCF423F20 /* JSRoundedView.m in Sources */,
+				2F2E2B224047CCF2AA64357C /* JSTableViewController.m in Sources */,
+				2F2E20A9B777B8116985985E /* JSProgressBar.m in Sources */,
+				2F2E2497C8E4C909FFCD3E8E /* JSNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		838427021E4CE935003B0560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+				);
+			};
+			name = Debug;
+		};
+		838427031E4CE935003B0560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+				);
+			};
+			name = Release;
+		};
+		838427051E4CE935003B0560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "JSUIKit/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jsuikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+				);
+			};
+			name = Debug;
+		};
+		838427061E4CE935003B0560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "JSUIKit/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jsuikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-statement-expression",
+					"-Wno-direct-ivar-access",
+					"-Wno-double-promotion",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838426F61E4CE935003B0560 /* Build configuration list for PBXProject "JSUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838427021E4CE935003B0560 /* Debug */,
+				838427031E4CE935003B0560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838427041E4CE935003B0560 /* Build configuration list for PBXNativeTarget "JSUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838427051E4CE935003B0560 /* Debug */,
+				838427061E4CE935003B0560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838426F31E4CE935003B0560 /* Project object */;
+}

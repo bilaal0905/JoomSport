@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2E25007757EBDB7F9E0277 /* JSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C06AA490677B6F43D57 /* JSHTTPRequest.m */; };
+		2F2E2557406F9670C25412A1 /* JSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E25F492A983DF4AB059F4 /* JSHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2663D7E4A771AE8A4C89 /* JSImagesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E20B3054AF0AC9E45D901 /* JSImagesLoader.m */; };
+		2F2E28EE15F03112BE53452A /* JSHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2E637140DE321291D253 /* JSHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E29650A8913648F35651D /* UIImageView+JSHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E2E6B4FD5276D30EB0C59 /* UIImageView+JSHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2C43DFBB0F6A77218473 /* JSHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2C5E6469F75CC2575AEB /* JSHTTPClient.m */; };
+		2F2E2D7D4A7C1594B08D0AA6 /* JSImagesLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E236D2B428D2710F5DD10 /* JSImagesLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2E2D8391DCF1D6C758A2B8 /* UIImageView+JSHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E2F8C3BAA2848BF589EAF /* UIImageView+JSHTTP.m */; };
+		83058AE51E62F6770057E680 /* JSHTTPRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058AE41E62F6770057E680 /* JSHTTPRequestTests.m */; };
+		83058AE71E62F6770057E680 /* JSHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058AC51E62E15E0057E680 /* JSHTTP.framework */; };
+		83058AEF1E62F7FA0057E680 /* JSHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 83058AD21E62E1D90057E680 /* JSHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83058AF41E630EBD0057E680 /* JSHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058AF31E630EBD0057E680 /* JSHTTPClientTests.m */; };
+		83058B431E64BE680057E680 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B421E64BE680057E680 /* OHHTTPStubs.framework */; };
+		83BD5C321E6EEB7800B57878 /* JSImagesLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD5C311E6EEB7800B57878 /* JSImagesLoaderTests.m */; };
+		83BD5C341E6EECD400B57878 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BD5C331E6EECD400B57878 /* sample.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83058AE81E62F6770057E680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83058ABC1E62E15E0057E680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83058AC41E62E15E0057E680;
+			remoteInfo = JSHTTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C98F28872AB358E0004BF213 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F2E20B3054AF0AC9E45D901 /* JSImagesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagesLoader.m; sourceTree = "<group>"; };
+		2F2E236D2B428D2710F5DD10 /* JSImagesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSImagesLoader.h; sourceTree = "<group>"; };
+		2F2E25F492A983DF4AB059F4 /* JSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHTTPRequest.h; sourceTree = "<group>"; };
+		2F2E2C06AA490677B6F43D57 /* JSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHTTPRequest.m; sourceTree = "<group>"; };
+		2F2E2C5E6469F75CC2575AEB /* JSHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHTTPClient.m; sourceTree = "<group>"; };
+		2F2E2E637140DE321291D253 /* JSHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHTTPClient.h; sourceTree = "<group>"; };
+		2F2E2E6B4FD5276D30EB0C59 /* UIImageView+JSHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JSHTTP.h"; sourceTree = "<group>"; };
+		2F2E2F8C3BAA2848BF589EAF /* UIImageView+JSHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JSHTTP.m"; sourceTree = "<group>"; };
+		83058AC51E62E15E0057E680 /* JSHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83058AD11E62E1D90057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83058AD21E62E1D90057E680 /* JSHTTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSHTTP.h; sourceTree = "<group>"; };
+		83058AE21E62F6770057E680 /* JSHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83058AE41E62F6770057E680 /* JSHTTPRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSHTTPRequestTests.m; sourceTree = "<group>"; };
+		83058AEE1E62F7410057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83058AF31E630EBD0057E680 /* JSHTTPClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHTTPClientTests.m; sourceTree = "<group>"; };
+		83058B421E64BE680057E680 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = ../../Frameworks/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		83BD5C311E6EEB7800B57878 /* JSImagesLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagesLoaderTests.m; sourceTree = "<group>"; };
+		83BD5C331E6EECD400B57878 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83058AC11E62E15E0057E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83058ADF1E62F6770057E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83058AE71E62F6770057E680 /* JSHTTP.framework in Frameworks */,
+				83058B431E64BE680057E680 /* OHHTTPStubs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2E24B3C2B146E81D9CE082 /* HTTP Client */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E25F492A983DF4AB059F4 /* JSHTTPRequest.h */,
+				2F2E2C06AA490677B6F43D57 /* JSHTTPRequest.m */,
+				2F2E2E637140DE321291D253 /* JSHTTPClient.h */,
+				2F2E2C5E6469F75CC2575AEB /* JSHTTPClient.m */,
+			);
+			path = "HTTP Client";
+			sourceTree = "<group>";
+		};
+		2F2E280A7D3734F85A74D834 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83BD5C331E6EECD400B57878 /* sample.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F2E2F01F149E01A585F58D5 /* Images Loader */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E236D2B428D2710F5DD10 /* JSImagesLoader.h */,
+				2F2E20B3054AF0AC9E45D901 /* JSImagesLoader.m */,
+				2F2E2E6B4FD5276D30EB0C59 /* UIImageView+JSHTTP.h */,
+				2F2E2F8C3BAA2848BF589EAF /* UIImageView+JSHTTP.m */,
+			);
+			path = "Images Loader";
+			sourceTree = "<group>";
+		};
+		83058ABB1E62E15E0057E680 = {
+			isa = PBXGroup;
+			children = (
+				83058AC71E62E15E0057E680 /* JSHTTP */,
+				83058AE31E62F6770057E680 /* JSHTTPTests */,
+				83058AC61E62E15E0057E680 /* Products */,
+				83058B4F1E65C12F0057E680 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83058AC61E62E15E0057E680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83058AC51E62E15E0057E680 /* JSHTTP.framework */,
+				83058AE21E62F6770057E680 /* JSHTTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83058AC71E62E15E0057E680 /* JSHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E24B3C2B146E81D9CE082 /* HTTP Client */,
+				2F2E2F01F149E01A585F58D5 /* Images Loader */,
+				83058AD01E62E1D90057E680 /* Supporting Files */,
+			);
+			path = JSHTTP;
+			sourceTree = "<group>";
+		};
+		83058AD01E62E1D90057E680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83058AD11E62E1D90057E680 /* Info.plist */,
+				83058AD21E62E1D90057E680 /* JSHTTP.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83058AE31E62F6770057E680 /* JSHTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				83058AE41E62F6770057E680 /* JSHTTPRequestTests.m */,
+				83058AF31E630EBD0057E680 /* JSHTTPClientTests.m */,
+				83BD5C311E6EEB7800B57878 /* JSImagesLoaderTests.m */,
+				2F2E280A7D3734F85A74D834 /* Resources */,
+				83058AED1E62F7410057E680 /* Supporting Files */,
+				83058B4B1E64BF680057E680 /* Frameworks */,
+			);
+			path = JSHTTPTests;
+			sourceTree = "<group>";
+		};
+		83058AED1E62F7410057E680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83058AEE1E62F7410057E680 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83058B4B1E64BF680057E680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83058B421E64BE680057E680 /* OHHTTPStubs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83058B4F1E65C12F0057E680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83058AC21E62E15E0057E680 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E28EE15F03112BE53452A /* JSHTTPClient.h in Headers */,
+				2F2E2557406F9670C25412A1 /* JSHTTPRequest.h in Headers */,
+				83058AEF1E62F7FA0057E680 /* JSHTTP.h in Headers */,
+				2F2E2D7D4A7C1594B08D0AA6 /* JSImagesLoader.h in Headers */,
+				2F2E29650A8913648F35651D /* UIImageView+JSHTTP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83058AC41E62E15E0057E680 /* JSHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83058ACD1E62E15E0057E680 /* Build configuration list for PBXNativeTarget "JSHTTP" */;
+			buildPhases = (
+				83058AC01E62E15E0057E680 /* Sources */,
+				83058AC11E62E15E0057E680 /* Frameworks */,
+				83058AC21E62E15E0057E680 /* Headers */,
+				83058AC31E62E15E0057E680 /* Resources */,
+				C98F28872AB358E0004BF213 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSHTTP;
+			productName = JSHTTP;
+			productReference = 83058AC51E62E15E0057E680 /* JSHTTP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83058AE11E62F6770057E680 /* JSHTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83058AEC1E62F6770057E680 /* Build configuration list for PBXNativeTarget "JSHTTPTests" */;
+			buildPhases = (
+				83058ADE1E62F6770057E680 /* Sources */,
+				83058ADF1E62F6770057E680 /* Frameworks */,
+				83058AE01E62F6770057E680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83058AE91E62F6770057E680 /* PBXTargetDependency */,
+			);
+			name = JSHTTPTests;
+			productName = JSHTTPTests;
+			productReference = 83058AE21E62F6770057E680 /* JSHTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83058ABC1E62E15E0057E680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = BearDev;
+				TargetAttributes = {
+					83058AC41E62E15E0057E680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					83058AE11E62F6770057E680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83058ABF1E62E15E0057E680 /* Build configuration list for PBXProject "JSHTTP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83058ABB1E62E15E0057E680;
+			productRefGroup = 83058AC61E62E15E0057E680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83058AC41E62E15E0057E680 /* JSHTTP */,
+				83058AE11E62F6770057E680 /* JSHTTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83058AC31E62E15E0057E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83058AE01E62F6770057E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BD5C341E6EECD400B57878 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83058AC01E62E15E0057E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2E25007757EBDB7F9E0277 /* JSHTTPRequest.m in Sources */,
+				2F2E2C43DFBB0F6A77218473 /* JSHTTPClient.m in Sources */,
+				2F2E2663D7E4A771AE8A4C89 /* JSImagesLoader.m in Sources */,
+				2F2E2D8391DCF1D6C758A2B8 /* UIImageView+JSHTTP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83058ADE1E62F6770057E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83058AE51E62F6770057E680 /* JSHTTPRequestTests.m in Sources */,
+				83058AF41E630EBD0057E680 /* JSHTTPClientTests.m in Sources */,
+				83BD5C321E6EEB7800B57878 /* JSImagesLoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83058AE91E62F6770057E680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83058AC41E62E15E0057E680 /* JSHTTP */;
+			targetProxy = 83058AE81E62F6770057E680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83058ACB1E62E15E0057E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Debug;
+		};
+		83058ACC1E62E15E0057E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Release;
+		};
+		83058ACE1E62E15E0057E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSHTTP/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jshttp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Debug;
+		};
+		83058ACF1E62E15E0057E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/JSHTTP/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jshttp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-direct-ivar-access",
+					"-Wno-gnu-statement-expression",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-strict-prototypes",
+					"-Wno-objc-messaging-id",
+				);
+			};
+			name = Release;
+		};
+		83058AEA1E62F6770057E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "JSHTTPTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jshttptests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+				);
+			};
+			name = Debug;
+		};
+		83058AEB1E62F6770057E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "JSHTTPTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jshttptests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83058ABF1E62E15E0057E680 /* Build configuration list for PBXProject "JSHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83058ACB1E62E15E0057E680 /* Debug */,
+				83058ACC1E62E15E0057E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83058ACD1E62E15E0057E680 /* Build configuration list for PBXNativeTarget "JSHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83058ACE1E62E15E0057E680 /* Debug */,
+				83058ACF1E62E15E0057E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83058AEC1E62F6770057E680 /* Build configuration list for PBXNativeTarget "JSHTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83058AEA1E62F6770057E680 /* Debug */,
+				83058AEB1E62F6770057E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83058ABC1E62E15E0057E680 /* Project object */;
+}

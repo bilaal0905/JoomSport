@@ -1,0 +1,130 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/player/2/1173?jsformat=json",
+  "datetime": "2017-04-01 22:13:23",
+  "seasonid": 2,
+  "playerid": "1173",
+  "pname": "Didier Drogba",
+  "pnick": "",
+  "pdescription": "",
+  "pcountry": "Côte D'Ivoire",
+  "defimg": "http://ya.ru",
+  "playerextras": [
+    {
+      "extraname": "Birth",
+      "extratype": "text",
+      "extravalue": "11/03/1978"
+    },
+    {
+      "extraname": "Birthplace",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Website",
+      "extratype": "link",
+      "extravalue": "http://www.drogba.ci"
+    },
+    {
+      "extraname": "Position",
+      "extratype": "text",
+      "extravalue": "7"
+    },
+    {
+      "extraname": "Access",
+      "extratype": "text",
+      "extravalue": null
+    },
+    {
+      "extraname": "Team",
+      "extratype": "text",
+      "extravalue": "Chelsea"
+    },
+    {
+      "extraname": "Group logo",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Prize money\t",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Coach",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Mobile",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Function",
+      "extratype": "text",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Full Name",
+      "extratype": "text",
+      "extravalue": "Didier Drogba"
+    },
+    {
+      "extraname": "Country",
+      "extratype": "image",
+      "extravalue": "http://demo.joomsport.com/kodiak-top-menu/components/com_joomsport/img/flags/ci.png"
+    }
+  ],
+  "playerstats": {
+    "playedmatches": {
+      "name": "Played matches",
+      "value": 5,
+      "img": ""
+    },
+    "eventid_2": {
+      "name": "Double Faults",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow-red_card.png"
+    },
+    "eventid_5": {
+      "name": "2nd Serve Points Won",
+      "value": 0,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Tennis_Court_Racket.png"
+    },
+    "eventid_7": {
+      "name": "Goal",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/shb.jpg"
+    },
+    "eventid_8": {
+      "name": "Assist",
+      "value": 0,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/hockey-icon.png"
+    },
+    "eventid_10": {
+      "name": "Own goal",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/own-goal.png"
+    },
+    "eventid_11": {
+      "name": "goal",
+      "value": 0,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Ball.png"
+    },
+    "eventid_12": {
+      "name": "assist",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Shoes.png"
+    },
+    "eventid_17": {
+      "name": "Yellow card",
+      "value": 0,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow_card1.png"
+    },
+    "eventid_18": {
+      "name": "test",
+      "value": 1,
+      "img": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/HorsebackRiding_Cap.png"
+    }
+  }
+}

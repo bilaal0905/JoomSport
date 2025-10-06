@@ -1,0 +1,90 @@
+{
+  "__url": "http://demo.joomsport.com/kodiak-top-menu/component/joomsport/match/6864?jsformat=json",
+  "datetime": "2017-03-11 15:13:08",
+  "matchid": 6864,
+  "matchdayid": "72360",
+  "seasonid": "2",
+  "matchdescription": "",
+  "isextra": "0",
+  "mplayed": "1",
+  "matchday": "matchday new",
+  "bonus1": "0.00",
+  "bonus2": "0.00",
+  "venue": "New Trafford",
+  "mdate": "02-28-2017 12:00 AM",
+  "stages": [],
+  "matchextras": [
+    {
+      "extraname": "Referee",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Number of visitors",
+      "extravalue": ""
+    },
+    {
+      "extraname": "End date",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Secretary",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Uid",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Timekeeper 1",
+      "extravalue": ""
+    },
+    {
+      "extraname": "Timekeeper 2",
+      "extravalue": ""
+    }
+  ],
+  "home": {
+    "particid": "3",
+    "score": "0",
+    "particname": "Manchester City",
+    "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl14652271622098.png",
+    "playerevents": [
+      {
+        "eventid": "17",
+        "playerid": "1202",
+        "ecount": "1",
+        "eventname": "Yellow card",
+        "eventimg": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/yellow_card1.png",
+        "eventminute": "2",
+        "playername": "Ashley Cole"
+      }
+    ]
+  },
+  "away": {
+    "particid": "4",
+    "score": "3",
+    "particname": "Chelsea",
+    "emblem": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/bl1436536967508.png",
+    "playerevents": [
+      {
+        "eventid": "12",
+        "playerid": "1202",
+        "ecount": "1",
+        "eventname": "assist",
+        "eventimg": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Shoes.png",
+        "eventminute": "80",
+        "playername": "Ashley Cole"
+      },
+      {
+        "eventid": "11",
+        "playerid": "1202",
+        "ecount": "1",
+        "eventname": "goal",
+        "eventimg": "http://demo.joomsport.com/kodiak-top-menu/media/bearleague/thumb/Soccer_Ball.png",
+        "eventminute": "34",
+        "playername": "Ashley Cole"
+      }
+    ]
+  },
+  "teamevents": []
+}
