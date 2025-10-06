@@ -1,8 +1,7 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUIKit.JSPxView;
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/JSUtils.h"
+@import JSUIKit.JSPxView;
 
 #import "JSTitledView.h"
 #import "UIColor+JS.h"

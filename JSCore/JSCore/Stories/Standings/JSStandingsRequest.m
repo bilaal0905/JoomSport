@@ -130,7 +130,9 @@
 
 - (instancetype)initWithSeasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager {
     JSParameterAssert(seasonId);
-    return [self initWithPath:[@"component/joomsport/table/" stringByAppendingString:seasonId] seasonId:seasonId coreDataManager:coreDataManager];
+    
+    return [self initWithPath:@"index.php" seasonId:seasonId coreDataManager:coreDataManager extraParams:@{@"option": @"com_joomsport", @"task": @"table",@"sid": seasonId}];
+
 }
 
 @end

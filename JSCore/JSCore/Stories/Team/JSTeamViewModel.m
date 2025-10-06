@@ -53,6 +53,7 @@
     self.teams = [teams.allObjects sortedArrayUsingComparator:^NSComparisonResult(JSTeam *team1, JSTeam *team2) {
         return [team1.name compare:team2.name];
     }];
+    
 }
 
 - (void)initTeam:(NSManagedObjectContext *)context {
@@ -71,7 +72,9 @@
             return;
         }
     }
-
+//    if (self.team == nil && _teams.count > 0) {
+//        self.team = self.teams[0];
+//    }
     self.team = nil;
 }
 
@@ -87,7 +90,11 @@
     if (!_teamId) {
         _teamId = [NSUserDefaults.standardUserDefaults stringForKey:JSSeasonsRequestDefaultTeamIdKey];
     }
-
+    if ([_teamId  isEqual: @"0"] && _teams.count > 0) {
+        _teamId = [self.teams[0] teamId];
+        [NSUserDefaults.standardUserDefaults setObject:_teamId forKey:JSSeasonsRequestDefaultTeamIdKey];
+        [NSUserDefaults.standardUserDefaults synchronize];
+    }
     if (_teamId.length == 0) {
         return;
     }
@@ -95,10 +102,10 @@
     [self initTeam:context];
 }
 
-- (void)update {
-    if (!_teamId) {
-        return;
-    }
+- (void) update {
+//    if (!_teamId) {
+//        return;
+//    }
 
     [super update];
 }
@@ -143,7 +150,9 @@
         return;
     }
     _teamId = teamId.copy;
-
+    //Save selected teamId in NSUserDefaults added by bilal
+    [NSUserDefaults.standardUserDefaults setObject:_teamId forKey:JSSeasonsRequestDefaultTeamIdKey];
+    [NSUserDefaults.standardUserDefaults synchronize];
     [self cancel];
     [self invalidate];
 }

@@ -135,7 +135,11 @@
         return _cellLayout.height;
     }
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row < (NSInteger) _model.team.extras.count) {
+        JSBlock(self.onTeamChoose, nil);
+    }
+}
 #pragma mark - Interface methods
 
 - (instancetype)initWithTeamModel:(JSTeamViewModel *)teamModel {

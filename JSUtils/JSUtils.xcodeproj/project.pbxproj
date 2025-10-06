@@ -29,6 +29,7 @@
 		836275741E6BFE8F00AB4E6A /* JSNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836275731E6BFE8F00AB4E6A /* JSNumberTests.m */; };
 		836275761E6BFE9C00AB4E6A /* JSNullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836275751E6BFE9C00AB4E6A /* JSNullTests.m */; };
 		838427351E4EE359003B0560 /* JSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 838427331E4EE359003B0560 /* JSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838427431E4EE4CE003B0560 /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838427261E4EE324003B0560 /* JSUtils.framework */; };
 		8384274C1E4EEC16003B0560 /* JSScopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384274B1E4EEC16003B0560 /* JSScopeTests.m */; };
 		8384274D1E4EFC2E003B0560 /* JSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E27123E3832AF41A47379 /* JSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		838427511E4F13AF003B0560 /* JSKeyPathObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838427501E4F13AF003B0560 /* JSKeyPathObserverTests.m */; };
@@ -70,6 +71,7 @@
 		8362756F1E6B62EB00AB4E6A /* JSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStringTests.m; sourceTree = "<group>"; };
 		836275731E6BFE8F00AB4E6A /* JSNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNumberTests.m; sourceTree = "<group>"; };
 		836275751E6BFE9C00AB4E6A /* JSNullTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNullTests.m; sourceTree = "<group>"; };
+		838427261E4EE324003B0560 /* JSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838427321E4EE359003B0560 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		838427331E4EE359003B0560 /* JSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUtils.h; sourceTree = "<group>"; };
 		8384273E1E4EE4CE003B0560 /* JSUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +81,6 @@
 		83BD5C2F1E6EE22100B57878 /* JSURLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSURLTests.m; sourceTree = "<group>"; };
 		83C086021E59DCE400079B87 /* JSBlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBlockTests.m; sourceTree = "<group>"; };
 		C98F28612AB347A9004BF213 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEDE79CC2E85890300C047D3 /* JSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838427431E4EE4CE003B0560 /* JSUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +145,8 @@
 		838427271E4EE324003B0560 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				838427261E4EE324003B0560 /* JSUtils.framework */,
 				8384273E1E4EE4CE003B0560 /* JSUtilsTests.xctest */,
-				CEDE79CC2E85890300C047D3 /* JSUtils.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +154,6 @@
 		838427281E4EE324003B0560 /* JSUtils */ = {
 			isa = PBXGroup;
 			children = (
-				838427331E4EE359003B0560 /* JSUtils.h */,
 				2F2E2373CB936F9E1F429961 /* JSKeyPathObserver.h */,
 				2F2E22DB012E7B84EE41F145 /* JSKeyPathObserver.m */,
 				2F2E26E32424C19BD665C1F2 /* Macroses */,
@@ -166,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				838427321E4EE359003B0560 /* Info.plist */,
+				838427331E4EE359003B0560 /* JSUtils.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,7 +245,7 @@
 			);
 			name = JSUtils;
 			productName = JSUtils;
-			productReference = CEDE79CC2E85890300C047D3 /* JSUtils.framework */;
+			productReference = 838427261E4EE324003B0560 /* JSUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8384273D1E4EE4CE003B0560 /* JSUtilsTests */ = {
@@ -523,7 +525,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jsutils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUtils/JSUtils/Macroses/**";
 				WARNING_CFLAGS = (
 					"-Wno-direct-ivar-access",
 					"-Wno-gnu-statement-expression",
@@ -556,7 +557,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.beardev.jsutils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUtils/JSUtils/Macroses/**";
 				WARNING_CFLAGS = (
 					"-Wno-direct-ivar-access",
 					"-Wno-gnu-statement-expression",

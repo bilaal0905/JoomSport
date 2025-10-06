@@ -1,8 +1,7 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUtils;
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/Supporting Files/JSUtils.h"
+@import JSUtils;
 
 #import "JSHTTPClient.h"
 #import "JSHTTPRequest.h"
@@ -100,6 +99,8 @@ NSErrorDomain const JSHTTPClientError = @"JSHTTPClientError";
                 else {
                     if (data.length > 0 && request.expectsResponse) {
                         NSDictionary *json = [self json:data];
+                        NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                        NSLog(@"Response JSON string: %@", jsonString);
                         if (json) {
                             [request process:json data:data];
                         }

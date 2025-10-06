@@ -1,8 +1,7 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUtils.JSLog;
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/JSUtils.h"
+@import JSUtils.JSLog;
 
 #import "JSTextCell.h"
 #import "JSTextCellLayout.h"

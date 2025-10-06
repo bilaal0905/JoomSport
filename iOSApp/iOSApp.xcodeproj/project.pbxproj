@@ -90,6 +90,8 @@
 		836275851E6C939E00AB4E6A /* JSHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275831E6C939E00AB4E6A /* JSHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		836275871E6C939E00AB4E6A /* JSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836275861E6C939E00AB4E6A /* JSUIKit.framework */; };
 		836275881E6C939E00AB4E6A /* JSUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275861E6C939E00AB4E6A /* JSUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8362758A1E6C939E00AB4E6A /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836275891E6C939E00AB4E6A /* JSUtils.framework */; };
+		8362758B1E6C939E00AB4E6A /* JSUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 836275891E6C939E00AB4E6A /* JSUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		838426B41E4CE299003B0560 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838426B31E4CE299003B0560 /* JSAppDelegate.m */; };
 		838426CD1E4CE355003B0560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838426C91E4CE355003B0560 /* LaunchScreen.storyboard */; };
 		838426CE1E4CE355003B0560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838426CA1E4CE355003B0560 /* main.m */; };
@@ -108,6 +110,7 @@
 			files = (
 				836275881E6C939E00AB4E6A /* JSUIKit.framework in Embed Frameworks */,
 				836275821E6C939E00AB4E6A /* JSCoreData.framework in Embed Frameworks */,
+				8362758B1E6C939E00AB4E6A /* JSUtils.framework in Embed Frameworks */,
 				8362757F1E6C939E00AB4E6A /* JSCore.framework in Embed Frameworks */,
 				836275851E6C939E00AB4E6A /* JSHTTP.framework in Embed Frameworks */,
 			);
@@ -268,6 +271,7 @@
 		836275801E6C939E00AB4E6A /* JSCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836275831E6C939E00AB4E6A /* JSHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836275861E6C939E00AB4E6A /* JSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836275891E6C939E00AB4E6A /* JSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838426AC1E4CE299003B0560 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838426B21E4CE299003B0560 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
 		838426B31E4CE299003B0560 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				836275871E6C939E00AB4E6A /* JSUIKit.framework in Frameworks */,
 				836275811E6C939E00AB4E6A /* JSCoreData.framework in Frameworks */,
 				836275841E6C939E00AB4E6A /* JSHTTP.framework in Frameworks */,
+				8362758A1E6C939E00AB4E6A /* JSUtils.framework in Frameworks */,
 				8362757E1E6C939E00AB4E6A /* JSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -798,6 +803,7 @@
 		830FDE661E583AAD00251420 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				836275891E6C939E00AB4E6A /* JSUtils.framework */,
 				836275861E6C939E00AB4E6A /* JSUIKit.framework */,
 				836275831E6C939E00AB4E6A /* JSHTTP.framework */,
 				836275801E6C939E00AB4E6A /* JSCoreData.framework */,
@@ -1176,23 +1182,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = 4M2Z5245RK;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 999F33UHV3;
 				FABRIC_KEY = "";
 				FABRIC_SECRET = 9703cd8b1edcff631eb6d0961f479203e50d60a4cf8e6e818cccf4fe78897aac;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.5.3;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fcxx-modules",
 					"-fmodules",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.connexcards.app;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.baerner-cup.baerner-cup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUIKit/JSUIKit/** $(SRCROOT)/JSUtils/JSUtils/Macroses $(SRCROOT)/JSUtils/JSUtils/Extensions/** $(SRCROOT)/JSUtils/JSUtils/**";
 			};
 			name = Debug;
 		};
@@ -1204,23 +1209,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = 4M2Z5245RK;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 999F33UHV3;
 				FABRIC_KEY = 1b27ce6e873e86a6da50cd4b3b89272b3b9cfabf;
 				FABRIC_SECRET = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.5.3;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fcxx-modules",
 					"-fmodules",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.connexcards.app;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.baerner-cup.baerner-cup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/JSUIKit/JSUIKit/** $(SRCROOT)/JSUtils/JSUtils/Macroses $(SRCROOT)/JSUtils/JSUtils/Extensions/** $(SRCROOT)/JSUtils/JSUtils/**";
 			};
 			name = Release;
 		};

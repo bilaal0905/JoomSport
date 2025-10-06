@@ -89,7 +89,7 @@
 
     if (_shouldUpdate) {
         _shouldUpdate = NO;
-        [_teamModel update];
+        [_teamModel update]; //JSTeamViewController -> JSTeamViewModel -> JSViewModel
     }
 }
 
@@ -110,35 +110,45 @@
 
         self.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil image:[UIImage imageNamed:@"tabbar_team"].js_original selectedImage:[UIImage imageNamed:@"tabbar_team_selected"].js_original];
         self.segmentedController.tabBarController.viewControllers = @[
-                [[JSTeamInfoViewController alloc] initWithTeamModel:_teamModel],
-                ({
-                    JSTeamPlayersViewController *viewController = [[JSTeamPlayersViewController alloc] initWithTeamModel:_teamModel seasonsModel:_seasonsModel];
-
-                    JSWeakify(self);
-
-                    viewController.onSeasonTap = ^{
-                        JSStrongify(self);
-                        JSBlock(self.onSeasonTap, nil);
-                    };
-
-                    viewController.onPlayerTap = ^(NSString *playerId) {
-                        JSStrongify(self);
-                        JSBlock(self.onPlayerTap, playerId);
-                    };
-
-                    viewController;
-                }),
-                ({
-                    JSTeamStatisticViewController *viewController = [[JSTeamStatisticViewController alloc] initWithTeamModel:_teamModel seasonsModel:_seasonsModel standingsModel:_standingsModel];
-
-                    JSWeakify(self);
-                    viewController.onSeasonTap = ^{
-                        JSStrongify(self);
-                        JSBlock(self.onSeasonTap, nil);
-                    };
-
-                    viewController;
-                })
+            
+            ({
+                JSTeamInfoViewController *viewController = [[JSTeamInfoViewController alloc] initWithTeamModel:_teamModel];
+                
+                JSWeakify(self);
+                viewController.onTeamChoose = ^(NSString *playerId) {
+                    JSStrongify(self);
+                    JSBlock(self.onTeamChoose, nil);
+                };
+                viewController;
+            }),
+            ({
+                JSTeamPlayersViewController *viewController = [[JSTeamPlayersViewController alloc] initWithTeamModel:_teamModel seasonsModel:_seasonsModel];
+                
+                JSWeakify(self);
+                
+                viewController.onSeasonTap = ^{
+                    JSStrongify(self);
+                    JSBlock(self.onSeasonTap, nil);
+                };
+                
+                viewController.onPlayerTap = ^(NSString *playerId) {
+                    JSStrongify(self);
+                    JSBlock(self.onPlayerTap, playerId);
+                };
+                
+                viewController;
+            }),
+            ({
+                JSTeamStatisticViewController *viewController = [[JSTeamStatisticViewController alloc] initWithTeamModel:_teamModel seasonsModel:_seasonsModel standingsModel:_standingsModel];
+                
+                JSWeakify(self);
+                viewController.onSeasonTap = ^{
+                    JSStrongify(self);
+                    JSBlock(self.onSeasonTap, nil);
+                };
+                
+                viewController;
+            })
         ];
     }
     return self;

@@ -48,6 +48,7 @@
 		2F2E2D80934B5157D9FA5881 /* JSTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2E282802FF8163BF8C4CD1 /* JSTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F2E2EFE96278CEBCF423F20 /* JSRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E26D74E80D9803A49282D /* JSRoundedView.m */; };
 		2F2E2F0359E533BAD8A0D6CE /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E231D3A8D8D28D16DD3B2 /* JSViewController.m */; };
+		83058ADD1E62E7F40057E680 /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058ADC1E62E7F40057E680 /* JSUtils.framework */; };
 		83AA196623759A3F00FFF54E /* JSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA196423759A3F00FFF54E /* JSWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83AA196723759A3F00FFF54E /* JSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA196523759A3F00FFF54E /* JSWindow.m */; };
 /* End PBXBuildFile section */
@@ -94,6 +95,7 @@
 		2F2E2E16DDA52F9E1662E3C6 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
 		2F2E2EB0CF27228E600D2BBD /* JSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNavigationController.m; sourceTree = "<group>"; };
 		2F2E2EB6A76D9D092BA189DF /* JSAlphedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAlphedView.h; sourceTree = "<group>"; };
+		83058ADC1E62E7F40057E680 /* JSUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSUtils.framework; path = "../Debug-iphonesimulator/JSUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		838426FC1E4CE935003B0560 /* JSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838427081E4CE97F003B0560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83AA196423759A3F00FFF54E /* JSWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSWindow.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83058ADD1E62E7F40057E680 /* JSUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +211,7 @@
 		830FDE631E583A7C00251420 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83058ADC1E62E7F40057E680 /* JSUtils.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

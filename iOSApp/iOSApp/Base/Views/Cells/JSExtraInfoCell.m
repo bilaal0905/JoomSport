@@ -88,7 +88,7 @@ UIEdgeInsets const JSExtraInfoCellSeparatorInset = {0.0, JSExtraInfoCellHorizont
     JSParameterAssert(info);
 
     _titleLabel.text = info.name;
-    _valueLabel.text = info.url.absoluteString ?: info.value;
+    _valueLabel.text = info.value ?: info.url.absoluteString;
     [_imageView js_setImage:info.imageURL after:nil];
 }
 

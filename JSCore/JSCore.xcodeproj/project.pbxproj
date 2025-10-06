@@ -98,6 +98,7 @@
 		83058B2C1E64B3800057E680 /* JSCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B2B1E64B3800057E680 /* JSCoreData.framework */; };
 		83058B2D1E64B8FD0057E680 /* JSCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83058B271E64A1330057E680 /* JSCore.xcdatamodeld */; };
 		83058B371E64BD8D0057E680 /* JSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830FDE3E1E5333D300251420 /* JSCore.framework */; };
+		83058B451E64BEDD0057E680 /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B441E64BEDD0057E680 /* JSUtils.framework */; };
 		83058B4A1E64BF460057E680 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B491E64BF460057E680 /* OHHTTPStubs.framework */; };
 		83058B4E1E64C0370057E680 /* JSSeasonsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058B4D1E64C0370057E680 /* JSSeasonsViewModelTests.m */; };
 		830FDE4C1E53340200251420 /* JSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 830FDE4B1E5333FD00251420 /* JSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -221,6 +222,7 @@
 		83058B2B1E64B3800057E680 /* JSCoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSCoreData.framework; path = "../Debug-iphonesimulator/JSCoreData.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83058B321E64BD8D0057E680 /* JSCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83058B3E1E64BDB60057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83058B441E64BEDD0057E680 /* JSUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSUtils.framework; path = "../Debug-iphonesimulator/JSUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83058B491E64BF460057E680 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = ../../Frameworks/OHHTTPStubs.framework; sourceTree = "<group>"; };
 		83058B4D1E64C0370057E680 /* JSSeasonsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSeasonsViewModelTests.m; sourceTree = "<group>"; };
 		830FDE3E1E5333D300251420 /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83058B221E6495E10057E680 /* JSHTTP.framework in Frameworks */,
+				83058B451E64BEDD0057E680 /* JSUtils.framework in Frameworks */,
 				83058B2C1E64B3800057E680 /* JSCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +517,7 @@
 		83058B201E6495E10057E680 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83058B441E64BEDD0057E680 /* JSUtils.framework */,
 				83058B2B1E64B3800057E680 /* JSCoreData.framework */,
 				83058B211E6495E10057E680 /* JSHTTP.framework */,
 			);

@@ -1,11 +1,8 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUIKit.UIColor_JSUIKit;
-
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUIKit/JSUIKit/Extensions/UIColor+JSUIKit.h"
-//@import JSUtils.JSOnce;
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/JSUtils.h"
+@import JSUIKit.UIColor_JSUIKit;
+@import JSUtils.JSOnce;
 
 #import "UIColor+JS.h"
 

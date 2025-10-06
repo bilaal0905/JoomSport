@@ -7,6 +7,7 @@
 
 @interface JSTeamInfoViewController : JSTableViewController
 
+@property (nonatomic, copy) JSEventBlock onTeamChoose;
 - (instancetype)initWithTeamModel:(JSTeamViewModel *)teamModel;
 
 @end

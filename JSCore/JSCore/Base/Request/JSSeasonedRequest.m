@@ -11,10 +11,10 @@
 
 #pragma mark - Interface methods
 
-- (instancetype)initWithPath:(NSString *)path seasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager {
+- (instancetype)initWithPath:(NSString *)path seasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager extraParams:(NSDictionary *)params{
     JSParameterAssert(seasonId);
 
-    self = [super initWithPath:path coreDataManager:coreDataManager];
+    self = [super initWithPath:path coreDataManager:coreDataManager extraParams:params];
     if (self) {
         _seasonId = seasonId.copy;
     }

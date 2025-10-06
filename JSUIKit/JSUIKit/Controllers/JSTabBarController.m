@@ -1,21 +1,17 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUtils;
-//#import "JSUtils/JSUtils.h"$(SRCROOT)/JSUtils/JSUtils
+@import JSUtils;
 
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/JSUtils.h"
 #import "JSTabBarController.h"
 #import "JSPxView.h"
 
-//Line changed by Bilal
+//#define JSTabBarControllerBarHeight (JSIsIphoneX ? 64.0 : 41.0)
 #define JSTabBarControllerBarHeight \
 (74.0 + UIApplication.sharedApplication.keyWindow.safeAreaInsets.bottom)
-//#define JSTabBarControllerBarHeight (JSIsIphoneX ? 64.0 : 41.0)
 
 @interface JSTabBarController () <UITabBarDelegate>
 @end
-
 @implementation JSTabBarController {
     UITabBarController *_tabBarController;
 
@@ -44,7 +40,7 @@
 
     _tabBar = ({
         UITabBar *tabBar = [[UITabBar alloc] init];
-        tabBar.delegate = self; // 👈 Add this
+        tabBar.delegate = self; // 👈 Add this bilal
         tabBar.translucent = NO;
 
         tabBar.translatesAutoresizingMaskIntoConstraints = NO;
@@ -56,6 +52,7 @@
         } else {
             // Fallback on earlier versions
         }
+
         tabBar;
     });
 
@@ -133,6 +130,16 @@
     _tabBar.items = _tabBarController.tabBar.items;
     _tabBar.selectedItem = _tabBarController.tabBar.selectedItem;
 }
+//- (void)setupItems {
+//    for (UITabBarItem *item in _tabBarController.tabBar.items) {
+//        UIEdgeInsets insets = item.imageInsets;
+//        insets.top = round((JSTabBarControllerBarHeight - item.image.size.height) / 4.0) + 1.0;
+//        insets.bottom = -insets.top;
+//        item.imageInsets = insets;
+//    }
+//    _tabBar.items = _tabBarController.tabBar.items;
+//    _tabBar.selectedItem = _tabBarController.tabBar.selectedItem;
+//}
 
 - (UITabBarController *)tabBarController {
     return _tabBarController;
@@ -149,5 +156,4 @@
         _tabBarController.selectedIndex = index;   // 👈 Update the real controller
     }
 }
-
 @end

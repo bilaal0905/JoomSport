@@ -111,7 +111,7 @@
 - (instancetype)initWithTeamId:(NSString *)teamId seasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager {
     JSParameterAssert(teamId);
 
-    self = [super initWithPath:[NSString stringWithFormat:@"component/joomsport/team/%@/%@", seasonId, teamId] seasonId:seasonId coreDataManager:coreDataManager];
+    self = [super initWithPath:@"index.php" seasonId:seasonId coreDataManager:coreDataManager extraParams:@{@"option": @"com_joomsport", @"task": @"team",@"sid": seasonId,@"tid":teamId}];
     if (self) {
         _teamId = teamId;
     }

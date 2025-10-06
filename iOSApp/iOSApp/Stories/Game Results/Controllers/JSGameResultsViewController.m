@@ -93,6 +93,7 @@
     self = [super init];
     if (self) {
         _model = model;
+        self.modalPresentationStyle = UIModalPresentationFullScreen;
     }
     return self;
 }

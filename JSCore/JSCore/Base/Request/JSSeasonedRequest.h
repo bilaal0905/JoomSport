@@ -7,7 +7,7 @@
 
 @interface JSSeasonedRequest : JSRequest
 
-- (instancetype)initWithPath:(NSString *)path seasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager;
+- (instancetype)initWithPath:(NSString *)path seasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager extraParams:(NSDictionary *)params;
 - (NSString *)seasonId;
 
 @end

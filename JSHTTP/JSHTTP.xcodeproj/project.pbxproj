@@ -22,6 +22,7 @@
 		83058B431E64BE680057E680 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B421E64BE680057E680 /* OHHTTPStubs.framework */; };
 		83BD5C321E6EEB7800B57878 /* JSImagesLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD5C311E6EEB7800B57878 /* JSImagesLoaderTests.m */; };
 		83BD5C341E6EECD400B57878 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BD5C331E6EECD400B57878 /* sample.png */; };
+		C98F28852AB358E0004BF213 /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B501E65C12F0057E680 /* JSUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,19 +34,6 @@
 			remoteInfo = JSHTTP;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C98F28872AB358E0004BF213 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F2E20B3054AF0AC9E45D901 /* JSImagesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagesLoader.m; sourceTree = "<group>"; };
@@ -64,6 +52,7 @@
 		83058AEE1E62F7410057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83058AF31E630EBD0057E680 /* JSHTTPClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHTTPClientTests.m; sourceTree = "<group>"; };
 		83058B421E64BE680057E680 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = ../../Frameworks/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		83058B501E65C12F0057E680 /* JSUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSUtils.framework; path = "../Debug-iphonesimulator/JSUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BD5C311E6EEB7800B57878 /* JSImagesLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagesLoaderTests.m; sourceTree = "<group>"; };
 		83BD5C331E6EECD400B57878 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98F28852AB358E0004BF213 /* JSUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +178,7 @@
 		83058B4F1E65C12F0057E680 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83058B501E65C12F0057E680 /* JSUtils.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,7 +209,6 @@
 				83058AC11E62E15E0057E680 /* Frameworks */,
 				83058AC21E62E15E0057E680 /* Headers */,
 				83058AC31E62E15E0057E680 /* Resources */,
-				C98F28872AB358E0004BF213 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -118,8 +118,7 @@
     calendarViewController.onGameTap = ^(NSString *gameId) {
         JSStrongify(calendarViewController);
         JSStrongify(self);
-
-        [calendarViewController presentViewController:self.newsDetailsViewController animated:YES completion:nil];
+        [calendarViewController presentViewController:[self gameResultsViewController:gameId of:nil] animated:YES completion:nil];
         //[calendarViewController.navigationController pushViewController:[self gameResultsViewController:gameId of:nil] animated:YES];
     };
 
@@ -218,12 +217,23 @@
         [teamsTableViewController.navigationController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
     };
 
-    JSWeakify(self);
+    //JSWeakify(self);
     teamsTableViewController.onCancel = ^{
-        JSStrongify(self);
         JSStrongify(teamsTableViewController);
-        [teamsTableViewController.navigationController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
-        self->_tabBarController.tabBarController.selectedIndex = 0;
+        NSString *teamId = self->_modelsStore.teamViewModel.team.teamId;
+        if (teamId == nil || teamId.length == 0) {
+            teamId = @"1";
+        }
+
+        if (self->_modelsStore.seasonsViewModel.activeSeason.isSinglePlayer) {
+            self->_modelsStore.playerViewModel.playerId = teamId;
+            self->_competitorController.viewControllers = @[self.playerViewController];
+            [self->_tabBarController setupItems];
+        }
+
+        [teamsTableViewController.navigationController.presentingViewController
+            dismissViewControllerAnimated:YES
+                               completion:nil];
     };
 
     return [[JSNavigationController alloc] initWithRootViewController:teamsTableViewController];
@@ -273,7 +283,7 @@
         JSStrongify(self);
         JSStrongify(settingsViewController);
 
-        [settingsViewController presentViewController:self.newsDetailsViewController animated:YES completion:nil];
+        [settingsViewController presentViewController:self.settingsTeamsViewController animated:YES completion:nil];
         //[settingsViewController.navigationController pushViewController:self.settingsTeamsViewController animated:YES];
     };
 

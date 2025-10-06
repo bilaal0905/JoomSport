@@ -33,7 +33,11 @@
         entity.date = [game[@"mdateCustom"] js_date24];
         entity.dateString = game[@"mdateCustom"];
         entity.mdayString = game[@"mdayname"];
-        entity.status = game[@"mstatus"];
+        NSObject *status = game[@"mstatus"];
+        if (![status isKindOfClass:[NSString class]]) {
+            status = ((NSNumber *)status).stringValue;
+        }
+        entity.status = (NSString *)status;
         entity.home = [self team:game[@"home"] in:entity.managedObjectContext];
         entity.away = [self team:game[@"away"] in:entity.managedObjectContext];
 
@@ -95,7 +99,7 @@
 
 - (instancetype)initWithSeasonId:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager {
     JSParameterAssert(seasonId);
-    return [self initWithPath:[@"component/joomsport/calendar/" stringByAppendingString:seasonId] seasonId:seasonId coreDataManager:coreDataManager];
+    return [self initWithPath:@"index.php" seasonId:seasonId coreDataManager:coreDataManager extraParams:@{@"option": @"com_joomsport", @"task": @"calendar",@"sid": seasonId}];
 }
 
 @end

@@ -1,9 +1,7 @@
 // Created for BearDev by drif
 // drif@mail.ru
 
-//@import JSUtils;
-#import "/Users/user/Downloads/BaernerCup/BaernerCup 2023/JSUtils/JSUtils/Supporting Files/JSUtils.h"
-
+@import JSUtils;
 @import ObjectiveC.runtime;
 
 #import "UIImageView+JSHTTP.h"

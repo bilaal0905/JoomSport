@@ -122,7 +122,11 @@
     game.venue = [json[@"venue"] js_string];
     game.info = [json[@"matchdescription"] js_string];
     game.date = game.date ?: [json[@"mdate"] js_date];
-    game.status = json[@"mplayed"];
+    NSObject *status = json[@"mstatus"];
+    if (![status isKindOfClass:[NSString class]]) {
+        status = ((NSNumber *)status).stringValue;
+    }
+    game.status = (NSString *)status;
     game.home = game.home ?: [self.class team:json[@"home"] in:context];
     game.away = game.away ?: [self.class team:json[@"away"] in:context];
 
@@ -146,7 +150,7 @@
 - (instancetype)initWithGameId:(NSString *)gameId of:(NSString *)seasonId coreDataManager:(JSCoreDataManager *)coreDataManager {
     JSParameterAssert(gameId);
 
-    self = [super initWithPath:[@"component/joomsport/match/" stringByAppendingString:gameId] coreDataManager:coreDataManager];
+    self = [super initWithPath:@"index.php" coreDataManager:coreDataManager extraParams:@{@"option": @"com_joomsport",@"task": @"match", @"id": gameId}];
     if (self) {
         _gameId = gameId.copy;
         _seasonId = seasonId.copy;

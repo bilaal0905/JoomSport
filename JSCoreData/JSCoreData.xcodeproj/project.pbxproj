@@ -18,6 +18,7 @@
 		83058B561E65DD330057E680 /* JSManagedObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058B551E65DD330057E680 /* JSManagedObjectTests.m */; };
 		83058B581E65DD440057E680 /* JSManagedObjectContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83058B571E65DD440057E680 /* JSManagedObjectContextTests.m */; };
 		83058B5B1E65E2320057E680 /* JSCoreDataTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83058B591E65E2320057E680 /* JSCoreDataTests.xcdatamodeld */; };
+		C98F28962AB35A43004BF213 /* JSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83058B531E65C1990057E680 /* JSUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +30,6 @@
 			remoteInfo = JSCoreData;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C98F28982AB35A43004BF213 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F2E2159C417D5F8BE703334 /* NSManagedObjectContext+JSCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+JSCoreData.h"; sourceTree = "<group>"; };
@@ -55,6 +43,7 @@
 		83058B1B1E6364830057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83058B1D1E63648F0057E680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83058B1E1E63648F0057E680 /* JSCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCoreData.h; sourceTree = "<group>"; };
+		83058B531E65C1990057E680 /* JSUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSUtils.framework; path = "../Debug-iphonesimulator/JSUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83058B551E65DD330057E680 /* JSManagedObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManagedObjectTests.m; sourceTree = "<group>"; };
 		83058B571E65DD440057E680 /* JSManagedObjectContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManagedObjectContextTests.m; sourceTree = "<group>"; };
 		83058B5A1E65E2320057E680 /* JSCoreDataTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSCoreDataTests.xcdatamodel; sourceTree = "<group>"; };
@@ -65,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98F28962AB35A43004BF213 /* JSUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +149,7 @@
 		83058B521E65C1990057E680 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83058B531E65C1990057E680 /* JSUtils.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,7 +179,6 @@
 				83058AFC1E6363B20057E680 /* Frameworks */,
 				83058AFD1E6363B20057E680 /* Headers */,
 				83058AFE1E6363B20057E680 /* Resources */,
-				C98F28982AB35A43004BF213 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
