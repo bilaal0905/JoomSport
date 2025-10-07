@@ -182,8 +182,9 @@
     Class cellClass = (tableView == self.mainTableViewController.tableView) ? JSStandingsTeamCell.class : JSStandingsScoreCell.class;
 
     UITableViewCell <JSStandingsCell> *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(cellClass)];
-    [cell setup:_layout record:[_standingsModel.standings.groups[indexPath.section] records][indexPath.row] sortIndex:_standingsModel.sortIndex];
-
+    if (_layout != nil) {
+        [cell setup:_layout record:[_standingsModel.standings.groups[indexPath.section] records][indexPath.row] sortIndex:_standingsModel.sortIndex];
+    }
     return cell;
 }
 

@@ -1183,7 +1183,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 999F33UHV3;
+				DEVELOPMENT_TEAM = "";
 				FABRIC_KEY = "";
 				FABRIC_SECRET = 9703cd8b1edcff631eb6d0961f479203e50d60a4cf8e6e818cccf4fe78897aac;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1210,7 +1210,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 999F33UHV3;
+				DEVELOPMENT_TEAM = "";
 				FABRIC_KEY = 1b27ce6e873e86a6da50cd4b3b89272b3b9cfabf;
 				FABRIC_SECRET = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";

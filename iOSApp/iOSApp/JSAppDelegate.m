@@ -1,5 +1,6 @@
 // Created for BearDev by drif
 // drif@mail.ru
+//ch.baerner-cup.baerner-cup
 
 @import JSCore;
 @import CoreData;

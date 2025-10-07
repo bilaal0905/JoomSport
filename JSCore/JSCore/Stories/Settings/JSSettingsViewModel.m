@@ -51,10 +51,26 @@ static NSString *const JSSettingsViewModelKeyNotificationsTeams = @"JSSettingsVi
 
 - (void)processPendingIds {
     if (_inProgress) {
+        NSError *error = [NSError errorWithDomain:@"JSSettingsDomain"
+                                                 code:1001
+                                             userInfo:@{ NSLocalizedDescriptionKey: @"In Progress" }];
+        NSDictionary *info = @{
+            JSSettingsViewModelStatusUpdatedNotificationErrorKey: error
+        };
+        [NSNotificationCenter.defaultCenter postNotificationName:JSSettingsViewModelStatusUpdatedNotification object:nil userInfo:info];
         return;
     }
 
     if (_token.length == 0) {
+        NSError *error = [NSError errorWithDomain:@"JSSettingsDomain"
+                                                 code:1001
+                                             userInfo:@{ NSLocalizedDescriptionKey: @"Token is empty" }];
+            
+        NSDictionary *info = @{
+            JSSettingsViewModelStatusUpdatedNotificationErrorKey: error
+        };
+        _toggleStatus = false;
+        [NSNotificationCenter.defaultCenter postNotificationName:JSSettingsViewModelStatusUpdatedNotification object:nil userInfo:info];
         return;
     }
 

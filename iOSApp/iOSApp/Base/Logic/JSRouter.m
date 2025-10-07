@@ -66,7 +66,7 @@
         }
 
         [self->_tabBarController setupItems];
-        self->_tabBarController.tabBarController.selectedIndex = 2;
+        self->_tabBarController.tabBarController.selectedIndex = 3;
     };
 
     return standingsViewController;
