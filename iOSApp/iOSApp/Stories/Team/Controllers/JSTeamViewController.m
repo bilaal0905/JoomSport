@@ -57,6 +57,14 @@
         JSStrongify(self);
         self->_shouldUpdate = YES;
     }];
+    _seasonsObserver = [JSKeyPathObserver observerFor:_seasonsModel keyPath:@"activeSeason" handler:^{
+        JSStrongify(self);
+        self->_standingsModel.seasonId = self->_seasonsModel.activeSeason.seasonId;
+    }];
+
+    if (_seasonsModel.activeSeason) {
+        _standingsModel.seasonId = _seasonsModel.activeSeason.seasonId;
+    }
 
     [self update];
 }

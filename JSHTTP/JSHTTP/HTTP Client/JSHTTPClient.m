@@ -82,6 +82,7 @@ NSErrorDomain const JSHTTPClientError = @"JSHTTPClientError";
     JSParameterAssert(urlRequest);
 
     JSWeakify(self);
+    NSLog(@"Request url string: %@", urlRequest.URL);
     NSURLSessionTask *task = [_session dataTaskWithRequest:urlRequest completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         JSStrongify(self);
 

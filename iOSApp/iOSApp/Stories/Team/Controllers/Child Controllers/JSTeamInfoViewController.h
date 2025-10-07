@@ -9,5 +9,6 @@
 
 @property (nonatomic, copy) JSEventBlock onTeamChoose;
 - (instancetype)initWithTeamModel:(JSTeamViewModel *)teamModel;
+- (void)onRefreshControl;
 
 @end

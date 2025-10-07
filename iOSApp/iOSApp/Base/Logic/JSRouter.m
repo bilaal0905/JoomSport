@@ -22,6 +22,7 @@
 #import "JSFirstLaunchViewController.h"
 #import "JSNewsViewController.h"
 #import "JSNewsDetailsViewController.h"
+#import "JSTeamInfoViewController.h"
 
 @implementation JSRouter {
     JSModelsStore *_modelsStore;
@@ -186,7 +187,6 @@
     teamViewController.onTeamChoose = ^{
         JSStrongify(teamViewController);
         JSStrongify(self);
-
         [teamViewController presentViewController:self.teamsTableViewController animated:YES completion:nil];
     };
 
@@ -213,7 +213,17 @@
             self->_competitorController.viewControllers = @[self.playerViewController];
             [self->_tabBarController setupItems];
         }
+        if ([self->_competitorController.viewControllers.firstObject isKindOfClass:[JSTeamViewController class]]) {
+            JSTeamViewController *teamVC = (JSTeamViewController *)self->_competitorController.viewControllers.firstObject;
 
+            for (UIViewController *childVC in teamVC.segmentedController.tabBarController.viewControllers) {
+                if ([childVC isKindOfClass:[JSTeamInfoViewController class]]) {
+                    JSTeamInfoViewController *infoVC = (JSTeamInfoViewController *)childVC;
+                    [infoVC onRefreshControl];
+                    break;
+                }
+            }
+        }
         [teamsTableViewController.navigationController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
     };
 
@@ -221,8 +231,9 @@
     teamsTableViewController.onCancel = ^{
         JSStrongify(teamsTableViewController);
         NSString *teamId = self->_modelsStore.teamViewModel.team.teamId;
-        if (teamId == nil || teamId.length == 0) {
-            teamId = @"1";
+
+        if ((teamId == nil || teamId.length == 0) && self->_modelsStore.teamViewModel.teams.count > 0){
+            teamId = [self->_modelsStore.teamViewModel.teams[0] teamId] ;
         }
 
         if (self->_modelsStore.seasonsViewModel.activeSeason.isSinglePlayer) {
